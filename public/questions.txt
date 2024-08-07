@@ -23,7 +23,7 @@ ANSWER: A
 A) RSA
 B) AES
 C) ECC
-D) SHA~256
+D) SHA–256
 ANSWER: B
 -
 ¿Cuál es el principal propósito de una firma digital en seguridad informática?
@@ -277,9 +277,9 @@ C) El resto de dividir 2341 ente 16
 D) 2341 convertido en hexadecimal
 ANSWER: D
 -
-Las expresiones regulares son un método ideal para buscar patrones de texto en una cadena Señala cual de las siguientes cadenas o palabras no concordaría con el patrón dado por la expresión regular [0~9]+\D{4}
+Las expresiones regulares son un método ideal para buscar patrones de texto en una cadena Señala cual de las siguientes cadenas o palabras no concordaría con el patrón dado por la expresión regular [0–9]+\D{4}
 A) 215ASLW
-B) 435~AERT
+B) 435–AERT
 C) 9DPSE
 D) 3ADPR
 ANSWER: B
@@ -410,7 +410,7 @@ C) Optimizar la precisión de un modelo de clasificación mediante el ajuste de 
 D) Generar nuevas características a partir de los datos originales para mejorar la calidad del modelo.
 ANSWER: A
 -
-¿Cuál es el principal objetivo del algoritmo de aprendizaje no supervisado Análisis de Componentes Principales ~ PCA?
+¿Cuál es el principal objetivo del algoritmo de aprendizaje no supervisado Análisis de Componentes Principales – PCA?
 A) Clasificación de datos en base a las características proporcionadas.
 B) Predicción de datos en base a las características proporcionadas.
 C) Conformar conjuntos de datos según patrones.
@@ -469,7 +469,7 @@ ANSWER: B
 ¿Cuál es el resultado de aplicar una traslación en 3D a un punto (x, y, z) con un vector de traslación (tx, ty, tz)?
 A) (x + tx, y + ty, z + tz)
 B) (x * tx, y * ty, z * tz)
-C) (x ~ tx, y ~ ty, z ~ tz)
+C) (x – tx, y – ty, z – tz)
 D) (x / tx, y / ty, z / tz)
 ANSWER: A
 -
@@ -510,12 +510,12 @@ ANSWER: C
 -
 ¿Qué técnica se utiliza comúnmente para eliminar líneas ocultas en una escena 3D?
 A) Algoritmo de Bresenham
-B) Algoritmo de pintado de Z~buffer
+B) Algoritmo de pintado de Z–buffer
 C) Curvas Bézier
 D) Transformación de Fourier
 ANSWER: B
 -
-¿Cuál es el principio básico del algoritmo de Z~buffer para la eliminación de cara oculta?
+¿Cuál es el principio básico del algoritmo de Z–buffer para la eliminación de cara oculta?
 A) Asignar colores a las caras según su distancia
 B) Almacenar la profundidad de cada píxel y comparar las profundidades para determinar la visibilidad
 C) Dividir la escena en una cuadrícula y eliminar las caras internas
@@ -529,7 +529,7 @@ C) Pintar las caras desde el frente hacia el fondo
 D) Eliminar todas las caras internas de un objeto
 ANSWER: A
 -
-¿Qué es un modelo Entidad~Relación extendido (ERE)?
+¿Qué es un modelo Entidad–Relación extendido (ERE)?
 A) Un diagrama básico de bases de datos.
 B) Un diagrama avanzado de bases de datos que incluye subtipos y supertipos.
 C) Un modelo de programación orientado a objetos.
@@ -593,11 +593,11 @@ D) Clave Secundaria
 ANSWER: A
 -
 ¿Cuál es la expresión equivalente a la siguiente? 
-Destinatario ~> D; π D)nombre,D)Direccion (σ D)provincia != ‘Pichincha’ (D))
-A) (π D)nombre,D)Direccion (D)) ~  (π D)nombre,D)direccion (σ D)provincia != ‘Pichincha’ (D)))
-B) (σ D)nombre,D)Direccion (D)) ~  (π D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D)))
-C) (σ D)nombre,D)Direccion (D)) ~  (σ D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D)))
-D) (π D)nombre,D)Direccion (D)) ~  (π D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D))) 
+Destinatario –> D; π D)nombre,D)Direccion (σ D)provincia != ‘Pichincha’ (D))
+A) (π D)nombre,D)Direccion (D)) –  (π D)nombre,D)direccion (σ D)provincia != ‘Pichincha’ (D)))
+B) (σ D)nombre,D)Direccion (D)) –  (π D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D)))
+C) (σ D)nombre,D)Direccion (D)) –  (σ D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D)))
+D) (π D)nombre,D)Direccion (D)) –  (π D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D))) 
 ANSWER: D
 -
 La expresión π A)nombre_act,A)descripcion ((A*( σ ST.nombre. = ‘Malchinqui’ (ST)) A)codigo_act=ST.codigo_act)) , devuelve:
@@ -734,12 +734,12 @@ D) Clave Secundaria
 ANSWER: A
 -
 ¿Cuál es la expresión equivalente a la siguiente? 
-Destinatario ~> D
+Destinatario –> D
 π D)nombre,D)Direccion (σ D)provincia != ‘Pichincha’ (D))
-A) (π D)nombre,D)Direccion (D)) ~  (π D)nombre,D)direccion (σ D)provincia != ‘Pichincha’ (D)))
-B) (σ D)nombre,D)Direccion (D)) ~  (π D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D)))
-C) (σ D)nombre,D)Direccion (D)) ~  (σ D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D)))
-D) (π D)nombre,D)Direccion (D)) ~  (π D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D))) 
+A) (π D)nombre,D)Direccion (D)) –  (π D)nombre,D)direccion (σ D)provincia != ‘Pichincha’ (D)))
+B) (σ D)nombre,D)Direccion (D)) –  (π D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D)))
+C) (σ D)nombre,D)Direccion (D)) –  (σ D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D)))
+D) (π D)nombre,D)Direccion (D)) –  (π D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D))) 
 ANSWER: D
 -
 La expresión π A)nombre_act,A)descripcion ((A*( σ ST.nombre. = ‘Malchinqui’ (ST)) A)codigo_act=ST.codigo_act)) , devuelve:
@@ -777,7 +777,7 @@ C) SELECT nombre_dep, ciudad_dep, MAX(sueldo) AS sueldo_maximo FROM empleados WH
 D) SELECT nombre_dep, ciudad_dep, MAX(sueldo) AS sueldo_maximo FROM empleados ORDER BY MAX(sueldo);
 ANSWER: A
 - 
-¿Qué es un modelo Entidad~Relación extendido (ERE)?
+¿Qué es un modelo Entidad–Relación extendido (ERE)?
 A) Un diagrama básico de bases de datos.
 B) Un diagrama avanzado de bases de datos que incluye subtipos y supertipos.
 C) Un modelo de programación orientado a objetos.
@@ -837,7 +837,7 @@ ANSWER: A
 A) RSA
 B) AES
 C) ECC
-D) SHA~256
+D) SHA–256
 ANSWER: B
 -
 ¿Cuál es el principal propósito de una firma digital en seguridad informática?
@@ -875,7 +875,7 @@ C  Roles de Usuarios y estaciones de trabajo
 D) Roles de permiso de acceso y permiso de denegación
 ANSWER: C
 -
-¿Cuál es el propósito principal del protocolo Needham~Schroeder en criptografía?
+¿Cuál es el propósito principal del protocolo Needham–Schroeder en criptografía?
 A) Autenticación mutua entre dos partes
 B) Cifrado de mensajes en tránsito
 C) Gestión de claves públicas
@@ -1344,7 +1344,7 @@ C) Un enfoque de desarrollo seguido en el campo de la HCI para producir sistemas
 D) Un enfoque de desarrollo seguido en el campo de la HCI para reproducir sistemas software con un adecuado nivel de funcionalidad. Se basa en centrarse en las necesidades de los desarrolladores en todo el desarrollo.
 ANSWER: A
 -
-De acuerdo con el estándar ISO 9241~11 se define a la usabilidad como:
+De acuerdo con el estándar ISO 9241–11 se define a la usabilidad como:
 A) La medida en que un producto puede ser usado por usuarios específicos para alcanzar metas especificadas, con efectividad, eficiencia y satisfacción en un determinado contexto de uso.
 B) La medida en que un prototipo puede ser usado por usuarios específicos para alcanzar metas especificadas, con efectividad, eficiencia y satisfacción en un determinado contexto de uso.
 C) La medida en que un producto puede ser usado por usuarios específicos para alcanzar metas especificadas, con efectividad y satisfacción en un determinado contexto de uso
@@ -1713,7 +1713,7 @@ ANSWER: C
 Seleccione, ¿En qué consisten las pruebas de seguridad de aplicaciones dinámicas DAST?
 A) Se utilizan para buscar vulnerabilidades de seguridad en aplicaciones mediante la simulación de comportamientos maliciosos para identificar debilidades que podrían explotarse.
 B) Está diseñado para identificar vulnerabilidades al desplegar una aplicación en ejecución.
-C) Proceso de analizar una aplicación web a través del back~end para encontrar vulnerabilidades mediante ataques simulados.
+C) Proceso de analizar una aplicación web a través del back–end para encontrar vulnerabilidades mediante ataques simulados.
 D) Prueba de aplicaciones que puede ayudar a los desarrolladores a descubrir vulnerabilidades de seguridad.
 ANSWER: A
 -
@@ -1809,10 +1809,10 @@ D) Herramientas actuales.
 ANSWER: C
 -
 PDCA es un método de gestión de cuatro pasos iterativo utilizado en los negocios para el control y la mejora continua de procesos y productos, cuales son:
-A) Pagar~Debitar~Controlar~Actuar
-B) Planificar~Diseñar~Controlar~Ajustar
-C) Planear~Hacer~Verificar~Actuar
-D) Planear~Diseñar~Comprar~Ajustar
+A) Pagar–Debitar–Controlar–Actuar
+B) Planificar–Diseñar–Controlar–Ajustar
+C) Planear–Hacer–Verificar–Actuar
+D) Planear–Diseñar–Comprar–Ajustar
 ANSWER: C
 -
 Según las metodologías ágiles, la medida principal de progreso es:
@@ -1929,7 +1929,7 @@ ANSWER: B
 -
 Para garantizar la alta disponibilidad en una arquitectura SOA en la nube, se utiliza __________ para manejar el tráfico y __________ para replicar datos entre múltiples instancias.
 A)	Load Balancer / Data Replication
-B)	Auto~Scaling / Service Registry
+B)	Auto–Scaling / Service Registry
 C)	Service Mesh / Message Broker
 D)	API Gateway / Service Bus
 ANSWER: A
@@ -2012,10 +2012,10 @@ D)	Command / Iterator
 ANSWER: A
 -
 En el patrón arquitectónico __________, cada componente realiza una transformación específica de los datos, __________ los componentes son servicios independientes que se comunican mediante APIs.
-A)	Layered / Event~Driven
-B)	Client~Server / Monolithic
+A)	Layered / Event–Driven
+B)	Client–Server / Monolithic
 C)	MVC / SOA
-D)	Pipe~and~Filter / Microservices
+D)	Pipe–and–Filter / Microservices
 ANSWER: D
 -
 
@@ -2028,8 +2028,8 @@ ANSWER: D
 -
 El patrón arquitectónico __________ se basa en componentes reutilizables y definidos independientemente, __________ se enfoca en la separación de responsabilidades a través de capas.
 A)	Microservices / Layered
-B)	Client~Server / Monolithic
-C)	Pipe~and~Filter / Event~Driven
+B)	Client–Server / Monolithic
+C)	Pipe–and–Filter / Event–Driven
 D)	MVC / SOA
 ANSWER: A
 -
@@ -2370,7 +2370,7 @@ B) En SIMD, cada procesador ejecuta su propia secuencia de instrucciones de mane
 C) En SIMD, una única instrucción opera sobre múltiples datos simultáneamente.
 D) En SIMD, los datos se procesan de manera secuencial sin paralelismo.
 ANSWER: C
-
+-
 ¿Cómo maneja la arquitectura MIMD la sincronización y comunicación entre múltiples procesadores que ejecutan instrucciones independientes?
 A) Utiliza memoria compartida y mecanismos de sincronización como semáforos y regiones críticas condicionales.
 B) Ejecuta las mismas instrucciones en diferentes datos simultáneamente.
@@ -2591,7 +2591,7 @@ ANSWER: B
 A) Arquitectura en Capas
 B) Arquitectura Monolítica
 C) Arquitectura de Microservicios
-D) Arquitectura Cliente~Servidor
+D) Arquitectura Cliente–Servidor
 ANSWER: B
 -
 ¿En qué estilo arquitectónico los componentes son autónomos y se comunican mediante eventos asíncronos?
@@ -2602,10 +2602,10 @@ D) Arquitectura Monolítica
 ANSWER: C
 -
 ¿Qué comando se utiliza para actualizar todas las herramientas y paquetes instalados del SDK en un entorno de desarrollo Android?
-A) sdkmanager ~~list;
-B) sdkmanager ~~update;
-C) sdkmanager ~~install;
-D) sdkmanager ~~uninstall;
+A) sdkmanager ––list;
+B) sdkmanager ––update;
+C) sdkmanager ––install;
+D) sdkmanager ––uninstall;
 ANSWER: B
 -
 En su reunión anual llevada a cabo en Pittsburgh, EE.UU., la Sociedad Americana de Dialecto seleccionó una palabra que es una abreviación de "application" (aplicación en español) y se refiere a los programas informáticos que pueden instalarse en teléfonos inteligentes, tabletas o computadoras. ¿Cuál fue esta palabra que se eligió como la palabra del año en 2010?
@@ -2686,7 +2686,7 @@ D) Un valor booleano que indica si la solicitud fue exitosa.
 ANSWER: A
 -
 ¿Cómo puedes mostrar un SnackBar condicionalmente en función del éxito o fallo de una operación asíncrona, utilizando un valor booleano isSuccess?
-A) Usando if~else para determinar el mensaje y luego llamar a showSnackBar dentro de un setState con un SnackBar predeterminado.
+A) Usando if–else para determinar el mensaje y luego llamar a showSnackBar dentro de un setState con un SnackBar predeterminado.
 B) Llamando a showSnackBar directamente desde la función de llamada asíncrona sin verificar el valor de isSuccess.
 C) Usando un SnackBar con una expresión condicional directamente en el contenido y llamando a showSnackBar fuera de un setState.
 D)  Crear un SnackBar con un mensaje genérico y cambiar el texto dinámicamente en tiempo de ejecución utilizando StatefulWidget.
@@ -2798,10 +2798,10 @@ D) Innovación, versatilidad, organizado, novedosa, aumento de la productividad,
 ANSWER: A
 -
 ¿En qué año fue publicado por primera vez la norma ISO 15504 y bajo que nombre?
-A) 1998 ~ Spice
-B) 1997 ~ Spice
-C) 1998 ~ Space
-D) 1997 ~ Space
+A) 1998 – Spice
+B) 1997 – Spice
+C) 1998 – Space
+D) 1997 – Space
 ANSWER: A
 -
 ¿En qué se divide la estructura de las normas ISO 15504?
@@ -2820,8 +2820,8 @@ ANSWER: C
 -
 ¿Las etapas del desarrollo de un videojuego son?
 A) Espiral, cascada, iterativo, incremental.
-B) Concepto, Pre~producción, producción, QA y Cierre, Post~Release.
-C) Concepto, producción, QA y Cierre, Post~Release.
+B) Concepto, Pre–producción, producción, QA y Cierre, Post–Release.
+C) Concepto, producción, QA y Cierre, Post–Release.
 D) Explorar, descubrir,  competir y ganar.
 ANSWER: B
 -
@@ -3246,9 +3246,9 @@ D) Contexto, problema, deficiencias de soluciones previas, idea básica de la so
 ANSWER: A
 -
 Escoger el párrafo que pueda ser incluido en la sección de Propuesta de Solución de un paper.
-A) Nuestra propuesta de solución es un framework que integra actividades de desarrollo de aplicaciones según el estándar IEEE 1074~1997 [13] y el Software Engineering Body of Knowledge SWEBOK [14] con la gestión de actividades presentadas por SCRUM [15] y los aspectos relevantes del diseño de aplicaciones móviles identificadas en la revisión de la literatura y la industria [2]. El framework está formado por tres capas, la primera capa está confirmada por las actividades de desarrollo del proceso de ciclo de vida del software. El segundo es el Scrum Core en el que se utiliza la idea Sprint para gestionar el desarrollo de la aplicación. Finalmente, la tercera capa contiene los aspectos relevantes para el diseño de aplicaciones móviles.
+A) Nuestra propuesta de solución es un framework que integra actividades de desarrollo de aplicaciones según el estándar IEEE 1074–1997 [13] y el Software Engineering Body of Knowledge SWEBOK [14] con la gestión de actividades presentadas por SCRUM [15] y los aspectos relevantes del diseño de aplicaciones móviles identificadas en la revisión de la literatura y la industria [2]. El framework está formado por tres capas, la primera capa está confirmada por las actividades de desarrollo del proceso de ciclo de vida del software. El segundo es el Scrum Core en el que se utiliza la idea Sprint para gestionar el desarrollo de la aplicación. Finalmente, la tercera capa contiene los aspectos relevantes para el diseño de aplicaciones móviles.
 B) De acuerdo con Kroll y Haustein et al [3] estamos en la revolución de la tecnología móvil e inalámbrica y su uso en diferentes entornos como universidades, escuelas y marketing, bajo estas premisas desarrollamos MAvBT. Mi sistema consta de un servidor de aplicaciones, una aplicación de cliente y un sitio web que permite a los instructores editar materiales y compartir sus propios documentos e información del curso en cualquier momento al cliente para obtener comentarios apropiados e informes relevantes. El servidor de aplicaciones que utiliza MAvBT est† dedicado a manejar las solicitudes de los clientes y responderlas. La aplicación cliente está diseñada para ser almacenada en los teléfonos móviles del estudiante, lo que les permite acceder a la información requerida a través de MAvBT. La tecnología de Bluetooth representa el medio de transmisión entre el servidor y el cliente.
-C) La solución que propongo es un framework que integra actividades de desarrollo de aplicaciones según el estándar IEEE 1074~1997 [13] y el Software Engineering Body of Knowledge SWEBOK [14] con la gestión de actividades presentadas por SCRUM [15] y los aspectos relevantes del diseño de aplicaciones móviles identificadas en la revisión de la literatura y la industria [2]. El framework está formado por tres capas, la primera capa está confirmada por las actividades de desarrollo del proceso de ciclo de vida del software. El segundo es el Scrum Core en el que se utiliza la idea Sprint para gestionar el desarrollo de la aplicación. Finalmente, la tercera capa contiene los aspectos relevantes para el diseño de aplicaciones móviles.
+C) La solución que propongo es un framework que integra actividades de desarrollo de aplicaciones según el estándar IEEE 1074–1997 [13] y el Software Engineering Body of Knowledge SWEBOK [14] con la gestión de actividades presentadas por SCRUM [15] y los aspectos relevantes del diseño de aplicaciones móviles identificadas en la revisión de la literatura y la industria [2]. El framework está formado por tres capas, la primera capa está confirmada por las actividades de desarrollo del proceso de ciclo de vida del software. El segundo es el Scrum Core en el que se utiliza la idea Sprint para gestionar el desarrollo de la aplicación. Finalmente, la tercera capa contiene los aspectos relevantes para el diseño de aplicaciones móviles.
 ANSWER: A
 -
 Escoger el párrafo que pueda ser incluido en una sección de Trabajos Relacionados en un paper.
@@ -3258,8 +3258,8 @@ C) Steidl et al. [3], presenta un primer enfoque detallado para el análisis y e
 ANSWER: B
 -
 Escoger el párrafo que pueda ser incluido en una sección de Trabajos Relacionados en un paper.
-A) Flora and Chande et al. [2] realizaron una revisión similar a la realizada por Corral et al. [3], y también se centró en métodos ágiles para el desarrollo de aplicaciones móviles. Flora et al [2] identificaron cuatro de los mismos modelos que Corral et al. [3], es decir, Mobile~D, MASAM, Hybrid y SLeSS. TambiÇn identific¢ un artículo adicional de Dooms et al [4] que analiza un enfoque llamado RaPiD7. Sin embargo, no es relevante para nuestra revisión porque el modelo no está diseñado específicamente para el desarrollo de aplicaciones móviles.
-B) Flora et al. [2] realizaron una revisión similar a la realizada por Corral et al. [3], y también se centró en métodos ágiles para el desarrollo de aplicaciones móviles. Flora et al. [2] identificaron cuatro de los mismos modelos que Corral et al. [3], es decir, Mobile~D, MASAM, Hybrid y SLeSS. También identificó un artículo adicional de Dooms et al. [4] que analiza un enfoque llamado RaPiD7. Sin embargo, no es relevante para nuestra revisión porque el modelo no está diseñado específicamente para el desarrollo de aplicaciones móviles.
+A) Flora and Chande et al. [2] realizaron una revisión similar a la realizada por Corral et al. [3], y también se centró en métodos ágiles para el desarrollo de aplicaciones móviles. Flora et al [2] identificaron cuatro de los mismos modelos que Corral et al. [3], es decir, Mobile–D, MASAM, Hybrid y SLeSS. TambiÇn identific¢ un artículo adicional de Dooms et al [4] que analiza un enfoque llamado RaPiD7. Sin embargo, no es relevante para nuestra revisión porque el modelo no está diseñado específicamente para el desarrollo de aplicaciones móviles.
+B) Flora et al. [2] realizaron una revisión similar a la realizada por Corral et al. [3], y también se centró en métodos ágiles para el desarrollo de aplicaciones móviles. Flora et al. [2] identificaron cuatro de los mismos modelos que Corral et al. [3], es decir, Mobile–D, MASAM, Hybrid y SLeSS. También identificó un artículo adicional de Dooms et al. [4] que analiza un enfoque llamado RaPiD7. Sin embargo, no es relevante para nuestra revisión porque el modelo no está diseñado específicamente para el desarrollo de aplicaciones móviles.
 C) La referencia [1] presentó a Bluetooth como una especificación industrial para redes de †rea personal inalámbricas que proporciona una forma de conectar e intercambiar información entre dispositivos, como teléfonos móviles, computadoras portátiles, PC, impresoras y cámaras digitales a través de un sistema seguro, de bajo costo y sin licencia global de radiofrecuencia de corto alcance.
 ANSWER: B
 -
@@ -3334,10 +3334,10 @@ D) LaTeX
 ANSWER: A
 -
 En la investigación de procesos académico/científicos el aspecto ____________, define del escenario su ______________; es decir lo que es, ________________ y lo que podría llegar a ser
-A) Sistémico~razón de ser~en realidad
-B) Ontológico~naturaleza~lo que no es
-C) Inductivo~particularidad~en esencia
-D) Plano~estructura~secuencial
+A) Sistémico–razón de ser–en realidad
+B) Ontológico–naturaleza–lo que no es
+C) Inductivo–particularidad–en esencia
+D) Plano–estructura–secuencial
 ANSWER: B
 -
 Son características de la investigación transversal
@@ -3365,7 +3365,7 @@ Son índices de calidad en el ranking de Journals
 A) SJR, ESCI, JCR
 B) JCR, Mendely, SNIP
 C) Mendely, Zotero, Chicago
-D) JCR, Zotero, Cite~Score
+D) JCR, Zotero, Cite–Score
 ANSWER: A
 -
 Corresponde a una revisión de la literatura (SLR)
@@ -3383,10 +3383,10 @@ D) No es desarrollado sobre el resultado de una SLR
 ANSWER: B
 -
 En el desarrollo de _____, las preguntas de __________ se elaboran con base en la definición _________ del escenario y la estructura ____________ del negocio
-A) SJR~promulgación~promoción~dinámica
-B) SMS~búsqueda~cadenas~plana
-C) SLR~investigación~ontológica~epistemológica
-D) JCR~publicación~IMRAD~jerárquica
+A) SJR–promulgación–promoción–dinámica
+B) SMS–búsqueda–cadenas–plana
+C) SLR–investigación–ontológica–epistemológica
+D) JCR–publicación–IMRAD–jerárquica
 ANSWER: C
 -
 Son estrategias para elaborar un estado del arte
@@ -3461,9 +3461,9 @@ ANSWER: C
 -
 En el contexto de la escritura de una publicación científica técnica, ¿cuál de las siguientes opciones describe mejor la norma y estilo para citas y referencias?
 A. El estilo MLA, ampliamente utilizado en tecnología, utiliza números de referencia para las citas y una lista de referencias al final.
-B. El estilo IEEE se utiliza comúnmente en ciencias sociales y utiliza el formato de autor~página para las citas en el texto.
+B. El estilo IEEE se utiliza comúnmente en ciencias sociales y utiliza el formato de autor–página para las citas en el texto.
 C. El estilo APA, predominante en ingeniería, utiliza el formato de número de referencia en corchetes para las citas y organiza las referencias alfabéticamente.
-D. El estilo Harvard, común en publicaciones técnicas, utiliza el formato de autor~año para las citas en el texto y una bibliografía al final.
+D. El estilo Harvard, común en publicaciones técnicas, utiliza el formato de autor–año para las citas en el texto y una bibliografía al final.
 ANSWER: C
 -
 En la escritura de una publicación científica técnica, ¿cuál de las siguientes opciones describe mejor la metodología IMRAD?
