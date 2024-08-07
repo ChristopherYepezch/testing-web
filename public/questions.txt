@@ -1,3 +1,1132 @@
+¿Cuál de los siguientes conceptos NO forma parte de la tríada CIA en seguridad informática?
+A) Confidencialidad
+B) Autenticación
+C) Integridad
+D) Disponibilidad
+ANSWER: B
+-
+¿Cuál de los siguientes tipos de malware se caracteriza por cifrar los archivos de la víctima y exigir un pago para desbloquearlos?
+A) Virus
+B) Ransomware
+C) Spyware
+D) Gusano
+ANSWER: B
+-
+¿Cuál de los siguientes tipos de malware se oculta dentro de un programa legítimo para permitir el acceso no autorizado a un sistema?
+A) Troyano
+B) Adware
+C) Rootkit
+D) Keylogger
+ANSWER: A
+-
+¿Cuál de los siguientes algoritmos es un ejemplo de cifrado simétrico?
+A) RSA
+B) AES
+C) ECC
+D) SHA~256
+ANSWER: B
+-
+¿Cuál es el principal propósito de una firma digital en seguridad informática?
+A) Garantizar la confidencialidad del mensaje
+B) Verificar la identidad del remitente y la integridad del mensaje
+C) Cifrar el contenido del mensaje
+D) Generar claves de cifrado simétrico
+ANSWER: B
+-
+¿Cuál es el componente principal de una Infraestructura de Clave Pública (PKI) que emite y gestiona certificados digitales?
+A) Registro civil
+B) Firewall
+C) Autoridad de Certificación (CA)
+D) El gobierno de cada uno de los países
+ANSWER: C
+-
+¿Cuál de los siguientes es un ejemplo de un factor de autenticación basado en algo que el usuario tiene?
+A) Contraseña
+B) Huella dactilar
+C) Tarjeta inteligente
+D) Pregunta de seguridad
+ANSWER: C
+-
+¿Cuál de los siguientes modelos de control de acceso se basa en reglas definidas por un administrador (por el sistema) y no por el propietario de los recursos?
+Opciones:
+A) Control de Acceso Discrecional (DAC)
+B) Control de Acceso Basado en Roles (RBAC)
+C) Control de Acceso Obligatorio (MAC)
+D) Control de Acceso Basado en Atributos (ABAC)
+ANSWER: C
+-
+Tú trabajas como el administrador de seguridad de la compañía ABC que tiene las siguientes características:
+La compañía tiene planes de instalar un sistema basado en RBAC (Role Based Access Control). 
+La compañía posee tres tipos de recursos que serán manejados por el sistema, que son: Archivos, Impresoras y Teléfonos IPs
+La compañía posee también cuatro departamentos, que son: Ventas, Marketing, Administración y Producción.
+Cada departamento necesita acceder a los diferentes tipos de recursos y cada usuario posee una estación de trabajo (PC).
+¿Qué roles deberías crear para dar soporte al modelo RBAC (Role Based Access Model)?
+Seleccione una de las opciones.
+A) Roles de Archivos, Impresoras y Teléfonos IPs
+B) Roles de Ventas, Marketing, Administración y Producción
+C  Roles de Usuarios y estaciones de trabajo
+D) Roles de permiso de acceso y permiso de denegación
+ANSWER: B
+-
+¿Cuál es la principal función de un firewall en una red informática?
+A) Monitorizar el rendimiento de la red
+B) Filtrar y controlar el tráfico de red basado en políticas de seguridad
+C) Cifrar los datos en tránsito
+D) Realizar copias de seguridad de los datos
+ANSWER: B
+-
+¿Qué propósito principal cumple una DMZ (zona desmilitarizada) en la arquitectura de redes?
+A) Aislar y proteger los servidores accesibles desde Internet mientras se mantiene la red interna segura
+B) Proveer acceso directo a la red interna desde cualquier punto externo
+C) Realizar análisis de tráfico de red en tiempo real
+D) Administrar las claves de cifrado para la red interna
+ANSWER: A
+-
+¿Cuál es el objetivo principal de implementar un Sistema de Gestión de Seguridad de la Información (SGSI) en una organización?
+A) Asegurar la disponibilidad de los sistemas de TI
+B) Proteger la confidencialidad, integridad y disponibilidad de la información
+C) Incrementar la velocidad de la red
+D) Reducir el costo de hardware
+ANSWER: B
+-
+¿Cuál de las siguientes afirmaciones describe mejor la función de un "hash" en una blockchain?
+Opciones:
+A) Verifica la identidad del usuario en la red
+B) Cifra los datos almacenados en la blockchain
+C) Genera un identificador único para cada bloque y asegura la integridad de la cadena
+D) Aumenta la velocidad de las transacciones en la blockchain
+ANSWER: C
+-
+¿Cuál es el proceso mediante el cual se añaden nuevos bloques a la blockchain de Bitcoin y se aseguran las transacciones?
+A) Minería
+B) Validación de transacciones
+C) Consenso por prueba de participación
+D) Generación de claves
+ANSWER: A
+-
+AL CONJUNTO DE ACTIVIDADES QUE PERMITEN AL EQUIPO DE DESARROLLO JUNTO CON LOS INTERESADOS IDENTIFICAR, ARTICULAR Y ENTENDER LOS REQUISITOS DE LA APLICACIÓN, SE CONOCE COMO: 
+A)ELICITACIÓN 
+B)ANÁLISIS 
+C)ESPECIFICACIÓN
+D)VALIDACIÓN
+ANSWER: A
+-
+EL SISTEMA BANCARIO SOLAMENTE PROVEERÁ DEL NOMBRE DE LOS CLIENTES, ES UN EJEMPLO DE REQUISITO NO FUNCIONAL DE: 
+A)PRODUCTO 
+B)ORGANIZACIÓN 
+C)EXTERNO.
+D)SEGURIDAD
+ANSWER: B
+-
+¿PARA QUIENES SON LOS REQUISITOS?
+A)USUARIOS, DESARROLLADORES, INGENIERO DE REQUERIMIENTOS, STACKEHOLDERS, CLIENTES
+B)USUARIOS, DESARROLLADORES, LÍDER DE PROYECTO, STACKEHOLDERS, CLIENTES
+C)INGENIERIOS MANTENEDORES DEL SISTEMA, DESARROLLADORES, INGENIERO DE REQUERIMIENTOS, STACKEHOLDERS, CLIENTES
+D)USUARIOS, DESARROLLADORES, INGENIERO DE REQUERIMIENTOS, STACKEHOLDERS, ADMINISTRADORES
+ANSWER: A
+-
+LA APLICACIÓN DEBE VISUALIZARSE Y FUNCIONAR CORRECTAMENTE EN CORRECTAMENTE CON LOS NAVEGADORES: EXPLORER, FIREBIRD, MOZILLA Y NAUTILUS, ES UN EJEMPLO DE REQUISITO NO FUNCIONAL DE: 
+A)PRODUCTO 
+B)ORGANIZACIÓN 
+C)EXTERNO.
+D)SEGURIDAD
+ANSWER: A
+-
+CUANDO UN REQUERIMIENTO PROPORCIONA INFORMACIÓN SUFICIENTE PARA SU COMPRENSIÓN, ENTONCES ES:
+A)CORRECTO 
+B)CLARO 
+C)COMPLETO 
+D)CONSISTENTE
+ANSWER: C
+-
+¿CUÁL SERÍA EL ORDEN A SEGUIR PARA CAPTURAR LOS REQUERIMIENTOS?
+1.DEFINIR LÍMITES
+2.RECOLECTAR REQUERIMIENTOS
+3.RECOLECTAR LA INFORMACIÓN
+4.COMPRENDER EL PROBLEMA
+5.IDENTIFICAR USUARIOS
+A)4,2,1,3,5
+B)4,3,1,5,2
+C)5,2,1,3,4
+D)3,4,1,5,2
+ANSWER: B
+-
+ES NECESARIO RESPONDER A LAS SIGUIENTES PREGUNTAS: ¿QUÉ SE QUIERE HACER?, ¿QUÉ PROBLEMA SE QUIERE RESOLVER? ¿PARA QUÉ SE QUIERE HACER EL SISTEMA? PARA:
+A)DEFINIR LOS LÍMITES Y RESTRICCIONES DEL SISTEMA
+B)COMPRENDER EL PROBLEMA
+C)IDENTIFICAR A LOS USUARIOS INTERESADOS EN EL SISTEMA
+D)BUSCAR Y RECOLECTAR INFORMACIÓN
+ANSWER: B
+-
+DURANTE EL ANÁLISIS DE LOS REQUERIMIENTOS SE EXTRAEN:
+A)LAS CARACTERÍSTICAS OPERACIONALES DEL SOFTWARE, SE DETECTA SI HAY CONFLICTOS ENTRE LOS REQUERIMIENTOS Y SE RESUELVEN ESTOS CONFLICTOS, SE ESTABLECEN LAS RESTRICCIONES QUE DEBE CUMPLIR EL SOFTWARE Y SE CLASIFICAN LOS REQUERIMIENTOS.
+B)LOS ELEMENTOS BÁSICOS DE UN SISTEMA TAL COMO LO PERCIBE EL USUARIO/CLIENTE.
+C)PAUTAS A SEGUIR POR LOS DESARROLLADORES DEL SISTEMA PREVIA A SU CLASIFICACIÓN
+D)DE FORMA COMPLETA, PRECISA Y VERIFICABLE, LOS REQUISITOS, EL DISEÑO Y EL COMPORTAMIENTO U OTRAS CARACTERÍSTICAS, DE UN SISTEMA O COMPONENTE DE UN SISTEMA)
+ANSWER: A
+-
+LOS CLIENTES Y USUARIOS PUEDEN NO SER CONSCIENTES DE SUS NECESIDADES Y PUEDE QUE NO ENTIENDAN CÓMO LA TECNOLOGÍA PUEDE AYUDARLES, CORRESPONDE A UN PROBLEMA DE:
+A)DE COMUNICACIÓN 
+B)DE LIMITACIONES COGNITIVAS
+C)DE CONDUCTA HUMANA
+D)DE ARTICULACIÓN
+ANSWER: D
+-
+PARA OBTENER INFORMACIÓN GENERAL SOBRE LAS NECESIDADES DE LOS INTERESADOS, ES CONVENIENTE REALIZAR:
+A)PROTOTIPOS 
+B)OBSERVACION DE TAREAS
+C)ENTREVISTA 
+D)REUNIONES JAD
+ANSWER: C
+-
+¿CUÁLES SON LAS TÉCNICAS UTILIZADAS EN LA GESTIÓN DE REQUISITOS?
+A)APORTACIÓN DE REQUISITOS, PRIORIZACIÓN, TRAZABILIDAD, GESTIÓN DEL CAMBIO, CREACIÓN DE DIFERENTES VISTAS. 
+B)APORTACIÓN DE REQUISITOS, GENERACIÓN DE INFORMES, TRAZABILIDAD, GESTIÓN DEL CAMBIO, PRIORIZACIÓN.
+C)APORTACIÓN DE REQUISITOS, PRIORIZACIÓN, GENERACIÓN DE INFORMES, TRAZABILIDAD, GESTIÓN DEL CAMBIO. 
+D)APORTACIÓN DE REQUISITOS, PRIORIZACIÓN, TRAZABILIDAD, GESTIÓN DEL CAMBIO, VERSIONADO.
+ANSWER: D
+-
+CON LA SIGUIENTE PREGUNTA: ¿LO QUE PIDIÓ EL CLIENTE, FUNCIONA CORRECTAMENTE? LE PERMITE AL INGENIERIO DE REQUISITOS:
+A)LA VERIFICACIÓN DE LOS REQUERIMIENTOS
+B)ASEGURAR UN CONOCIMIENTO EXPLICITO DEL DOMINIO DEL PROBLEMA
+C)CLASIFICAR LOS REQUISITOS PARA AYUDAR EN LAS LABORES DE NEGOCIACIÓN.
+D)GESTIONAR LOS CAMBIOS Y EL MANTENIMIENTO DE LOS REQUISITOS PARA QUE REPRESENTEN EL SISTEMA QUE SE VA A DESARROLLAR O QUE SE HA DESARROLLADO.
+ANSWER: A
+-
+¿CUÁL DE LAS SIGUIENTES ACTIVIDADES NO SE INCLUYE EN LA FASE DE MANTENIMIENTO DE SOFTWARE?
+A)MEJORAS DE LAS CAPACIDADES.
+B)ELIMINACIÓN DE FUNCIONES OBSOLETAS.
+C)OPTIMIZACIÓN
+D)VALIDACIÓN DE REQUISITOS.
+ANSWER: D
+-
+EN UN SISTEMA DE RESERVACIÓN DE VUELOS, ¿CUÁL DE LOS SIGUIENTES REQUERIMIENTOS ES FUNCIONAL?
+A)EL SISTEMA DEBERÁ FUNCIONAR CORRECTAMENTE EN CUALQUIER NAVEGADOR. 
+B)EL SISTEMA NO DEBERÁ TARDAR MÁS DE CINCO SEGUNDOS EN MOSTRAR LOS RESULTADOS DE UNA BÚSQUEDA) 
+C)EL SISTEMA DEBERÁ PERMITIRLE AL USUARIO LA POSIBILIDAD DE BUSCAR DISPONIBILIDAD DE ASIENTOS Y COSTO DE LOS VUELOS.
+D)EL SISTEMA DEBERÁ PERMITIRLE AL USUARIO BUSCAR DISPONIBILIDAD DE ASIENTOS Y COSTO DE LOS VUELOS UTILIZANDO COMO CRITERIOS:  FECHA Y TIPO DE VUELO.
+ANSWER: D
+-
+¿Cuál es el código correcto para insertar una imagen en XHTML?
+A) <img src=imagen.jpg>
+B) <img src="imagen.jpg">
+C) <img src="imagen.jpg" />
+D) <img src="imagen.jpg" alt="Texto" />
+ANSWER: D
+-
+En HTML, para indicar el orden de tabulación entre los controles de un formulario se emplea el atributo
+A) alt
+B) index
+C) tab
+D) tabindex
+ANSWER: D
+-
+En HTML, una tabla de datos emplea las siguientes etiquetas
+A) <thead>, <tfoot>, <caption>
+B) <ol>, <ul>, <li>
+C) <dl>, <dt>, <dd>
+D) <dl>, <dt>, <ol>
+ANSWER: A
+-
+En HTML, para crear un hipervínculo se emplea la etiqueta
+A) <link>
+B) <href>
+C) <a>
+D) <oll>
+ANSWER: C
+-
+Las etiquetas <ol> y <li> se emplean para crear
+A) Una tabla de datos
+B) Una lista ordenada
+C) Una lista no ordenada
+D) listas simples no ordenadas
+ANSWER: B
+-
+¿Qué atributo de HTML se emplea en un formulario para especificar la página a la que se van a enviar los datos del mismo?
+A) action
+B) file
+C) method
+D) name
+ANSWER: A
+-
+En HTML, las etiquetas <h1>, <h2> y <h3> se emplean para definir
+A) Hipervínculos
+B) Encabezados
+C) Listas
+D) Tablas
+ANSWER: B
+-
+Cual sería el resultado que quedaría en la variable resultado tras la ejecución de este código: var resultado; var cadena = new Array( );  resultado = typeOf(cadena)
+A) String
+B) List
+C) 0
+D) Array
+ANSWER: D
+-
+Si por ejemplo queremos saber si la variable ancho está comprendida entre los valores 12 y 20, cual de las siguientes instrucción sería la adecuada
+A) (ancho < 20) || (ancho >12)
+B) ancho < 20 && > 12
+C) (20 > ancho > 12)
+D) (ancho < 20) && (ancho >12)
+ANSWER: D
+-
+La llamada a la función parseInt("2316", 16) devolverá...
+A) La posición de "16" en la cadena 2316
+B) La parte entera de 2341 dividido entre 16
+C) El resto de dividir 2341 ente 16
+D) 2341 convertido en hexadecimal
+ANSWER: D
+-
+Las expresiones regulares son un método ideal para buscar patrones de texto en una cadena Señala cual de las siguientes cadenas o palabras no concordaría con el patrón dado por la expresión regular [0~9]+\D{4}
+A) 215ASLW
+B) 435~AERT
+C) 9DPSE
+D) 3ADPR
+ANSWER: B
+-
+Sabrías predecir cual es el valor almacenada en la variable resultado al terminar de ejecutarse el siguiente código:  var resultado=0;  var cadena = "minombre";   resultado = isNaN(cadena);
+A) false
+B) string
+C) minombre
+D) true
+ANSWER: D
+-
+Cuando un programa en Javascript encuentra la instrucción "12" <= 12 ¿que ocurriría?
+A) Devolvería el valor False
+B) Daría un error por intentar comparar una cadena con un número.
+C) Devolvería el resultado True
+D) Daría un error porque comparamos un string y un numero
+ANSWER: C
+-
+En el siguiente código averigua que aparecería en la ventana alert:    var vig1, vig2;    if (vig1 > vig2)  alert("Primera posibilidad");  else  alert("Segunda posibilidad");
+A) No se puede saber
+B) Segunda posibilidad
+C) Daría un error de ejecución
+D) Primera posibilidad
+ANSWER: B
+-
+En Javascript se utilizan operadores para
+A) Realizar operaciones entre cadenas o strings.
+B) Realizar operaciones matemáticas entre variables numéricas.
+C) Relacionar dos o más valores produciendo un resultado.
+D) Es el nombre que se da a los métodos definidos dentro de los objetos.
+ANSWER: C
+-
+Cuando queremos almacenar una lista de valores en Javascript lo más adecuado es usar...
+A) Una variable cuyo nombre termine en un número o índice
+B) Una constante tipo lista
+C) Una variable cualquiera
+D) Una instancia del objeto array
+ANSWER: D
+-
+¿Cuál de las siguientes características diferencia a las máquinas de los humanos en el contexto de la inteligencia artificial?
+A) Capacidad de aprendizaje asociativo.
+B) Capacidad de aprendizaje experiencial.
+C) Capacidad de autocorrección.
+D) Capacidad de conciencia
+ANSWER: A
+-
+¿Cuál es el objetivo principal del algoritmo Minimax?
+A) Maximizar la utilidad de un jugador mientras minimiza la del otro.
+B) Minimizar el tiempo de búsqueda
+C) Encontrar la solución óptima en entornos dinámicos.
+D) Reducir el uso de memoria en la búsqueda
+ANSWER: A
+-
+¿Qué caracteriza a la búsqueda heurística A*?
+A) Utiliza la heurística para evaluar nodos.
+B) Combina el costo del camino actual con la heurística para evaluar nodos.
+C) La diferencia entre el costo del camino actual y la heurística
+D) Es un algoritmo de búsqueda no informada
+ANSWER: B
+-
+¿Qué es un predicado en lógica de primer orden?
+A) Una declaración que siempre es verdadera
+B) Una función que toma argumentos y devuelve un valor.
+C) Una expresión que afirma algo sobre algún objeto o relación entre objetos.
+D) Una constante o variable que se relaciona entre hechos.
+ANSWER: C
+-
+En lógica de predicados, ¿cómo se formaliza la proposición "Los números divisibles para si mismo son número primos"?
+A) ∀x (DivisiblePorSíMismo(x) → Primo(x))
+B) ∀x (Primo(x) → DivisiblePorSíMismo(x))
+C) ∃x (DivisiblePorSíMismo(x) ∧ Primo(x))
+D) ∃x (Primo(x) → DivisiblePorSíMismo(x))
+ANSWER: B
+-
+¿Cuál de las siguientes características no es típica de los Sistemas Expertos?
+A) Razonamiento guiado por las metas.
+B) Manejo de incertidumbre.
+C) Razonamiento guiado por los datos.
+D) Ejecución de reglas secuenciales con estructuras de control.
+ANSWER: D
+-
+¿Qué es la inferencia en lógica de predicados?
+A) El proceso de asignar valores a variables según los hechos.
+B) El proceso de derivar conclusiones lógicas a partir de premisas dadas mediante reglas.
+C) El proceso de simplificar ecuaciones matemáticas.
+D) El proceso de almacenar datos en una base de conocimiento.
+ANSWER: B
+-
+¿Cuál de las siguientes afirmaciones describe mejor el Teorema de Bayes?
+A) Una fórmula matemática utilizada para calcular la media de un conjunto de datos basándose en nuevas evidencias.
+B) Una regla lógica utilizada para derivar conclusiones a partir de premisas de hechos y reglas.
+C) Una fórmula matemática utilizada para actualizar la probabilidad de que ocurra un evento basándose en nuevas evidencias.
+D) Un algoritmo de búsqueda utilizado en inteligencia artificial.
+ANSWER: C
+-
+¿Qué representa la expresión ∀x (Estudiante(x) → Feliz(x))?
+A) Todos los estudiantes son felices.
+B) Ningún estudiante es feliz.
+C) Al menos un estudiante es feliz.
+D) Algunos estudiantes son felices.
+ANSWER: A
+-
+¿Cuál de las siguientes opciones define mejor el concepto de machine learning?
+A) Algoritmos que tratan de simular el comportamiento racional e inteligente del humano.
+B) Técnica de aprendizaje supervisado.
+C) Desarrollo de técnicas y algoritmos que aprendan y mejoren con el tiempo atraves de datos o la experienciA)
+D) Técnica para escribir programas con instrucciones detalladas para resolver problemas específicos.
+ANSWER: C
+-
+En el contexto de aprendizaje supervisado, ¿cuál es el principal beneficio de utilizar la regularización en modelos de machine learning?
+A) Aumenta la complejidad del modelo para mejorar la capacidad de ajuste a los datos de entrenamiento.
+B) Incrementa la precisión del modelo al eliminar características irrelevantes de manera automáticA)
+C) Mejora la interpretación del modelo al omitir las relaciones entre las variables dependientes e independientes.
+D) Reduce el riesgo de sobreajuste penalizando los coeficientes grandes y, por ende, mejorando la generalización del modelo en datos no conocidos.
+ANSWER: D
+-
+En el proceso de entrenamiento de un modelo de machine learning, ¿cuál es el propósito de utilizar un conjunto de validación además del conjunto de entrenamiento?
+A) Ajustar los hiperparámetros del modelo para minimizar el error en el conjunto de entrenamiento.
+B) Mejorar la precisión del modelo eliminando características redundantes y colineales.
+C) Probar la capacidad del modelo para generalizar a datos no conocidos y ajustar hiperparámetros para minimizar el error en este conjunto.
+D) Aumentar el tamaño del conjunto de datos de entrenamiento para mejorar la capacidad de ajuste del modelo.
+ANSWER: C
+-
+¿Qué objetivo principal persigue el algoritmo de clustering en el contexto del aprendizaje no supervisado?
+A) Agrupar los datos de manera que, los datos dentro de cada conjunto sean más similares entre sí, y disimilares de los datos de otros conjuntos.
+B) Predecir valores numéricos continuos a partir de datos de entrada en base a patrones de los datos.
+C) Optimizar la precisión de un modelo de clasificación mediante el ajuste de hiperparámetros.
+D) Generar nuevas características a partir de los datos originales para mejorar la calidad del modelo.
+ANSWER: A
+-
+¿Cuál es el principal objetivo del algoritmo de aprendizaje no supervisado Análisis de Componentes Principales ~ PCA?
+A) Clasificación de datos en base a las características proporcionadas.
+B) Predicción de datos en base a las características proporcionadas.
+C) Conformar conjuntos de datos según patrones.
+D) Reducción de la dimensionalidad de las características.
+ANSWER: D
+-
+¿Cuál es la diferencia entre regresión lineal y logística?
+A) En regresión lineal la variable independiente excede el rango entre 0 y 1, en regresión logística está dentro del rango 0 y 1.
+B) En regresión lineal la variable dependiente excede el rango entre 0 y 1, en regresión logística está dentro del rango 0 y 1.
+C) En regresión lineal y logística el rango esta entre 0 y 1.
+D) En regresión lineal la variable dependiente está en el rango entre 0 y 1, en regresión logística excede el rango entre 0 y 1.
+ANSWER: B
+-
+¿Cuál es la característica principal de los píxeles en un dispositivo de coordenadas?
+A) Son elementos gráficos continuos.
+B) Son elementos gráficos discretos.
+C) Son elementos gráficos aleatorios.
+D) Son elementos gráficos de alta definición.
+ANSWER: B
+-
+¿Cuál es la dirección del eje y en un sistema de coordenadas de un dispositivo típico?
+A) Hacia arribA)
+B) Hacia la derechA)
+C) Hacia abajo.
+D) Hacia la izquierdA)
+ANSWER: C
+-
+¿Qué proceso describe cómo funciona un monitor TRC?
+A) Emisión de luz a través de una capa de cristal líquido
+B) Emisión de electrones hacia una pantalla con fósforo
+C) Proyección de luz polarizada
+D) Proyección de puntos de tinta
+ANSWER: B
+-
+¿Qué significa la tasa de refresco en un monitor?
+A) La cantidad de colores que puede mostrar
+B) La velocidad con que se enciende o apaga el cañón de electrones
+C) El número de veces por segundo que se redibuja la imagen
+D) El tiempo que tarda en desaparecer la fosforescencia
+ANSWER: C
+-
+¿Cuál es la función de un controlador de video en un sistema de presentación por barrido de trama?
+A) Ejecutar algoritmos de discretización
+B) Generar señales que van a la memoria y al monitor
+C) Transformar datos en valores de intensidad o color
+D) A y B
+ANSWER: B
+-
+¿Qué transformación geométrica en 2D se utiliza para cambiar el tamaño de un objeto?
+A) Rotación
+B) Escalado
+C) Traslación
+D) Reflexión
+ANSWER: B
+-
+¿Cuál es el resultado de aplicar una traslación en 3D a un punto (x, y, z) con un vector de traslación (tx, ty, tz)?
+A) (x + tx, y + ty, z + tz)
+B) (x * tx, y * ty, z * tz)
+C) (x ~ tx, y ~ ty, z ~ tz)
+D) (x / tx, y / ty, z / tz)
+ANSWER: A
+-
+¿Qué efecto tiene una traslación en 2D en un punto (x, y) al aplicarle un vector de traslación (tx, ty)?
+A) Mueve el punto a una nueva posición (x + tx, y + ty)
+B) Rota el punto alrededor del origen
+C) Escala el punto por los factores tx y ty
+D) Refleja el punto sobre el eje X
+ANSWER: A
+-
+¿Cuál es la principal ventaja de utilizar coordenadas homogéneas en transformaciones geométricas?
+A) Permiten realizar transformaciones no lineales
+B) Facilitan la representación de transformaciones como traslaciones mediante matrices
+C) Reducen la cantidad de cálculos necesarios
+D) Eliminan la necesidad de rotaciones
+ANSWER: B
+-
+¿Cuál es la principal característica de una proyección en perspectiva en gráficos 3D?
+A) Los objetos se escalan de manera uniforme
+B) Los objetos más lejanos se ven más pequeños que los cercanos
+C) Los ángulos se preservan exactamente
+D) No hay distorsión en las líneas paralelas
+ANSWER: B
+-
+¿Qué son las curvas Bézier?
+A) Curvas definidas por ecuaciones trigonométricas
+B) Curvas paramétricas definidas por puntos de control
+C) Curvas que siempre pasan por todos sus puntos de control
+D) Curvas que solo se utilizan en animación
+ANSWER: B
+-
+¿Cómo se determina la forma de una curva Bézier?
+A) Mediante la interpolación lineal entre puntos de control
+B) Mediante una función de densidad de puntos
+C) Mediante los puntos de control y las combinaciones lineales de estos
+D) Mediante una serie de transformaciones geométricas
+ANSWER: C
+-
+¿Qué técnica se utiliza comúnmente para eliminar líneas ocultas en una escena 3D?
+A) Algoritmo de Bresenham
+B) Algoritmo de pintado de Z~buffer
+C) Curvas Bézier
+D) Transformación de Fourier
+ANSWER: B
+-
+¿Cuál es el principio básico del algoritmo de Z~buffer para la eliminación de cara oculta?
+A) Asignar colores a las caras según su distancia
+B) Almacenar la profundidad de cada píxel y comparar las profundidades para determinar la visibilidad
+C) Dividir la escena en una cuadrícula y eliminar las caras internas
+D) Utilizar coordenadas polares para simplificar los cálculos
+ANSWER: B
+-
+¿Cuál es el principio básico del algoritmo Painter para la eliminación de cara oculta?
+A) Pintar las caras desde el fondo hacia el frente
+B) Utilizar una estructura de datos para almacenar las coordenadas de las caras
+C) Pintar las caras desde el frente hacia el fondo
+D) Eliminar todas las caras internas de un objeto
+ANSWER: A
+-
+¿Qué es un modelo Entidad~Relación extendido (ERE)?
+A) Un diagrama básico de bases de datos.
+B) Un diagrama avanzado de bases de datos que incluye subtipos y supertipos.
+C) Un modelo de programación orientado a objetos.
+D) Un sistema de gestión de archivos.
+ANSWER: B
+-
+¿Cuál de las siguientes no es una característica del modelo ERE?
+A) Completo
+B) Minimalidad
+C) No escalable
+D) Legible y sencillo
+ANSWER: C
+-
+¿Qué tipo de entidad depende de la existencia de otras entidades?
+A) Entidades fuertes
+B) Entidades débiles
+C) Entidades principales
+D) Entidades independientes
+ANSWER: B 
+-
+¿Cuál es la cardinalidad de la relación en la que cada entidad de una clase se asocia con una única entidad de otra clase?
+A) 1:1
+B) 1
+C) N:1
+D) N
+ANSWER: A
+-
+¿Cuál es el propósito principal de la especialización en un modelo ERE?
+A) Crear una entidad abstracta
+B) Dividir una entidad en sub entidades con características propias.
+C) Fusionar varias entidades en una sola
+D) Eliminar atributos redundantes.
+ANSWER: B 
+-
+Las Entidades.
+A) Representan cosas u objetos reales que se asemejan claramente entre sí.
+B) Representan cosas u objetos reales o abstractos que se diferencian claramente entre sí
+C) Representan cosas u objetos abstractos que se diferencian claramente entre sí.
+D) Representan cosas u objetos abstractos que se asemejan claramente entre sí.
+ANSWER: B
+-
+Describen propiedades que posee cada ocurrencia de un conjunto de entidades
+A) Columnas
+B) Atributos
+C) Entidades
+D) Filas
+ANSWER: B
+-
+Si decimos que un estudiante puede matricularse en muchas clases y una clase puede incluir un solo estudiante, es una relación:
+A) Muchos a muchos.
+B) Uno a Uno.
+C) Uno a varios
+D) Uno a algunos.
+ANSWER: C
+-
+La _________ dependen obligatoriamente de una clave primaria y sirven de enlace mediante este campo:
+A) Clave Foránea
+B) Clave Primaria
+C) Clave Principal.
+D) Clave Secundaria
+ANSWER: A
+-
+¿Cuál es la expresión equivalente a la siguiente? 
+Destinatario ~> D; π D)nombre,D)Direccion (σ D)provincia != ‘Pichincha’ (D))
+A) (π D)nombre,D)Direccion (D)) ~  (π D)nombre,D)direccion (σ D)provincia != ‘Pichincha’ (D)))
+B) (σ D)nombre,D)Direccion (D)) ~  (π D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D)))
+C) (σ D)nombre,D)Direccion (D)) ~  (σ D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D)))
+D) (π D)nombre,D)Direccion (D)) ~  (π D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D))) 
+ANSWER: D
+-
+La expresión π A)nombre_act,A)descripcion ((A*( σ ST.nombre. = ‘Malchinqui’ (ST)) A)codigo_act=ST.codigo_act)) , devuelve:
+A) Los nombres y descripciones de las actividades que se pueden realizar en Malchingui.
+B) Los nombres y descripciones de las actividades que no se pueden realizar en Malchigui.
+C) Los sitios turísticos que tiene Malchingui.
+D) La expresión tiene un error en el producto natural, está demás la condición de codigo_act.
+ANSWER: A
+-
+La expresión π Nombre_P ( σ Edad_P = 18 (Personas)) devuelve:
+A) El nombre de las personas de 18 años en adelante.
+B) El nombre y edad de las personas de 18 años de edad
+C) El nombre de las personas de 18 años de edad
+D) El nombre de las personas hasta 18 años inclusive.
+ANSWER: C
+-
+Elija la sentencia que permite borrar los proyectos del cliente con código 2
+A) DELETE FROM proyectos WHERE codigo_cliente == 2;
+B) DELETE FROM proyectos WHERE codigo_cliente = '2';
+C) DELETE FROM proyectos WHERE codigo_cliente = "2";
+D) DELETE FROM proyectos WHERE codigo_cliente = 2;
+ANSWER: D
+-
+Mostrar los códigos, nombres y apellidos de los empleados, ordenados alfabéticamente de forma descendente por apellido y en caso de repeticiones, por nombre.
+A) SELECT apellido_empl, nombre_empl, codigo_empl FROM empleados ORDERBY apellido_empl DESC, nombre_empl DESC;
+B) SELECT apellido_empl, nombre_empl, codigo_empl FROM empleados ORDERBY nombre_empl DESC,apellido_empl DESC;
+C) SELECT apellido_empl, nombre_empl, codigo_empl FROM empleados ORDERBY apellido_empl, nombre_empl;
+D) SELECT apellido_empl, nombre_empl, codigo_empl FROM empleados GROUPBY apellido_empl ORDERBY apellido_empl, nombre_empl;
+ANSWER: A
+-
+Determinar cuál es el sueldo más alto de cada departamento, muestre el nombre y la ciudad del departamento.
+A) SELECT nombre_dep, ciudad_dep, MAX(sueldo) AS sueldo_maximo FROM empleados GROUP BY nombre_dep, ciudad_dep;
+B) SELECT nombre_dep, ciudad_dep, MAX(sueldo) AS sueldo_maximo FROM empleados;
+C) SELECT nombre_dep, ciudad_dep, MAX(sueldo) AS sueldo_maximo FROM empleados WHERE sueldo > sueldo_maximo GROUP BY nombre_dep, ciudad_dep;
+D) SELECT nombre_dep, ciudad_dep, MAX(sueldo) AS sueldo_maximo FROM empleados ORDER BY MAX(sueldo);
+ANSWER: A
+-
+Las Entidades.
+A) Representan cosas u objetos reales que se asemejan claramente entre sí.
+B) Representan cosas u objetos reales o abstractos que se diferencian claramente entre sí
+C) Representan cosas u objetos abstractos que se diferencian claramente entre sí.
+D) Representan cosas u objetos abstractos que se asemejan claramente entre sí.
+ANSWER: B
+-
+Describen propiedades que posee cada ocurrencia de un conjunto de entidades
+A) Columnas
+B) Atributos
+C) Entidades
+D) Filas
+ANSWER: B
+-
+Si decimos que un estudiante puede matricularse en muchas clases y una clase puede incluir un solo estudiante, es una relación:
+A) Muchos a muchos.
+B) Uno a varios
+C) Uno a Uno.
+D) Uno a algunos.
+ANSWER: B
+-
+Dependen obligatoriamente de una clave primaria y sirven de enlace mediante este campo:
+A) Clave Primaria
+B) Clave Foránea
+C) Clave Principal.
+D) Clave Secundaria
+ANSWER: B
+-
+Consiste en la primera fase de diseño de una BD:
+A) Diseño Lógico.
+B) Diseño Conceptual
+C) Diseño Físico.
+D) Diseño Entidad Relación.
+ANSWER: B
+-
+El vínculo que existe entre 2 o más entidades se llama:
+A) Unión.
+B) Relación
+C) Asociación.
+D) Generalización/Especialización.
+ANSWER: B
+-
+En sí misma posee significado relevante para quien lo recibe:
+A) Dato.
+B) Información
+C) Conocimiento.
+D) Experiencia
+ANSWER: B
+-
+Algunas propiedades de los datos son:
+A) Complejidad, precisión e interpretabilidad
+B) Completitud, credibilidad y precisión
+C) Completitud, perfección e interpretabilidad
+D) Complejidad, perfección e interpretabilidad
+ANSWER: B
+-
+En álgebra relacional, ¿Cuál de las siguientes es una operación unaria?:
+A) Union.
+B) Proyección
+C) Producto cartesiano.
+D) Diferencia
+ANSWER: B
+-
+En álgebra relacional, la expresión “(TABLA1) – (σ Cond1 TABLA2):
+A) Devuelve las tuplas de TABLA2 menos las que coincidan con las tuplas de TABLA1.
+B) Devuelve las tuplas de TABLA1 menos las que coincidan con las tuplas de TABLA2.
+C) Devuelve las tuplas de TABLA1 menos las que coincidan con la condición Cond1.
+D) Devuelve las tuplas de TABLA2 que cumplen con la Cond1.
+ANSWER: B
+-
+Las Entidades.
+A) Representan cosas u objetos reales que se asemejan claramente entre sí.
+B) Representan cosas u objetos reales o abstractos que se diferencian claramente entre sí
+C) Representan cosas u objetos abstractos que se diferencian claramente entre sí.
+D) Representan cosas u objetos abstractos que se asemejan claramente entre sí.
+ANSWER: B
+-
+Describen propiedades que posee cada ocurrencia de un conjunto de entidades
+A) Columnas
+B) Atributos
+C) Entidades
+D) Filas
+ANSWER: B
+-
+Si decimos que un estudiante puede matricularse en muchas clases y una clase puede incluir un solo estudiante, es una relación:
+A) Muchos a muchos.
+B) Uno a Uno.
+C) Uno a varios
+D) Uno a algunos.
+ANSWER: C
+-
+La _________ dependen obligatoriamente de una clave primaria y sirven de enlace mediante este campo:
+A) Clave Foránea
+B) Clave Primaria
+C) Clave Principal.
+D) Clave Secundaria
+ANSWER: A
+-
+¿Cuál es la expresión equivalente a la siguiente? 
+Destinatario ~> D
+π D)nombre,D)Direccion (σ D)provincia != ‘Pichincha’ (D))
+A) (π D)nombre,D)Direccion (D)) ~  (π D)nombre,D)direccion (σ D)provincia != ‘Pichincha’ (D)))
+B) (σ D)nombre,D)Direccion (D)) ~  (π D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D)))
+C) (σ D)nombre,D)Direccion (D)) ~  (σ D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D)))
+D) (π D)nombre,D)Direccion (D)) ~  (π D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D))) 
+ANSWER: D
+-
+La expresión π A)nombre_act,A)descripcion ((A*( σ ST.nombre. = ‘Malchinqui’ (ST)) A)codigo_act=ST.codigo_act)) , devuelve:
+A) Los nombres y descripciones de las actividades que se pueden realizar en Malchingui.
+B) Los nombres y descripciones de las actividades que no se pueden realizar en Malchigui.
+C) Los sitios turísticos que tiene Malchingui.
+D) La expresión tiene un error en el producto natural, está demás la condición de codigo_act.
+ANSWER: A
+-
+La expresión π  Nombre_P ( σ Edad_P = 18 (Personas)) devuelve:
+A) El nombre de las personas de 18 años en adelante.
+B) El nombre y edad de las personas de 18 años de edad
+C) El nombre de las personas de 18 años de edad
+D) El nombre de las personas hasta 18 años inclusive.
+ANSWER: C
+-
+Elija la sentencia que permite borrar los proyectos del cliente con código 2
+A) DELETE FROM proyectos WHERE codigo_cliente == 2;
+B) DELETE FROM proyectos WHERE codigo_cliente = '2';
+C) DELETE FROM proyectos WHERE codigo_cliente = "2";
+D) DELETE FROM proyectos WHERE codigo_cliente = 2;
+ANSWER: D
+-
+Mostrar los códigos, nombres y apellidos de los empleados, ordenados alfabéticamente de forma descendente por apellido y en caso de repeticiones, por nombre.
+A) SELECT apellido_empl, nombre_empl, codigo_empl FROM empleados ORDERBY apellido_empl DESC, nombre_empl DESC;
+B) SELECT apellido_empl, nombre_empl, codigo_empl FROM empleados ORDERBY nombre_empl DESC,apellido_empl DESC;
+C) SELECT apellido_empl, nombre_empl, codigo_empl FROM empleados ORDERBY apellido_empl, nombre_empl;
+D) SELECT apellido_empl, nombre_empl, codigo_empl FROM empleados GROUPBY apellido_empl ORDERBY apellido_empl, nombre_empl;
+ANSWER: A
+-
+Determinar cuál es el sueldo más alto de cada departamento, muestre el nombre y la ciudad del departamento.
+A) SELECT nombre_dep, ciudad_dep, MAX(sueldo) AS sueldo_maximo FROM empleados GROUP BY nombre_dep, ciudad_dep;
+B) SELECT nombre_dep, ciudad_dep, MAX(sueldo) AS sueldo_maximo FROM empleados;
+C) SELECT nombre_dep, ciudad_dep, MAX(sueldo) AS sueldo_maximo FROM empleados WHERE sueldo > sueldo_maximo GROUP BY nombre_dep, ciudad_dep;
+D) SELECT nombre_dep, ciudad_dep, MAX(sueldo) AS sueldo_maximo FROM empleados ORDER BY MAX(sueldo);
+ANSWER: A
+- 
+¿Qué es un modelo Entidad~Relación extendido (ERE)?
+A) Un diagrama básico de bases de datos.
+B) Un diagrama avanzado de bases de datos que incluye subtipos y supertipos.
+C) Un modelo de programación orientado a objetos.
+D) Un sistema de gestión de archivos.
+ANSWER: B
+-
+¿Cuál de las siguientes no es una característica del modelo ERE?
+A) Completo
+B) Minimalidad
+C) No escalable
+D) Legible y sencillo
+ANSWER: C
+-
+¿Qué tipo de entidad depende de la existencia de otras entidades?
+A) Entidades fuertes
+B) Entidades débiles
+C) Entidades principales
+D) Entidades independientes
+ANSWER: B
+-
+¿Cuál es la cardinalidad de la relación en la que cada entidad de una clase se asocia con una única entidad de otra clase?
+A) 1:1
+B) 1
+C) N:1
+D) N
+ANSWER: A
+-
+¿Cuál es el propósito principal de la especialización en un modelo ERE?
+A) Crear una entidad abstracta
+B) Dividir una entidad en sub entidades con características propias.
+C) Fusionar varias entidades en una sola
+D) Eliminar atributos redundantes.
+ANSWER: B
+-
+¿Cuál de los siguientes conceptos NO forma parte de la tríada CIA en seguridad informática?
+A) Confidencialidad
+B) Autenticación
+C) Integridad
+D) Disponibilidad
+ANSWER: B
+-
+¿Cuál de los siguientes tipos de malware se caracteriza por cifrar los archivos de la víctima y exigir un pago para desbloquearlos?
+A) Virus
+B) Ransomware
+C) Spyware
+D) Gusano
+ANSWER: B
+-
+¿Cuál de los siguientes tipos de malware se oculta dentro de un programa legítimo para permitir el acceso no autorizado a un sistema?
+A) Troyano
+B) Adware
+C) Rootkit
+D) Keylogger
+ANSWER: A
+-
+¿Cuál de los siguientes algoritmos es un ejemplo de cifrado simétrico?
+A) RSA
+B) AES
+C) ECC
+D) SHA~256
+ANSWER: B
+-
+¿Cuál es el principal propósito de una firma digital en seguridad informática?
+A) Garantizar la confidencialidad del mensaje
+B) Verificar la identidad del remitente y la integridad del mensaje
+C) Cifrar el contenido del mensaje
+D) Generar claves de cifrado simétrico
+ANSWER: B
+-
+¿Cuál es el componente principal de una Infraestructura de Clave Pública (PKI) que emite y gestiona certificados digitales?
+A) Registro civil
+B) Firewall
+C) Autoridad de Certificación (CA)
+D) El gobierno de cada uno de los países
+ANSWER: C
+-
+¿Cuál de los siguientes es un ejemplo de un factor de autenticación basado en algo que el usuario tiene?
+A) Contraseña
+B) Huella dactilar
+C) Tarjeta inteligente
+D) Pregunta de seguridad
+ANSWER: C
+-
+¿Cuál de los siguientes modelos de control de acceso se basa en reglas definidas por un administrador (por el sistema) y no por el propietario de los recursos?
+A) Control de Acceso Discrecional (DAC)
+B) Control de Acceso Basado en Roles (RBAC)
+C) Control de Acceso Obligatorio (MAC)
+D) Control de Acceso Basado en Atributos (ABAC)
+ANSWER: C
+-
+Tú trabajas como el administrador de seguridad de la compañía ABC que tiene las siguientes características: La compañía tiene planes de instalar un sistema basado en RBAC (Role Based Access Control).  La compañía posee tres tipos de recursos que serán manejados por el sistema, que son: Archivos, Impresoras y Teléfonos IPs. La compañía posee también cuatro departamentos, que son: Ventas, Marketing, Administración y Producción. Cada departamento necesita acceder a los diferentes tipos de recursos y cada usuario posee una estación de trabajo (PC). ¿Qué roles deberías crear para dar soporte al modelo RBAC (Role Based Access Model)? Seleccione una de las opciones.
+A) Roles de Archivos, Impresoras y Teléfonos IPs
+B) Roles de Ventas, Marketing, Administración y Producción
+C  Roles de Usuarios y estaciones de trabajo
+D) Roles de permiso de acceso y permiso de denegación
+ANSWER: C
+-
+¿Cuál es el propósito principal del protocolo Needham~Schroeder en criptografía?
+A) Autenticación mutua entre dos partes
+B) Cifrado de mensajes en tránsito
+C) Gestión de claves públicas
+D) Establecimiento de una clave asimétrica privada
+ANSWER: A
+-
+¿Cuál es la principal función de un firewall en una red informática?
+A) Monitorizar el rendimiento de la red
+B) Filtrar y controlar el tráfico de red basado en políticas de seguridad
+C) Cifrar los datos en tránsito
+D) Realizar copias de seguridad de los datos
+ANSWER: B
+-
+¿Qué propósito principal cumple una DMZ (zona desmilitarizada) en la arquitectura de redes?
+A) Aislar y proteger los servidores accesibles desde Internet mientras se mantiene la red interna segura
+B) Proveer acceso directo a la red interna desde cualquier punto externo
+C) Realizar análisis de tráfico de red en tiempo real
+D) Administrar las claves de cifrado para la red interna
+ANSWER: A
+-
+¿Cuál es el objetivo principal de implementar un Sistema de Gestión de Seguridad de la Información (SGSI) en una organización?
+A) Asegurar la disponibilidad de los sistemas de TI
+B) Proteger la confidencialidad, integridad y disponibilidad de la información
+C) Incrementar la velocidad de la red
+D) Reducir el costo de hardware
+ANSWER: B
+-
+¿Cuál de las siguientes afirmaciones describe mejor la función de un "hash" en una blockchain?
+A) Verifica la identidad del usuario en la red
+B) Cifra los datos almacenados en la blockchain
+C) Genera un identificador único para cada bloque y asegura la integridad de la cadena
+D) Aumenta la velocidad de las transacciones en la blockchain
+ANSWER: C
+-
+¿Cuál es el proceso mediante el cual se añaden nuevos bloques a la blockchain de Bitcoin y se aseguran las transacciones?
+A) Minería
+B) Validación de transacciones
+C) Consenso por prueba de participación
+D) Generación de claves
+ANSWER: A
+-
+Qué opción de envío de mensajes se utiliza cuando los dispositivos de destino necesitan recibir el mismo mensaje simultáneamente siempre y cuando pertenezcan a un grupo específico?
+A) Multicast
+B) Broadcast
+C) Unicast
+D) Anycast
+ANSWER: A
+-
+¿Cuál es la principal ventaja de usar VLANs en una red?
+A) Aumenta la velocidad de la red
+B) Mejora la seguridad y segmentación de la red
+C) Reduce el costo del hardware de red
+D) Elimina la necesidad de enrutamiento
+ANSWER: B
+-
+¿Cuántas direcciones útiles (hosts) se encuentran disponibles en la red 192.168.10.0/28?
+A) 8 hosts
+B) 16 hosts
+C) 14 hosts
+D) 6 hosts
+ANSWER: C
+-
+Según el Modelo OSI, ¿Cuál es el PDU de la Capa 2 y qué direccionamiento se emplea en dicha capa?
+A) Paquete – Direccionamiento Físico
+B) Trama – Direccionamiento Físico
+C) Trama – Direccionamiento Lógico
+D) Paquete – Direccionamiento Lógico
+ANSWER: B
+-
+¿Cuántos dominios de broadcast existen si el switch está configurado con 5 VLANs de Datos y 1 VLAN de administración, estando conectados 5 hosts a dicho equipo?
+A) 6
+B) 3
+C) 5
+D) 2
+ANSWER: A
+-
+Seleccione una función de la VLAN Nativa:
+A) Sirve como VLAN de administración para SSH del switch
+B) Se usa para dar seguridad a los puertos de acceso
+C) Recibe tráfico de VLAN que no está en su tabla de enrutamiento del switch
+D) Sirve para recibir tráfico no etiquetado (sin marca de VLAN)
+ANSWER: D
+-
+Dada la dir. IP 10.10.10.0/26, ¿Cuál es la siguiente subred?:
+A) 10.10.10.0/24
+B) 10.10.10.64/26
+C) 10.10.10.32/26
+D) 10.10.10.0/26
+ANSWER: B
+-
+Indique el nombre de la Tabla donde se encuentran las mejores rutas a un destino en un Router.
+A) Tabla de Enrutamiento
+B) Tabla de Direcciones MAC
+C) Tabla de Topología
+D) Tabla e Adyacencia
+ANSWER: A
+-
+¿Cuál es el nombre del protocolo de enrutamiento dinámico que tiene como algoritmo a Dijkstra, es considerado de tipo Estado de Enlace y emplea áreas en su configuración?
+A) EIGRP
+B) BGP
+C) OSPF
+D) RIP
+ANSWER: C
+-
+Al configurar un Switch Multicapa con VLANs, ¿Qué parte de ese dispositivo intermediario se considera Gateway si dicho equipo es el encargado de enrutar entre VLANs?
+A) Los SVI (Switch Virtual Interfaces) relacionados a esas VLANs
+B) Las Interfaces físicas que se conectan a los hosts
+C) Las subinterfaces configuradas en el switch
+D) Los puertos enrutados conectados a otro dispositivo intermediario
+ANSWER: A
+-
+¿Cuál es el estándar que define al puerto troncal en un switch en un entorno conmutado?
+A) IEEE 802.3
+B) IEEE 802.11n
+C) IEEE 802.15
+D) IEEE 802.1q
+ANSWER: D
+-
+¿Cuál es el estándar que hace referencia a las redes WLAN?
+A) IEEE 802.3
+B) IEEE 802.11
+C) IEEE 802.15
+D) IEEE 802.1q
+ANSWER: B
+-
+¿Cuál es el rango normal de VLAN ID en la mayoría de los switches?
+A) 1 a 128
+B) 1 a 255
+C) 1 a 1005
+D) 1 a 4095
+ANSWER: C
+-
+¿Cómo se denomina la técnica para configurar un router para manejar tráfico de múltiples VLANs a través de una única interfaz física?
+A) Router on a Stick
+B) VLAN Routing
+C) Trunking
+D) IP Routing
+ANSWER: A
+-
+¿Cuál es una ventaja del enrutamiento estático?
+A) Adaptabilidad a cambios en la red
+B) Capacidad para manejar grandes redes con muchas rutas
+C) Menor carga administrativa
+D) Menor carga en el procesador del router
+ANSWER: D
+-
+¿Cuál es la función del gestor de dispositivos en un sistema operativo?
+A) Administrar el acceso a los dispositivos de hardware.
+B) Gestionar la memoria virtual.
+C) Proporcionar servicios de red.
+D) Administrar las cuentas de usuario.
+ANSWER: A
+-
+¿Qué es la conmutación de contexto en un sistema operativo?
+A) Proceso de cargar un programa desde el disco duro.
+B) Proceso de cambiar el control de la CPU de un proceso a otro.
+C) Proceso de liberar memoria no utilizada
+D) Proceso de acceso a dispositivos de hardware.
+ANSWER: B
+-
+¿Qué es la fragmentación en la gestión de memoria?
+A) Proceso de dividir la memoria en bloques de tamaño fijo.
+B) Condición en la que hay suficiente memoria libre, pero no contigua
+C) Técnica para asignar memoria contigua a los procesos.
+D) Proceso de liberar memoria no utilizada
+ANSWER: B
+-
+¿Qué es el "thrashing" en el contexto de la memoria virtual?
+A) Una técnica para aumentar el rendimiento de la CPU.
+B) Una condición en la que la excesiva paginación reduce el rendimiento.
+C) Un método para evitar la fragmentación de memoria
+D) Una técnica de planificación de procesos.
+ANSWER: B
+-
+¿Cuál de las siguientes es una técnica para la gestión de dispositivos de E/S?
+A) Swapping.
+B) Planificación de CPU.
+C) Spooling.
+D) Fragmentación.
+ANSWER: C
+-
+¿Qué es la segmentación en la gestión de memoria?
+A) Técnica que divide la memoria física en bloques de tamaño fijo.
+B) Técnica que divide la memoria lógica en segmentos de tamaño variable.
+C) Técnica que asigna memoria contigua a los procesos.
+D) Técnica para liberar memoria no utilizada
+ANSWER: B
+-
+¿Qué es el algoritmo de "Least Recently Used" (LRU) en la gestión de memoria?
+A) Un algoritmo de planificación de CPU.
+B) Un algoritmo para la gestión de dispositivos de E/S.
+C) Un algoritmo de reemplazo de páginas que reemplaza la página que no se ha utilizado durante más tiempo.
+D) Un algoritmo de detección de deadlocks.
+ANSWER: C
+-
+¿Cuál es la función principal de la tabla de páginas en la memoria virtual?
+A) Almacenar el código del sistema operativo.
+B) Mapear direcciones lógicas a direcciones físicas.
+C) Administrar la entrada/salida de dispositivos.
+D) Controlar el acceso de los usuarios al sistema
+ANSWER: B
+-
+¿Qué es la gestión de energía en un sistema operativo?
+A) El proceso de administrar el consumo de energía de los dispositivos hardware del sistema
+B) El proceso de asignar recursos de manera eficiente a los procesos en ejecución.
+C) El proceso de administrar la ejecución de programas y procesos.
+D) El proceso de configurar y mantener servicios de red como DHCP, DNS o servidor web
+ANSWER: A
+-
+¿Cuál de las siguientes tareas está relacionada con la gestión de la configuración en un sistema operativo?
+A) Configuración de la memoria virtual del sistema
+B) Configuración de servicios de red como DHCP, DNS o servidor web
+C) Configuración y mantenimiento de la seguridad del sistema
+D) Configuración de ajustes de sistema y aplicaciones para optimizar el rendimiento.
+ANSWER: D
+-
+¿Qué es la gestión de actualizaciones en un sistema operativo?
+A) El proceso de instalar y configurar nuevas aplicaciones en el sistema
+B) El proceso de realizar copias de seguridad de los datos del sistema para garantizar su integridad
+C) El proceso de mantener actualizado el sistema operativo con los últimos parches de seguridad y mejoras.
+D) El proceso de administrar la ejecución de programas y procesos.
+ANSWER: C
+-
+¿Qué es la gestión de la seguridad en un sistema operativo?
+A) El proceso de administrar el consumo de energía de los dispositivos hardware del sistema
+B) El proceso de configurar y mantener la seguridad del sistema
+C) El proceso de asignar recursos de manera eficiente a los procesos en ejecución.
+D) El proceso de administrar la ejecución de programas y procesos.
+ANSWER: B
+-
+¿Qué es la gestión de eventos y registros en un sistema operativo?
+A) El proceso de revisar registros de actividad para detectar posibles violaciones de seguridad
+B) El proceso de administrar la ejecución de programas y procesos.
+C) El proceso de configurar y mantener servicios de red como DHCP, DNS o servidor web
+D) El proceso de monitorizar el rendimiento del sistema y optimizar su funcionamiento.
+ANSWER: A
+-
+¿Qué es la gestión de copias de seguridad en un sistema operativo?
+A) El proceso de administrar el consumo de energía de los dispositivos hardware del sistema
+B) El proceso de realizar copias de seguridad de los datos del sistema para garantizar su integridad
+C) El proceso de configurar y mantener la seguridad del sistema.
+D) El proceso de administrar la ejecución de programas y procesos.
+ANSWER: B
+-
+¿Qué es la gestión de almacenamiento en un sistema operativo?
+A) El proceso de asignar recursos de manera eficiente a los procesos en ejecución.
+B) El proceso de administrar el almacenamiento y la organización de archivos en el sistema de archivos.
+C) El proceso de configurar y mantener servicios de red como DHCP, DNS o servidor web.
+D) El proceso de administrar la ejecución de programas y procesos.
+ANSWER: B
+-
 ¿Cuál es la primera fase del ciclo de vida de pruebas de software?
 A) Planificación de pruebas.
 B) Diseño de pruebas.
@@ -215,7 +1344,7 @@ C) Un enfoque de desarrollo seguido en el campo de la HCI para producir sistemas
 D) Un enfoque de desarrollo seguido en el campo de la HCI para reproducir sistemas software con un adecuado nivel de funcionalidad. Se basa en centrarse en las necesidades de los desarrolladores en todo el desarrollo.
 ANSWER: A
 -
-De acuerdo con el estándar ISO 9241-11 se define a la usabilidad como:
+De acuerdo con el estándar ISO 9241~11 se define a la usabilidad como:
 A) La medida en que un producto puede ser usado por usuarios específicos para alcanzar metas especificadas, con efectividad, eficiencia y satisfacción en un determinado contexto de uso.
 B) La medida en que un prototipo puede ser usado por usuarios específicos para alcanzar metas especificadas, con efectividad, eficiencia y satisfacción en un determinado contexto de uso.
 C) La medida en que un producto puede ser usado por usuarios específicos para alcanzar metas especificadas, con efectividad y satisfacción en un determinado contexto de uso
@@ -259,9 +1388,9 @@ ANSWER: A
 -
 Indique cuáles de las siguientes características identifican un test de usabilidad:
 A) Sigue las guías de diseño o experiencias de un experto en usabilidad.
-B)  Los participantes que son representativos de la población de usuarios llevan a cabo tareas reales.
-C) Tiene en mismo grado de formalidad que un experimento controlado-.
-D)  Se muestra el sistema al usuario pasando pantalla a pantalla, pero ellos no interactúan directamente con el sistema.
+B) Los participantes que son representativos de la población de usuarios llevan a cabo tareas reales.
+C) Tiene en mismo grado de formalidad que un experimento controlado.
+D) Se muestra el sistema al usuario pasando pantalla a pantalla, pero ellos no interactúan directamente con el sistema.
 ANSWER: B
 -
 La evaluación por expertos: 
@@ -584,7 +1713,7 @@ ANSWER: C
 Seleccione, ¿En qué consisten las pruebas de seguridad de aplicaciones dinámicas DAST?
 A) Se utilizan para buscar vulnerabilidades de seguridad en aplicaciones mediante la simulación de comportamientos maliciosos para identificar debilidades que podrían explotarse.
 B) Está diseñado para identificar vulnerabilidades al desplegar una aplicación en ejecución.
-C) Proceso de analizar una aplicación web a través del back-end para encontrar vulnerabilidades mediante ataques simulados.
+C) Proceso de analizar una aplicación web a través del back~end para encontrar vulnerabilidades mediante ataques simulados.
 D) Prueba de aplicaciones que puede ayudar a los desarrolladores a descubrir vulnerabilidades de seguridad.
 ANSWER: A
 -
@@ -680,10 +1809,10 @@ D) Herramientas actuales.
 ANSWER: C
 -
 PDCA es un método de gestión de cuatro pasos iterativo utilizado en los negocios para el control y la mejora continua de procesos y productos, cuales son:
-A) Pagar-Debitar-Controlar-Actuar
-B) Planificar-Diseñar-Controlar-Ajustar
-C) Planear-Hacer-Verificar-Actuar
-D) Planear-Diseñar-Comprar-Ajustar
+A) Pagar~Debitar~Controlar~Actuar
+B) Planificar~Diseñar~Controlar~Ajustar
+C) Planear~Hacer~Verificar~Actuar
+D) Planear~Diseñar~Comprar~Ajustar
 ANSWER: C
 -
 Según las metodologías ágiles, la medida principal de progreso es:
@@ -800,7 +1929,7 @@ ANSWER: B
 -
 Para garantizar la alta disponibilidad en una arquitectura SOA en la nube, se utiliza __________ para manejar el tráfico y __________ para replicar datos entre múltiples instancias.
 A)	Load Balancer / Data Replication
-B)	Auto-Scaling / Service Registry
+B)	Auto~Scaling / Service Registry
 C)	Service Mesh / Message Broker
 D)	API Gateway / Service Bus
 ANSWER: A
@@ -883,10 +2012,10 @@ D)	Command / Iterator
 ANSWER: A
 -
 En el patrón arquitectónico __________, cada componente realiza una transformación específica de los datos, __________ los componentes son servicios independientes que se comunican mediante APIs.
-A)	Layered / Event-Driven
-B)	Client-Server / Monolithic
+A)	Layered / Event~Driven
+B)	Client~Server / Monolithic
 C)	MVC / SOA
-D)	Pipe-and-Filter / Microservices
+D)	Pipe~and~Filter / Microservices
 ANSWER: D
 -
 
@@ -899,8 +2028,8 @@ ANSWER: D
 -
 El patrón arquitectónico __________ se basa en componentes reutilizables y definidos independientemente, __________ se enfoca en la separación de responsabilidades a través de capas.
 A)	Microservices / Layered
-B)	Client-Server / Monolithic
-C)	Pipe-and-Filter / Event-Driven
+B)	Client~Server / Monolithic
+C)	Pipe~and~Filter / Event~Driven
 D)	MVC / SOA
 ANSWER: A
 -
@@ -1009,3 +2138,1345 @@ C) Abiertos para la extensión y cerrados para la modificación.
 D) Cerrados para la extensión y cerrados para la modificación.
 ANSWER: C
 -
+Dado el siguiente comando Linux, ¿qué resultado se obtiene?: chmod 635 file1.txt
+A) Owner=write and read, other=execute, group=execute and read 
+B) Owner=full, other=execute, group = execute and read
+C) Owner=write and read, other=execute and read, group=write and execute 
+D) Owner=write and read and execute,  other=execute and write, group=write and execute 
+ANSWER: C
+-
+Dados los procesos P1 y P2, llegan en los instantes 2 y 4, respectivamente, y en el instante 12 acaba P2 y en el instante 18 acaba P1. Entonces:
+A) El tiempo de retorno medio es 13
+B) El tiempo de retorno medio es 12
+C) Faltan datos para calcular el tiempo de retorno medio
+D) El tiempo de retorno medio es 16
+ANSWER: B
+-
+Dada la siguiente lista de tipos de hilos, cuál es aquel que permite la programación concurrente?
+A) Un proceso un hilo
+B) Varios procesos un hilo por proceso
+C) Un proceso varios hilos
+D) Varios procesos varios hilos por proceso
+ANSWER: C
+-
+El Sistema Operativo MacOS está basado en?
+A) Linux
+B) AIX
+C) Solaris
+D) Unix
+ANSWER: D
+-
+El Sistema Operativo Android está basado en?
+A) Linux
+B) AIX
+C) Solaris
+D) Unix
+ANSWER: A
+-
+¿Cómo se denomina la utilización conjunta de la memoria principal del sistema y de la memoria de intercambio?
+A) RAM
+B) SWAP
+C) NVRAM
+D) Virtual
+ANSWER: D
+-
+¿Cúal es el estado mediante el cual un proceso que ha sido creado pero aún no ha sido admitido por el SO para su ejecución. No se carga un nuevo proceso en la memoria principal, pero se ha creado su bloque de control de proceso (PCB)?
+A) Listo
+B) Ejecución
+C) Nuevo
+D) Bloqueado
+ANSWER: C
+-
+¿En el árbol de directorios de Linux, cómo se llama la carpeta que contiene los archivos de configuración del sistema?
+A) /home
+B) /etc
+C) /sbin
+D) /bin
+ANSWER: B
+-
+¿Cómo se denomina la parte de un sistema operativo Linux que cumple las funciones de línea interfaz de comandos y lenguaje de programación?
+A) Kernel
+B) File System
+C) Shell
+D) aplicaciones
+ANSWER: C
+-
+¿El estado en el cuál el proceso deja de competir por el procesador, esperando un evento externo se denomina?
+A) Listo
+B) Ejecución
+C) Nuevo
+D) Bloqueado
+ANSWER: D 
+-
+¿Cuál es el propósito principal del lenguaje DDL (Data Definition Language) en las bases de datos?
+A) Definir la estructura de la base de datos
+B) Conectar con diferentes bases de datos
+C) Actualizar datos en tiempo real
+D) Modificar registros 
+ANSWER: A
+-
+¿Qué sistema gestor de bases de datos se conoce por su alto rendimiento, características de alta disponibilidad y por ser una solución robusta para aplicaciones empresariales?
+A) SQLite
+B) MongoDB
+C) MySQL
+D) Oracle Database
+ANSWER: D
+-
+¿Cuál de los siguientes sistemas gestores de bases de datos es una opción popular para el desarrollo de aplicaciones web debido a su facilidad de uso y soporte para PHP?
+A) MySQL
+B) Microsoft SQL Server
+C) Oracle Database
+D) MongoDB
+ANSWER: A
+-
+¿Cuál de estos no es un lenguaje de programación utilizado para el desarrollo de aplicaciones de bases de datos?
+A) SQL
+B) C#
+C) HTML
+D) Python
+ANSWER: C
+-
+La definición correcta de base de datos distribuida es:
+A) Colección de datos que pertenecen lógicamente a un solo sistema, pero se encuentran físicamente esparcidos en varios sitios de la red
+B) Colección de datos organizados en un conjunto de tablas relacionadas entre si
+C) Conjunto de programas que almacenan, recuperan y gestionan datos de documentos o datos de algún modo estructurados
+D) Conjunto de datos informativos organizados en un mismo contexto para su uso y vinculación
+ANSWER: A
+-
+¿Cuál de las siguientes no es una regla de las bases de datos distribuidas? 
+A) Procesamiento distribuido de consultas esparcidos en varios sitios de la red
+B) Autonomía local
+C) Operación continua
+D) Independencia con respecto al sistema operativo
+ANSWER: D
+-
+¿Qué tipo de fragmentación realiza la siguiente instrucción select?
+Select cedula, nombres, direccion from socio
+Where estado=’Casado’
+A) Fragmentación Vertical
+B) Fragmentación Horizontal
+C) Fragmentación Total
+D) Fragmentación Mixta
+ANSWER: B
+-
+¿Cuál de los siguientes puertos es el puerto predeterminado para Oracle, PostgreSQL y MySQL respectivamente?
+A) 5432, 3306, 1521
+B) 1521, 5432, 3306
+C) 1521, 3306, 5432
+D) 3306, 1521, 5432
+ANSWER: B
+-
+¿Cuál es una diferencia clave entre un modelo de constelación de estrellas y un data warehouse en el diseño de bases de datos?
+A) El modelo de constelación de estrellas se utiliza solo para pequeñas cantidades de datos, mientras que un data warehouse está diseñado para grandes volúmenes de datos.
+B) El modelo de constelación de estrellas no soporta consultas complejas, mientras que un data warehouse sí.
+C) En un modelo de constelación de estrellas, múltiples tablas de hechos están conectadas a múltiples tablas de dimensiones, mientras que un data warehouse es una colección de datos integrada de toda la organización.
+D) El modelo de constelación de estrellas siempre utiliza la normalización, mientras que un data warehouse no.
+ANSWER: C
+-
+¿Cuáles son las principales etapas y técnicas utilizadas en la construcción de cubos de información en bases de datos para análisis multidimensional?
+A) Normalización de datos, optimización de consultas, diseño de interfaces y generación de informes.
+B) Implementación de almacenes de datos, creación de índices, gestión de transacciones y auditoría de seguridad.
+C) Extracción de datos, modelado dimensional, carga de datos y definición de medidas.
+D) Desarrollo de algoritmos de minería de datos, procesamiento de lenguaje natural, análisis de sentimientos y visualización de datos.
+ANSWER: C
+-
+¿Qué es una amenaza?
+A) Cualquier cosa que pueda causar daño a los activos
+B) Cualquier cosa que pueda ser usada como arma	
+C) La probabilidad de que te ataquen
+D) La probabilidad de que atrapen a un ladrón
+ANSWER: A
+-
+La tabla arcoíris es utilizado en un ataque de tipo:
+A) Fuerza bruta online
+B) Fuerza bruta offline
+C) Diccionario online
+D) Diccionario offline
+ANSWER: D
+-
+¿Cuál es el documento que indica los requerimientos mínimos de seguridad para la información federal de sistemas de información?
+A) FIPS 200
+B) ISO/IEC 27000
+C) ISO/IEC 15408
+D) NIST 300
+ANSWER: A
+-
+¿Cuál de las siguientes opciones es una vulnerabilidad?
+A) Tener un sistema de seguridad en el trabajo.
+B) Dejar una ventana abierta en un auto estacionado.
+C) Contratación de un guardia de seguridad para trabajar en el turno de noche.
+D) Usar una contraseña larga para el cortafuegos.
+ANSWER: B
+-
+¿Cuál es la forma más fácil y común de realizar un ataque offline de contraseñas, para descubrir passwords débiles y comunes?
+A) Ataque de Man in the middle
+B) Ataque hibrido
+C) Ataque de fuerza bruta
+D) Ataque de diccionario
+ANSWER: D
+-
+¿Qué protocolo de red no utiliza un método de encriptación para la comunicación entre dispositivos conectados a la red?
+A) TCP
+B) SSL
+C) VPN
+D) PGP
+ANSWER: A
+-
+¿Qué tipo de algoritmo de encriptación utiliza dos números primos para la generación de su Llave pública y Llave privada?
+A) ECC
+B) DES
+C) AES
+D) RSA
+ANSWER: D
+-
+¿En qué tipo de ataque se utiliza información falsificada para redirigir a los usuarios a sitios maliciosos de Internet?
+A) Generación de dominio
+B) Envenenamiento de caché de ARP
+C) Envenenamiento de caché de DNS
+D) Amplificación y reflexión DNS
+ANSWER: C
+-
+¿Qué tipo de atacante no pertenece al grupo de clasificación según sus intenciones y motivaciones?
+A) Criminales
+B) Elite
+C) APT
+D) Hacktivistas
+ANSWER: B
+-
+Seleccione la opción que indique la forma más segura de almacenar la contraseña de los usuarios de un sistema.
+A) La contraseña del usuario en texto en plano
+B) Valor hash de la contraseña del usuario
+C) Valor hash de la combinación de la contraseña del usuario y salt, es decir, h(contraseña+salt)
+D) Valor hash de la contraseña del usuario con el salt, es decir, h(contraseñA.+salt)
+ANSWER: C	
+-
+En el lenguaje de programación Java, ¿Qué método se utiliza para iniciar la ejecución del método run() en una clase que hereda de la clase Thread?
+A) init()
+B) start()
+C) run()
+D) join()
+ANSWER: B
+-
+¿Qué arquitectura de computación paralela requiere una red de interconexión para el intercambio de información compartida?
+A) Arquitectura con memoria compartida.
+B) Arquitectura con memoria distribuida.
+C) Arquitectura con memoria de exclusión mutua.
+D) Arquitectura funcional.
+ANSWER: B
+-
+¿Qué caracteriza a la arquitectura SIMD en comparación con otras arquitecturas de computación paralela, como MIMD?
+A) En SIMD, múltiples procesadores ejecutan diferentes instrucciones al mismo tiempo.
+B) En SIMD, cada procesador ejecuta su propia secuencia de instrucciones de manera independiente.
+C) En SIMD, una única instrucción opera sobre múltiples datos simultáneamente.
+D) En SIMD, los datos se procesan de manera secuencial sin paralelismo.
+ANSWER: C
+
+¿Cómo maneja la arquitectura MIMD la sincronización y comunicación entre múltiples procesadores que ejecutan instrucciones independientes?
+A) Utiliza memoria compartida y mecanismos de sincronización como semáforos y regiones críticas condicionales.
+B) Ejecuta las mismas instrucciones en diferentes datos simultáneamente.
+C) No permite la comunicación entre procesadores.
+D) Utiliza una única unidad de control para todos los procesadores.
+ANSWER: A
+-
+¿Cuál es la característica principal de la arquitectura MISD?
+A) Múltiples procesadores ejecutan diferentes instrucciones sobre un solo conjunto de datos de forma simultánea.
+B) Un solo procesador ejecuta múltiples instrucciones sobre diferentes conjuntos de datos.
+C) Múltiples procesadores ejecutan la misma instrucción sobre diferentes conjuntos de datos.
+D) Múltiples procesadores ejecutan diferentes instrucciones sobre diferentes conjuntos de datos.
+ANSWER:A
+-
+¿Qué biblioteca se utiliza para crear programas paralelos en arquitecturas de memoria distribuida?
+A) math
+B) omp
+C) stdio
+D) mpi
+ANSWER:D
+-
+Las regiones criticas condicionales son:
+A) Secciones de código dentro de un programa concurrente, los hilos deben cumplir una condición especifica antes de poder acceder a ésta.
+B) Secciones de código de un programa secuencial, los hilos deben cumplir una condición especifica antes de poder acceder a ésta.
+C) Secciones de código dentro de un programa concurrente, los hilos acceden a esta sin ningún control.
+D) Secciones de código dentro de un programa concurrente, los hilos no deben cumplir una condición especifica antes de poder acceder a esta.
+ANSWER: A
+-
+En una arquitectura paralela con memoria distribuida, donde cada procesador maneja su propia memoria, ¿Qué metodología se puede utilizar para que los integrantes del clúster se comuniquen los resultados de una simulación entre sí?
+A) Regiones criticas condicionales.
+B) Paso de mensajes.
+C) Simple Programa Multiple Data (SPMD).
+D) La función wait() de un semáforo incremental.
+ANSWER: B
+En programación paralela, un semáforo es:
+A) Una herramienta importante en la programación funcional.
+B) Una metodología de sincronismo entre hilos para acceso a recursos compartidos.
+C) Una metodología de sincronismo para controlar el reloj de los hilos.
+D) Una metodología de sincronismo para control del método run() de los hilos.
+ANSWER:B
+-
+Que librería ayuda a crear programas paralelos en arquitecturas con memoria compartida:
+A) mpi
+B) math
+C) stdio
+D) omp
+ANSWER: D
+-
+¿Qué es el balanceo de carga estático en la programación paralela?
+A) Un enfoque que ajusta la distribución de tareas en tiempo de ejecución.
+B) Un enfoque que redistribuye tareas en función de la carga actual de los procesadores.
+C) Un enfoque que asigna tareas de manera fija antes de la ejecución.
+D) Un enfoque que utiliza algoritmos basados en tiempo de ejecución.
+ANSWER: C
+-
+¿Cuál es el objetivo principal del balanceo de carga dinámico?
+A) Distribuir tareas de forma estática antes de la ejecución.
+B) Maximizar la carga de trabajo en cada procesador.
+C) Mantener una carga equilibrada entre procesadores en tiempo de ejecución.
+D) Desactivar procesadores para reducir el consumo de energía.
+ANSWER: C
+-
+¿En qué situación el balanceo de carga dinámico es especialmente útil?
+A) Cuando la carga de trabajo es uniforme y predecible.
+B) Cuando las tareas tienen duraciones similares.
+C) Cuando la carga de trabajo cambia o es impredecible.
+D) Cuando la comunicación entre procesadores es mínima.
+ANSWER: C
+-
+¿Cuál es una característica clave de la programación distribuida?
+A) Utiliza un único procesador para ejecutar todas las tareas.
+B) Requiere una conexión permanente a internet para funcionar.
+C) Los componentes del sistema pueden estar en diferentes ubicaciones geográficas y comunicarse a través de una red.
+D) Solo puede ejecutarse en sistemas operativos específicos.
+ANSWER: C
+-
+En la programación distribuida, ¿Qué se entiende por "transparencia de ubicación"?
+A) La capacidad de los sistemas para mostrar su ubicación geográfica exacta.
+B) La capacidad de los usuarios y aplicaciones para interactuar con el sistema sin conocer la ubicación física de los componentes.
+C) La habilidad del sistema para cifrar datos en tránsito.
+D) La capacidad del sistema para operar sin conexión a una red.
+ANSWER: B
+-
+En una arquitectura de microservicios, ¿qué técnica se utiliza para gestionar la comunicación entre servicios?
+A) Llamadas directas a base de datos
+B) Integración por mensajería o APIs REST
+C) Acceso a archivos compartidos
+D) Comunicación síncrona directa
+ANSWER: B
+-
+¿Qué es un "API Gateway" en la arquitectura de microservicios?
+A) Una base de datos central
+B) Un punto de acceso único para todas las solicitudes a los microservicios
+C) Un servicio de autenticación de usuarios
+D) Un servidor web tradicional
+ANSWER: B
+-
+¿Qué patrón es común para asegurar la consistencia en una arquitectura de microservicios?
+A) Patrón Singleton
+B) Patrón Saga
+C) Patrón Observer
+D) Patrón Proxy
+ANSWER: B
+-
+¿Cuál es la capa superior en una arquitectura N capas típica?
+A) Capa de datos
+B) Capa de negocio
+C) Capa de presentación
+D) Capa de integración
+ANSWER: C
+-
+¿Qué se entiende por "escalado horizontal"?
+A) Añadir más recursos a un solo nodo
+B) Reducir el número de nodos
+C) Añadir más nodos al sistema
+D) Disminuir la capacidad de red
+ANSWER: C
+-
+¿Qué rol desempeña un "Service Registry" en microservicios?
+A) Almacena datos de usuario
+B) Almacena configuraciones de aplicación
+C) Lleva un registro de los servicios disponibles y sus ubicaciones
+D) Realiza copias de seguridad de la base de datos
+ANSWER: C
+-
+¿Cuál de los siguientes es un patrón estructural?
+A) Factory Method
+B) Builder
+C) Composite
+D) Strategy
+ANSWER: C
+-
+¿Cuál es el propósito del patrón de diseño Factory Method?
+A) Crear objetos sin especificar las clases exactas a instanciar
+B) Notificar cambios a varios objetos
+C) Adaptar interfaces incompatibles
+D) Crear una instancia única de una clase
+ANSWER: A
+-
+¿Cuál es el propósito principal del patrón de diseño Singleton?
+A) Crear una instancia única de una clase
+B) Adaptar interfaces incompatibles
+C) Notificar cambios a los objetos suscritos
+D) Componer objetos en estructuras de árbol
+ANSWER: A
+-
+¿Cuál es un beneficio de la escalabilidad horizontal en microservicios?
+A) Menor uso de memoria.
+B) Posibilidad de añadir más instancias de servicios según la demanda.
+C) Reducción del tiempo de desarrollo.
+D) Dependencia de una sola instancia de servicio.
+ANSWER: B
+-
+¿Cuál es una característica de un sistema de microservicios bien diseñado?
+A) Alta dependencia entre servicios.
+B) Cada microservicio es independiente y puede ser desarrollado y desplegado por separado.
+C) Un único punto de falla.
+D) Baja flexibilidad y escalabilidad.
+ANSWER: B
+-
+¿Qué es el acoplamiento en el diseño de software?
+A) La capacidad de un sistema para funcionar sin intervención humana.
+B) La dependencia entre diferentes componentes de un sistema.
+C) La capacidad de un sistema para escalar horizontalmente.
+D) La velocidad de procesamiento de un sistema.
+ANSWER: B
+-
+¿Qué es el middleware en el contexto de aplicaciones distribuidas?
+A) Un tipo de base de datos distribuida.
+B) Un software que facilita la comunicación y gestión de datos en aplicaciones distribuidas.
+C) Un protocolo de red.
+D) Un lenguaje de programación.
+ANSWER: B
+-
+¿Qué es la interoperabilidad en SOA?
+A) La capacidad de diferentes servicios para interactuar y funcionar juntos.
+B) La capacidad de un servicio para fallar sin impacto.
+C) La ejecución de servicios en una única máquina.
+D) La dependencia de un único proveedor de servicios.
+ANSWER: A
+-
+¿Qué es la observabilidad en el contexto de microservicios?
+A) La capacidad de un sistema para ejecutarse sin intervención humana.
+B) La capacidad de un sistema para ser monitoreado y analizado en tiempo real.
+C) La capacidad de un sistema para operar sin fallos.
+D) La capacidad de un sistema para procesar grandes volúmenes de datos.
+ANSWER: B
+-
+¿Qué es la resiliencia en un sistema distribuido?
+A) La capacidad de un sistema para evitar cualquier fallo.
+B) La capacidad de un sistema para recuperarse y seguir funcionando ante fallos.
+C) La capacidad de un sistema para procesar grandes volúmenes de datos.
+D) La capacidad de un sistema para escalar horizontalmente.
+ANSWER: B
+-
+¿Qué es un patrón de diseño de software?
+A) Un esquema de organización de hardware.
+B) Un conjunto de guías para resolver problemas comunes de diseño de software.
+C) Un modelo de datos relacional.
+D) Una especificación de hardware.
+ANSWER: B
+-
+¿Qué se entiende por consistencia en sistemas distribuidos?
+A) La capacidad de replicar datos sin pérdida de información
+B) La propiedad de que todos los nodos vean el mismo estado de los datos en un momento dado
+C) La habilidad de escalar recursos sin afectar el rendimiento
+D) La transparencia en la ubicación física de los recursos
+ANSWER: B
+-
+¿Cuál de los siguientes estilos arquitectónicos es más adecuado para aplicaciones que deben integrarse con múltiples sistemas externos?
+A) Arquitectura en Capas
+B) Arquitectura Orientada a Servicios (SOA)
+C) Arquitectura de Microservicios
+D) Arquitectura Monolítica
+ANSWER: B
+-
+¿Cuál de los siguientes estilos arquitectónicos es más adecuado para una aplicación que debe ser desplegada y mantenida por un equipo pequeño?
+A) Arquitectura en Capas
+B) Arquitectura Monolítica
+C) Arquitectura de Microservicios
+D) Arquitectura Cliente~Servidor
+ANSWER: B
+-
+¿En qué estilo arquitectónico los componentes son autónomos y se comunican mediante eventos asíncronos?
+A) Arquitectura en Capas
+B) Arquitectura de Microservicios
+C) Arquitectura Orientada a Eventos
+D) Arquitectura Monolítica
+ANSWER: C
+-
+¿Qué comando se utiliza para actualizar todas las herramientas y paquetes instalados del SDK en un entorno de desarrollo Android?
+A) sdkmanager ~~list;
+B) sdkmanager ~~update;
+C) sdkmanager ~~install;
+D) sdkmanager ~~uninstall;
+ANSWER: B
+-
+En su reunión anual llevada a cabo en Pittsburgh, EE.UU., la Sociedad Americana de Dialecto seleccionó una palabra que es una abreviación de "application" (aplicación en español) y se refiere a los programas informáticos que pueden instalarse en teléfonos inteligentes, tabletas o computadoras. ¿Cuál fue esta palabra que se eligió como la palabra del año en 2010?
+A) Application.
+B) App.
+C) Software.
+D) Smartphone.
+ANSWER: B
+-
+¿Cuál es el comando correcto para crear un nuevo proyecto en Flutter desde la línea de comandos? 
+A) flutter init my_app
+B) flutter start my_app
+C) flutter create my_app
+D) flutter new my_app
+ANSWER: C
+-
+¿Cuál es el método principal del ciclo de vida de un StatefulWidget en Flutter que se llama cada vez que el estado del widget cambia? 
+A) initState()
+B) build()
+C) setState()
+D) dispose()
+ANSWER: B
+-
+¿Qué efecto tiene el siguiente código nombre_producto.text = widget.ListData['nombre_producto'] en los campos de texto en una aplicación Flutter?
+A) Asignar el valor de 'nombre_producto' a una variable global.
+B) Establecer el valor del campo de texto nombre_producto con el dato proveniente del mapa widget.ListData.
+C) Inicializar el mapa widget.ListData con el valor de nombre_producto.
+D) Actualizar el estado de la aplicación con el valor de 'nombre_producto.
+ANSWER: B
+-
+¿Qué efecto tiene la llamada a runApp(MyApp()) dentro de la función main() en una aplicación Flutter?
+A) Establece MyApp como el widget raíz de la aplicación.
+B) Configura el entorno de ejecución de Flutter.
+C) Compila el widget MyApp en código nativo.
+D) Define las rutas de navegación de la aplicación.
+ANSWER: A
+-
+¿Cuál es el archivo de configuración donde debes declarar los permisos para acceder a la cámara en una aplicación Flutter?
+A) pubspec.yaml
+B) AndroidManifest.xml y Info.plist
+C) main.dart
+D) build.gradle
+ANSWER: B
+-
+En el siguiente fragmento de código: 'nombre_producto': _listaDatos[index]['nombre_producto'], ¿qué tipo de estructura es _listaDatos?
+A) Un Map que almacena información de producto.
+B) Una lista de mapas, donde cada mapa contiene información sobre un producto.
+C) Una instancia de una clase personalizada que maneja los datos de productos.
+D) Un widget que muestra detalles del producto.
+ANSWER: B
+-
+¿Qué representa el parámetro x en los datos del giroscopio en Flutter?
+A) La velocidad de movimiento hacia adelante y hacia atrás.
+B) La medida de rotación alrededor del eje Y.
+C) La medida de rotación alrededor del eje X.
+D) La orientación del dispositivo en grados.
+ANSWER: C
+-
+¿Qué propiedad de ListView.builder especifica el número total de elementos en la lista?
+A) itemBuilder.
+B) itemCount.
+C) scrollDirection.
+D) padding.
+ANSWER: B
+-
+¿Qué método de la clase Persona se utiliza para proporcionar una representación en cadena de una instancia de la clase?
+A) toString.
+B) toJson.
+C) fromMap.
+D) toText.
+ANSWER: A
+-
+¿Qué información se almacena en la variable respuesta después de ejecutar el siguiente código: " final respuesta = await http.get(Uri.parse('http://192.168.100.17:8080/crud/insertar.php'));" ?
+A) Un objeto http.Response que contiene el código de estado y el cuerpo de la respuesta del servidor.
+B) Una cadena de texto que representa la URL a la que se hizo la solicitud.
+C) Un objeto Uri que representa la URL de la solicitud.
+D) Un valor booleano que indica si la solicitud fue exitosa.
+ANSWER: A
+-
+¿Cómo puedes mostrar un SnackBar condicionalmente en función del éxito o fallo de una operación asíncrona, utilizando un valor booleano isSuccess?
+A) Usando if~else para determinar el mensaje y luego llamar a showSnackBar dentro de un setState con un SnackBar predeterminado.
+B) Llamando a showSnackBar directamente desde la función de llamada asíncrona sin verificar el valor de isSuccess.
+C) Usando un SnackBar con una expresión condicional directamente en el contenido y llamando a showSnackBar fuera de un setState.
+D)  Crear un SnackBar con un mensaje genérico y cambiar el texto dinámicamente en tiempo de ejecución utilizando StatefulWidget.
+ANSWER: C
+-
+La línea de código import 'package:http/http.dart' as http; en Flutter sirve para importar la librería http, que proporciona una serie de herramientas y funcionalidades para realizar solicitudes HTTP.¿Cuales son los usos mas comunes?
+A) conversión de datos JSON 
+B) conversión de datos HTTP 
+C) conversión de datos GSON 
+D) conversión de datos GET 
+ANSWER: A
+-
+¿Cuál es la estructura para decodificar el cuerpo de la respuesta HTTP, que está en formato JSON, y convertirlo en una lista de objetos dinámicos en el contexto de una respuesta HTTP?
+A) List<dynamic> data = jsonEncode(response.body); 
+B) List<dynamic> data = jsonDecode(response.body);
+C) List<dynamic> data = jsonString(response.body);
+D) List<dynamic> data = jsonCode(response.body);
+ANSWER: B
+-
+Un proceso de software es un conjunto de ____________ que conducen a la creación de un producto de software:
+A) Personas
+B) Actividades
+C) Pruebas
+D) Componentes
+ANSWER: B
+-
+¿Cuál no es un elemento típico del proceso de software?:
+A) Estados
+B) Actividad
+C) Rol
+D) Producto
+ANSWER: A
+-
+Algunas actividades para los procesos de software son:
+A) Especificación, diseño, validación, generación. 
+B) Diseño, creación, validación, especificación. 
+C) Especificación, diseño, validación, evolución.
+D) Diseño, ejecución, validación, especificación.
+ANSWER: C
+-
+Se denomina modelo_____________ porque su característica principal es que no se comienza con un paso hasta que no se ha terminado el anterior.
+A) Espiral
+B) Evolutivo
+C) Incremental
+D) Cascada
+ANSWER: D
+-
+¿Cuál no es considerado un modelo genérico?:
+A) Rup 
+B) Cascada
+C) Evolutivo
+D) Prototipado
+ANSWER: A
+-
+El orden que debe seguir las etapas del proceso de software es:
+A) Requisitos, diseño, implementación, pruebas, mantenimiento.
+B) Requisitos, implementación, diseño, mantenimiento, pruebas.
+C) Requisitos, diseño, implementación, mantenimiento, pruebas.
+D) Diseño, requisitos, implementación, pruebas, mantenimiento.
+ANSWER: A
+-
+¿Cuál es el estándar que regula los modelos de evaluación del proceso del ciclo de vida del software?
+A) IEE830 
+B) ISO/IEC 15504
+C) ISO/IEC/IEEE 12507
+D) ISO/IEE 15244
+ANSWER: B
+-
+¿Cuál es considerada una metodología tradicional?
+A) XP
+B) SCRUM
+C) AUP
+D) CASCADA
+ANSWER: D
+-
+El equipo de un proyecto basado en metodología __________ es: cliente, programadores, testers, coach, manager.
+A) AUP
+B) SCRUM
+C) XP
+D) KANBAN
+ANSWER: C
+-
+Es un Software que permite modelar y documentar procesos de negocio basado en el estándar conocido como Business Process Model and Notation (BPMN) (Seleccione una respuesta)
+A) Bizagi
+B) Rational Rose
+C) Microsoft Visio
+D) Start UML
+ANSWER: A
+-
+La ISO 15504 Proporciona un enfoque estructurado para mediar la capacidad de los procesos de:
+A) Red
+B) Software
+C) Web
+D) Requisitos
+ANSWER: B
+-
+La ISO 15504 Es una norma internacionalmente reconocida y ampliamente utilizada. Por ende, pude ser utilizada en:
+A) Empresas Nacionales 
+B) Empresas Nacionales e Internacionales
+C) Empresas Internacionales
+D) Empresas Internacionales, pero no en Nacionales
+ANSWER: B
+-
+¿Cuáles son las ventajas de las normas ISO 15504?
+A) Reducción de riesgos, mejora de la calidad, competitividad, eficiencia y productividad, enfoque en la mejora continua.
+B) Innovación, versatilidad, organizado, novedosa.
+C) Reducción de costes, mejora de calidad, aumento de la productividad, reducción de riesgos.
+D) Innovación, versatilidad, organizado, novedosa, aumento de la productividad, reducción de riesgos.
+ANSWER: A
+-
+¿En qué año fue publicado por primera vez la norma ISO 15504 y bajo que nombre?
+A) 1998 ~ Spice
+B) 1997 ~ Spice
+C) 1998 ~ Space
+D) 1997 ~ Space
+ANSWER: A
+-
+¿En qué se divide la estructura de las normas ISO 15504?
+A) Partes normativas, optimizado, partes no normativas,
+B) Partes normativas, partes no normativas.
+C) Predecible, optimizado, parte normativas.
+D) Realizado, partes normativas, gestionado, partes normativas
+ANSWER: B
+-
+¿Por qué aplicar Ingeniería de Software en videojuegos?
+A) Para que el juego sea mas interesante.
+B) Para cumplir con las normas y estandares.
+C) Para asegurar que el software cumple con el propósito para el que fue creado.
+D) Para el desarrollo con menos presupuesto.
+ANSWER: C
+-
+¿Las etapas del desarrollo de un videojuego son?
+A) Espiral, cascada, iterativo, incremental.
+B) Concepto, Pre~producción, producción, QA y Cierre, Post~Release.
+C) Concepto, producción, QA y Cierre, Post~Release.
+D) Explorar, descubrir,  competir y ganar.
+ANSWER: B
+-
+¿Qué componente de un Game Engine maneja la representación visual del juego?
+A) Motor de Físicas
+B) Motor de Gráficos
+C) Motor de Audio
+D) Motor de Entrada
+ANSWER: B
+-
+¿Qué motor en un Game Engine gestiona la reproducción de efectos de sonido y música?
+A) Motor de Gráficos
+B) Motor de Físicas
+C) Motor de Audio
+D) Motor de Entrada
+ANSWER: C
+-
+¿Qué elemento es crucial para generar inmersión en un juego?
+A) Gráficos avanzados.
+B) Un equilibrio entre reto y habilidad.
+C) Un sistema de puntuación.
+D) Reglas simples.
+ANSWER: B
+-
+¿Cuál de los siguientes es un componente principal de un Game Engine?
+A) Motor de Persistencia
+B) Motor de Animación
+C) Motor de Red
+D) Todas las anteriores
+ANSWER: D
+-
+¿Cuál es la función del Motor de Colisiones en un Game Engine?
+A) Gestionar la reproducción de sonido.
+B) Detectar y resolver colisiones entre objetos.
+C) Renderizar gráficos en 3D.
+D) Controlar las animaciones.
+ANSWER: B
+-
+¿Cuál de los siguientes NO es un factor a tener en cuenta al elegir un motor de juego?
+A) Presupuesto disponible.
+B) Los gráficos y sonidos del juego.
+C) Experiencia del equipo.
+D) Plazos establecidos a cumplir.
+ANSWER: B
+-
+¿Qué es una mecánica de juego?
+A) La historia del juego.
+B) Las reglas y objetivos que definen cómo se juega el juego.
+C) Los gráficos y sonidos del juego.
+D) La plataforma en la que se juega el juego.
+ANSWER: B
+-
+¿Cuál es el propósito principal del Motor de Inteligencia Artificial en un Game Engine?
+A) Renderizar gráficos.
+B) Gestionar la reproducción de audio.
+C) Implementar comportamientos de NPCs.
+D) Organizar las escenas del juego.
+ANSWER: C
+-
+¿Qué tipo de decisiones aportan más interés en un juego?
+A) Decisiones obvias.
+B) Decisiones a ciegas.
+C) Decisiones sin importancia.
+D) Riesgo versus recompensa.
+ANSWER: D
+-
+¿Qué hace el Motor de Networking en un Game Engine?
+A) Gestiona la reproducción de sonido.
+B) Renderiza gráficos en 3D.
+C) Gestiona la comunicación y sincronización en juegos multijugador.
+D) Controla las animaciones.
+ANSWER: C
+-
+¿Indique cual de los siguientes son secciones del documento de concepto?
+A) Gráficos avanzados.
+B) Presupuesto y análisis de riesgos.
+C) Diseñador y líder técnico.
+D) Historia compleja.
+ANSWER: B
+-
+¿Cuál es una técnica para generar inmersión en un juego?
+A) Asegurarse de que los objetivos del juego son inalcanzables.
+B) Asegurarse de que haya un equilibrio entre reto y habilidad.
+C) Proveer gráficos avanzados.
+D) Proveer una historia compleja.
+ANSWER: B
+-
+¿Qué tipo de juegos suelen tener mecánicas de disparo y desplazamiento?
+A) Juegos de rol
+B) Juegos de aventura
+C) Juegos de acción en primera persona
+D) Juegos de deportes
+ANSWER: C
+-
+¿Cuál de las siguientes opciones indica las etapas del proceso de experimentación en SE en el orden adecuado?
+A) Definición del alcance, Planificación, Operación, Análisis e interpretación, Presentación y difusión.
+B) Definición del objeto, Planteamiento, Operacionalización, Arreglo e interpelación, Prestación y discreción.
+C) Planificación, Definición del alcance, Operación, Análisis e interpretación, Presentación y difusión.
+D) Presentación y alcance, Planificación, Operación, Análisis e interpretación, y Definición de la difusión.
+ANSWER: A
+-
+¿Cuál de las siguientes opciones corresponde a la definición de una encuesta?
+A) Es el instrumento (el cuestionario o la lista de verificación) para recopilar información.
+B) Es un sistema integral de recopilación de información para describir, comparar o explicar conocimientos, actitudes y comportamientos.
+C) Estudio que se le realiza a un grupo de personas, estas no representan a una población más amplia.
+D) Es una conversación dirigida, con un propósito especifico y que usa un formato de preguntas y respuestas.
+ANSWER: B
+-
+¿Cuál de las siguientes opciones corresponde a las características de los estudios de control en el diseño de la encuesta?
+A) Reúnen a los participantes y los asignan a grupos experimentales en el mismo momento. Los participantes se asignan a los grupos experimentales al azar.
+B) En este tipo de diseño, las comparaciones entre grupos se basan en datos recopilados en otras encuestas anteriores.
+C) Estos estudios se basan en medidas previas y posteriores al tratamiento, como estudios longitudinales.
+D) Son estudios en los que se solicita información a los participantes antes y después de alguna intervención.
+ANSWER: B
+-
+¿Cuál de las siguientes opciones representa el tipo de estudio de encuesta adecuado para el siguiente caso?: Si estuviéramos evaluando el impacto de las prácticas de contratación en la retención del personal, podríamos querer saber si las personas con una maestría tienen una visión más favorable de sus perspectivas en la empresa que las personas con doctorados. En este caso, el diseño compara el grupo de maestría con el grupo de doctorado, una división natural de los sujetos.
+A) Estudios de control simultáneos en los que los participantes son asignados al azar a grupos.
+B) Cohorte, este tipo de estudio está orientado al futuro, proporcionando información sobre los cambios en una población específica.
+C) Estudios de autocontrol. Estos estudios se basan en medidas previas y posteriores al tratamiento.
+D) Estudios de control simultáneos en los que los participantes no se asignan al azar a los grupos.
+ANSWER: D
+-
+¿Cuáles de las siguientes opciones corresponden a características adecuadas del diseño de una encuesta?
+A) Relaciona la información, cuestiona resultados, evalúa las fuentes.
+B) Tiene sentido en el contexto, proporciona información de cambios.
+C) Es resistente a prejuicios, es apropiada, es rentable.
+D) No se deja influenciar, aclara una percepción, es retrospectiva.
+ANSWER: C
+-
+¿Cuál de las siguientes opciones corresponde al orden de actividades adecuado para realizar una investigación?
+A) Idea, problema, estado del arte, reporte, investigación
+B) Problema, estado del arte, investigación, idea, reporte
+C) Problema, investigación, estado del arte, idea, reporte
+D) Problema, idea, estado del arte, investigación, reporte
+ANSWER: D
+-
+¿Cuál(es) de las siguientes afirmaciones no corresponden a los criterios por los cuales se clasifica la investigación?
+A) De acuerdo con el tipo de problema que se aborda
+B) Según el propósito de carácter teórico o de solución de problemas
+C) Según el tipo de instrumentos utilizados en la recolección, procesamiento y análisis de los datos
+D) De acuerdo con la época en la cual se lleva a cabo la investigación
+ANSWER: D
+-
+¿Cuál de las siguientes afirmaciones representa el orden adecuado de las actividades a realizarse para la definición de una problemática?
+A) Identificación del problema, búsqueda de información, elaboración del problema y formulación del problema
+B) Identificación del problema, observación del problema, revisión de literatura, estructuración del problema y refinamiento del problema
+C) Identificación del problema, estructuración del problema, análisis del problema, planteamiento del problema y revisión de literatura
+D) Identificación del problema, estructuración del problema, análisis del problema, planteamiento del problema y observación del problema
+ANSWER: A
+-
+¿Cuál de los siguientes postulados propone la real importancia de una Revisión de Literatura Preliminar (RLP)?
+A) A través de un RLP se sintetiza la información relevante de los estudios primarios de una manera razonable, se obtienen resultados con valor científico
+B) Toda investigación inicia con una RLP, se obtienen importantes resultados de tipo observacional y se minimizan los trabajos existentes
+C) Identifica, evalúa e interpreta toda la información relevante a un área temática, fenómeno de interés o pregunta de investigación
+D) Un RLP es un estudio secundario a través del cual se pueden generalizar los hallazgos obtenidos
+ANSWER: A
+-
+¿Qué es la investigación científica?
+A) El proceso sistemático de recopilación y análisis de información (datos) para aumentar la comprensión sobre el fenómeno que nos concierne o nos interesa.
+B) El proceso sincrónico de recopilación y análisis de información (datos) para aumentar la comprensión sobre el fenómeno que nos concierne o nos interesa
+C) El proceso sistemático de creación y análisis de información (datos) para aumentar la comprensión sobre el fenómeno que nos concierne o nos interesa
+D) El proceso sistemático de síntesis de información (datos) para aumentar la comprensión sobre el fenómeno que nos concierne o nos interesa.
+ANSWER: A
+-
+¿Cuáles de las siguientes opciones representa una razón razonable para llevar a cabo un experimento en Ingeniería de Software?
+A) Para validar y verificar el código fuente.
+B) Para evaluar la efectividad de diferentes metodologías de desarrollo.
+C) Para inhibir la interacción del usuario con el software.
+D) Para determinar las preferencias de color en la interfaz de usuario.
+ANSWER: B
+-
+¿Cuál de las siguientes opciones representa un ejemplo de variable dependiente que es comúnmente investigada a través de experimentos en Ingeniería de Software?
+A) El sistema operativo de los servidores.
+B) El número de desarrolladores en el equipo.
+C) La satisfacción del usuario.
+D) El lenguaje de programación utilizado.
+ANSWER: C
+-
+¿Cuál de las siguientes opciones representa una ventaja de los diseños factoriales fraccionados en la experimentación en Ingeniería de Software?
+A) Simplifican los requisitos de hardware.
+B) Permiten un análisis más detallado de las interacciones entre factores.
+C) Permiten una mayor variabilidad entre los sujetos de prueba.
+D) Son más costosos de implementar que los diseños factoriales completos.
+ANSWER: B
+-
+¿Qué afirmación de las siguientes es cierta respecto a los cuasiexperimentos en Ingeniería de Software?
+A) Requieren asignación aleatoria de los participantes a los grupos de control y experimental.
+B) No permiten la inferencia de relaciones causales.
+C) Permiten estudiar el efecto de intervenciones en situaciones reales.
+D) Generalmente conducen a resultados menos fiables que los estudios observacionales.
+ANSWER: C
+-
+¿Qué métodos se pueden usar para recopilar datos en la experimentación en ingeniería de software?
+A) Entrevistas personales.
+B) Revisiones de código manual.
+C) Observaciones directas.
+D) Análisis de registros de versiones de software.
+ANSWER: D
+-
+El estudio de caso:
+A) permite recolectar información estandarizada de una población específica.
+B) mide el efecto de manipular variables.
+C) Este tipo de investigación pretende cambiar el fenómeno estudiado.
+D) es un estudio de campo u observacional.
+ANSWER: D
+-
+Un experimento
+A) permite recolectar información estandarizada de una población específica.
+B) es un estudio de campo u observaciones.
+C) Este tipo de investigación pretende cambiar el fenómeno estudiado.
+D) mide el efecto de manipular variables.
+ANSWER: D
+-
+La encuesta
+A) mide el efecto de manipular variables 
+B) permite recolectar información estandarizada de una población específica.
+C) es un estudio de campo u observaciones.
+D) Este tipo de investigación pretende cambiar el fenómeno estudiado.
+ANSWER: B
+-
+La investigación acción:
+A) permite recolectar información estandarizado de una población específica.
+B) mide el efecto de manipular variables.
+C) es un estudio de campo u observacionales.
+D) Este tipo de investigación pretende cambiar el fenómeno estudiado.
+ANSWER: D
+-
+La investigación de tipo mejora:
+A) busca qué es lo que sucede y genera ideas e hipótesis para nuevas investigaciones.
+B) describe el estado actual de una situación o fenómeno.
+C) busca la explicación para una situación o problema (en forma de relación causal)
+D) Intenta mejorar algún aspecto del fenómeno estudiado.
+ANSWER: D
+-
+La investigación descriptiva
+A) busca qué es lo que sucede y genera ideas e hipótesis para nuevas investigaciones.
+B) describe el estado actual de una situación o fenómeno.
+C) busca la explicación para una situación o problema (en forma de relación causal)
+D) Intenta mejorar algún aspecto del fenómeno estudiado.
+ANSWER: B
+-
+La investigación explicativa
+A) busca qué es lo que sucede y genera ideas e hipótesis para nuevas investigaciones.
+B) describe el estado actual de una situación o fenómeno.
+C) busca la explicación para una situación o problema (en forma de relación causal)
+D) Intenta mejorar algún aspecto del fenómeno estudiado.
+ANSWER: C
+-
+La investigación exploratoria
+A) busca qué es lo que sucede y genera ideas e hipótesis para nuevas investigaciones.
+B) describe el estado actual de una situación o fenómeno.
+C) busca la explicación para una situación o problema (en forma de relación causal)
+D) Intenta mejorar algún aspecto del fenómeno estudiado.
+ANSWER: A
+-
+Las revisiones  de literatura son un tipo de investigación:
+A) Primaria
+B) Secundaria
+C) Terciaria
+D) Cuaternaria
+ANSWER: B
+-
+Los mapeos sistemáticos son un tipo de estudio:
+A) Primario
+B) Secundario
+C) Terciario
+D) Cuaternario
+ANSWER: B
+-
+¿Cuál de las siguientes opciones indica las etapas del proceso de experimentación en SE en el orden adecuado?
+A) Definición del alcance, Planificación, Operación, Análisis e interpretación, Presentación y difusión.
+B) Definición del objeto, Planteamiento, Operacionalización, Arreglo e interpelación, Prestación y discreción.
+C) Planificación, Definición del alcance, Operación, Análisis e interpretación, Presentación y difusión.
+D) Presentación y alcance, Planificación, Operación, Análisis e interpretación, y Definición de la difusión.
+ANSWER: A
+-
+¿Cuál de las siguientes opciones corresponde a la definición de una encuesta?
+A) Es el instrumento (el cuestionario o la lista de verificación) para recopilar información.
+B) Es un sistema integral de recopilación de información para describir, comparar o explicar conocimientos, actitudes y comportamientos.
+C) Estudio que se le realiza a un grupo de personas, estas no representan a una población más amplia.
+D) Es una conversación dirigida, con un propósito especifico y que usa un formato de preguntas y respuestas.
+ANSWER: B
+-
+¿Cuál de las siguientes opciones corresponde a las características de los estudios de control en el diseño de la encuesta?
+A) Reúnen a los participantes y los asignan a grupos experimentales en el mismo momento. Los participantes se asignan a los grupos experimentales al azar.
+B) En este tipo de diseño, las comparaciones entre grupos se basan en datos recopilados en otras encuestas anteriores.
+C) Estos estudios se basan en medidas previas y posteriores al tratamiento, como estudios longitudinales.
+D) Son estudios en los que se solicita información a los participantes antes y después de alguna intervención.
+ANSWER: B
+-
+¿Cuál de las siguientes opciones representa el tipo de estudio de encuesta adecuado para el siguiente caso?: Si estuviéramos evaluando el impacto de las prácticas de contratación en la retención del personal, podríamos querer saber si las personas con una maestría tienen una visión más favorable de sus perspectivas en la empresa que las personas con doctorados. En este caso, el diseño compara el grupo de maestría con el grupo de doctorado, una división natural de los sujetos.
+A) Estudios de control simultáneos en los que los participantes son asignados al azar a grupos.
+B) Cohorte, este tipo de estudio está orientado al futuro, proporcionando información sobre los cambios en una población específica.
+C) Estudios de autocontrol. Estos estudios se basan en medidas previas y posteriores al tratamiento.
+D) Estudios de control simultáneos en los que los participantes no se asignan al azar a los grupos.
+ANSWER: D
+-
+¿Cuál de las siguientes opciones corresponden a características adecuadas del diseño de una encuesta?
+A) Relaciona la información, cuestiona resultados, evalúa las fuentes.
+B) Tiene sentido en el contexto, proporciona información de cambios.
+C) Es resistente a prejuicios, es apropiada, es rentable.
+D) No se deja influenciar, aclara una percepción, es retrospectiva.
+ANSWER: C
+-
+¿Cuál de las siguientes opciones corresponde al orden de actividades adecuado para realizar una investigación?
+A) Idea, problema, estado del arte, reporte, investigación
+B) Problema, estado del arte, investigación, idea, reporte
+C) Problema, investigación, estado del arte, idea, reporte
+D) Problema, idea, estado del arte, investigación, reporte
+ANSWER: D
+-
+¿Cuál de las siguientes afirmaciones no corresponden a los criterios por los cuales se clasifica la investigación?
+A) De acuerdo al tipo de problema que se aborda
+B) Según el propósito de carácter teórico o de solución de problemas
+C) Según el tipo de instrumentos utilizados en la recolección, procesamiento y análisis de los datos
+D) De acuerdo a la época en la cual se lleva a cabo la investigación
+ANSWER: D
+-
+¿Cuál de las siguientes afirmaciones representa el orden adecuado de las actividades a realizarse para la definición de una problemática?
+A) Identificación del problema, búsqueda de información, elaboración del problema y formulación del problema
+B) Identificación del problema, observación del problema, revisión de literatura, estructuración del problema y refinamiento del problema
+C) Identificación del problema, estructuración del problema, análisis del problema, planteamiento del problema y revisión de literatura
+D) Identificación del problema, estructuración del problema, análisis del problema, planteamiento del problema y observación del problema
+ANSWER: A
+-
+¿Cuál de los siguientes postulados propone la real importancia de una Revisión de Literatura Preliminar (RLP)?
+A) A través de un RLP se sintetiza la información relevante de los estudios primarios de una manera razonable, se obtienen resultados con valor científico
+B) Toda investigación inicia con una RLP, se obtienen importantes resultados de tipo observacional y se minimizan los trabajos existentes
+C) Identifica, evalúa e interpreta toda la información relevante a un área temática, fenómeno de interés o pregunta de investigación
+D) Un RLP es un estudio secundario a través del cual se pueden generalizar los hallazgos obtenidos
+ANSWER: A
+-
+¿Qué es la investigación científica?
+A) El proceso sistemático de recopilación y análisis de información (datos) para aumentar la comprensión sobre el fenómeno que nos concierne o nos interesa.
+B) El proceso sincrónico de recopilación y análisis de información (datos) para aumentar la comprensión sobre el fenómeno que nos concierne o nos interesa
+C) El proceso sistemático de creación y análisis de información (datos) para aumentar la comprensión sobre el fenómeno que nos concierne o nos interesa
+D) El proceso sistemático de síntesis de información (datos) para aumentar la comprensión sobre el fenómeno que nos concierne o nos interesa.
+ANSWER: A
+-
+¿Qué opción de envío de mensajes se utiliza cuando un dispositivo (host) envía un mensaje a todos los dispositivos de una VLAN, por ejemplo, al usar el protocolo ARP?
+A) Multicast
+B) Broadcast
+C) Unicast
+D) Anycast
+ANSWER: B
+-
+El formato comprimido más corto de la dirección IPv6 2015:0000:0000:0000:1234:0000:0000:00AB es:
+A) 2015:0:0:0:1234:0:0:00AB 
+B) 2015::1234::AB 
+C) 2015::1234:0:0:AB 
+D) 215::1234:::AB 
+ANSWER: C
+-
+¿Cuántas direcciones útiles (hosts) se encuentran disponibles en la red 192.168.10.0/28?
+A) 6 hosts
+B) 14 hosts
+C) 16 hosts
+D) 8 hosts
+ANSWER: B
+-
+Según el Modelo OSI, ¿Cuál es el PDU de la Capa 2 y qué direccionamiento se emplea en dicha capa?
+A) Paquete – Direccionamiento Físico
+B) Trama – Direccionamiento Físico
+C) Trama – Direccionamiento Lógico
+D) Paquete – Direccionamiento Lógico
+ANSWER: B
+-
+¿Cuántos dominios de broadcast existen si el switch está configurado con 4 VLANs de Datos y están conectados 8 hosts a él, 2 hosts por cada VLAN?
+A) 5
+B) 4
+C) 6
+D) 8
+ANSWER: B
+-
+Seleccione una función de la VLAN Nativa:
+A) Sirve como VLAN de administración para SSH del switch
+B) Se usa para dar seguridad a los puertos de acceso
+C) Recibe tráfico de VLAN que no está en su tabla de enrutamiento del switch
+D) Sirve para recibir tráfico no etiquetado (sin marca de VLAN)
+ANSWER: D
+-
+Dada la dirección IPv4 10.10.10.0/26, ¿Cuál es la siguiente subred?:
+A) 10.10.10.0/24
+B) 10.10.10.64/26
+C) 10.10.10.32/26
+D) 11.10.10.0/26
+ANSWER: B
+-
+Indique el nombre de la Tabla donde se encuentran las mejores rutas a un destino en un Router.
+A) Tabla de Enrutamiento
+B) Tabla de Direcciones MAC
+C) Tabla de Topología
+D) Tabla de Adyacencia
+ANSWER: A
+-
+¿Cuál es el nombre del protocolo de enrutamiento dinámico que tiene como algoritmo a Dijkstra, es considerado de tipo Estado de Enlace y emplea áreas en su configuración?
+A) EIGRP
+B) BGP
+C) OSPF
+D) RIP
+ANSWER: C
+-
+¿Cuál es el estándar que define al puerto troncal en un switch en un entorno conmutado?
+A) IEEE 802.3
+B) IEEE 802.11n
+C) IEEE 802.15
+D) IEEE 802.1q
+ANSWER: D
+-
+De cada Trabajo Relacionado es recomendable generar un resumen con su respectivo análisis que tenga una extensión de:
+A) 1 párrafo.
+B) 2 párrafo.
+C) 3 párrafo.
+D) 4 párrafo.
+ANSWER: A
+-
+En la Introducción de una paper debe identificar al menos lo siguiente:
+A) Contexto, problema, deficiencias de soluciones previas, idea básica de la solución /enfoque del paper, contribución y descripción.
+B) Contexto, problema, trabajos relacionados, idea básica de la solución /enfoque del paper, contribución y descripción.
+C) Contexto, problema, deficiencias de soluciones previas, descripción de la solución /enfoque del paper, contribución y descripción.
+D) Contexto, problema, deficiencias de soluciones previas, idea básica de la solución /enfoque del paper y descripción.
+ANSWER: A
+-
+Escoger el párrafo que pueda ser incluido en la sección de Propuesta de Solución de un paper.
+A) Nuestra propuesta de solución es un framework que integra actividades de desarrollo de aplicaciones según el estándar IEEE 1074~1997 [13] y el Software Engineering Body of Knowledge SWEBOK [14] con la gestión de actividades presentadas por SCRUM [15] y los aspectos relevantes del diseño de aplicaciones móviles identificadas en la revisión de la literatura y la industria [2]. El framework está formado por tres capas, la primera capa está confirmada por las actividades de desarrollo del proceso de ciclo de vida del software. El segundo es el Scrum Core en el que se utiliza la idea Sprint para gestionar el desarrollo de la aplicación. Finalmente, la tercera capa contiene los aspectos relevantes para el diseño de aplicaciones móviles.
+B) De acuerdo con Kroll y Haustein et al [3] estamos en la revolución de la tecnología móvil e inalámbrica y su uso en diferentes entornos como universidades, escuelas y marketing, bajo estas premisas desarrollamos MAvBT. Mi sistema consta de un servidor de aplicaciones, una aplicación de cliente y un sitio web que permite a los instructores editar materiales y compartir sus propios documentos e información del curso en cualquier momento al cliente para obtener comentarios apropiados e informes relevantes. El servidor de aplicaciones que utiliza MAvBT est† dedicado a manejar las solicitudes de los clientes y responderlas. La aplicación cliente está diseñada para ser almacenada en los teléfonos móviles del estudiante, lo que les permite acceder a la información requerida a través de MAvBT. La tecnología de Bluetooth representa el medio de transmisión entre el servidor y el cliente.
+C) La solución que propongo es un framework que integra actividades de desarrollo de aplicaciones según el estándar IEEE 1074~1997 [13] y el Software Engineering Body of Knowledge SWEBOK [14] con la gestión de actividades presentadas por SCRUM [15] y los aspectos relevantes del diseño de aplicaciones móviles identificadas en la revisión de la literatura y la industria [2]. El framework está formado por tres capas, la primera capa está confirmada por las actividades de desarrollo del proceso de ciclo de vida del software. El segundo es el Scrum Core en el que se utiliza la idea Sprint para gestionar el desarrollo de la aplicación. Finalmente, la tercera capa contiene los aspectos relevantes para el diseño de aplicaciones móviles.
+ANSWER: A
+-
+Escoger el párrafo que pueda ser incluido en una sección de Trabajos Relacionados en un paper.
+A) Los comentarios del código fuente se consideran parte indispensable de los programas de computadora. Los comentarios dentro del código son a menudo los que compensan la falta de documentación de software adecuada, además son los medios principales para implementar la documentación y facilitar la comprensión del programa. Por lo tanto, su calidad debería ser una preocupación principal para mejorar el mantenimiento del programa. Shinyama et al. [2] al concluir su investigación presenta un intento de desarrollar un marco para recopilar y analizar comentarios de código fuente en detalle. Propone un modelo de comentarios, que tiene tres elementos: extensión, objetivo y categoría.
+B) Santos et al. [6] combinan el aprendizaje basado en retos (CBL) con Scrum para el desarrollo de aplicaciones móviles. CBL es un marco de aprendizaje que se utiliza para identificar las funcionalidades de la app y generar tanto el Product Backlog como Sprint Backlog. Scrum se utiliza para gestionar el desarrollo de la app a través de los sprints. Esta propuesta, en principio, trata por separado la definición del concepto de producto, para el que se aplica CBL, y el desarrollo de la app, para el que se aplica Scrum. Luego intenta vincular las últimas fases de CBL al Sprint que se está ejecutando. Esta propuesta no considera las características específicas del entorno móvil. La principal deficiencia de esta propuesta es que CBL es un framework de aprendizaje y, por lo tanto, el valor de aplicarlo al desarrollo de software es discutible. No obstante, reconocemos el beneficio de tratar por separado la definición del concepto de producto y los sprints Scrum estándar posteriores.
+C) Steidl et al. [3], presenta un primer enfoque detallado para el análisis y evaluación de comentarios de código. En el cual utiliza un aprendizaje automático para la clasificación de comentarios y proporciona la base para un modelo de calidad de comentarios. El modelo describe detalladamente atributos de calidad en términos de coherencia, consistencia y utilidad. Con el coeficiente de coherencia y el indicador de longitud, proporciona dos métricas para evaluar la calidad en atributos del modelo y los evalúe con una encuesta entre desarrolladores experimentados.
+ANSWER: B
+-
+Escoger el párrafo que pueda ser incluido en una sección de Trabajos Relacionados en un paper.
+A) Flora and Chande et al. [2] realizaron una revisión similar a la realizada por Corral et al. [3], y también se centró en métodos ágiles para el desarrollo de aplicaciones móviles. Flora et al [2] identificaron cuatro de los mismos modelos que Corral et al. [3], es decir, Mobile~D, MASAM, Hybrid y SLeSS. TambiÇn identific¢ un artículo adicional de Dooms et al [4] que analiza un enfoque llamado RaPiD7. Sin embargo, no es relevante para nuestra revisión porque el modelo no está diseñado específicamente para el desarrollo de aplicaciones móviles.
+B) Flora et al. [2] realizaron una revisión similar a la realizada por Corral et al. [3], y también se centró en métodos ágiles para el desarrollo de aplicaciones móviles. Flora et al. [2] identificaron cuatro de los mismos modelos que Corral et al. [3], es decir, Mobile~D, MASAM, Hybrid y SLeSS. También identificó un artículo adicional de Dooms et al. [4] que analiza un enfoque llamado RaPiD7. Sin embargo, no es relevante para nuestra revisión porque el modelo no está diseñado específicamente para el desarrollo de aplicaciones móviles.
+C) La referencia [1] presentó a Bluetooth como una especificación industrial para redes de †rea personal inalámbricas que proporciona una forma de conectar e intercambiar información entre dispositivos, como teléfonos móviles, computadoras portátiles, PC, impresoras y cámaras digitales a través de un sistema seguro, de bajo costo y sin licencia global de radiofrecuencia de corto alcance.
+ANSWER: B
+-
+¿Qué tipo de artículo científico se centra en presentar argumentos y opiniones sobre un tema específico basados en la investigación y la evidencia?
+A) Revisión bibliográfica
+B) Artículo de opinión
+C) Estudio de caso
+D) Informe técnico
+ANSWER: B
+-
+¿Cuál de las siguientes prácticas puede llevar a un rechazo rápido de un artículo científico?
+A) La presentación de datos complejos
+B) La falta de adecuada revisión por pares
+C) La inclusión de resultados preliminares
+D) La omisión de detalles sobre el diseño experimental
+ANSWER: B
+-
+¿Qué tipo de problemas éticos pueden resultar en el rechazo de un artículo científico?
+A) El uso de estadísticas avanzadas
+B) El plagio o la duplicación de publicaciones
+C) La falta de financiamiento para la investigación
+D) La inclusión de agradecimientos a colegas
+ANSWER: B
+-
+¿Qué tipo de revisión por pares es considerada la más rigurosa y puede aumentar la credibilidad de una revista?
+A) Revisión abierta
+B) Revisión ciega simple
+C) Revisión doble ciega
+D) Revisión por pares en grupo
+ANSWER: C
+-
+¿Qué tipo de revista generalmente tiene un factor de impacto más alto?
+A) Revistas de acceso abierto
+B) Revistas de revisión por pares
+C) Revistas de acceso restringido
+D) Revistas de divulgación científica
+ANSWER: B
+-
+¿Qué es el factor de impacto de una revista y cómo se relaciona con la visibilidad de una publicación científica?
+A) Es el número de citas recibidas por un artículo específico y no tiene relación con la visibilidad.
+B) Es una medida de la influencia de una revista en el campo académico y puede influir en la visibilidad de la publicación.
+C) Es el número total de veces que un artículo ha sido impreso en una revista y no está relacionado con la visibilidad.
+D) Es el número de autores que han contribuido a un artículo y no tiene impacto en la visibilidad de la publicación.
+ANSWER: B
+-
+¿Qué métrica es útil para evaluar la calidad y el impacto de una revista científica en un campo específico?
+A) Factor de impacto
+B) Número total de artículos publicados
+C) Factor de carga de la revista
+D) Promedio de citas por artículo
+ANSWER: A
+-
+¿Qué plataforma ofrece métricas como el índice h y las citas por autor para medir la visibilidad y el impacto de un investigador?
+A) Scopus
+B) ORCID
+C) Web of Science
+D) Google Scholar
+ANSWER: D
+-
+¿Cuál de los siguientes factores puede influir en el factor de impacto de una revista?
+A) La longitud promedio de los artículos publicados
+B) El número de autores por artículo
+C) El idioma en que se publican los artículos
+D) Todas las anteriores
+ANSWER: D
+-
+¿Cuál de los siguientes formatos es ampliamente utilizado para la publicación de artículos científicos en revistas académicas revisadas por pares?
+A) PDF
+B) DOCX
+C) HTML
+D) LaTeX
+ANSWER: A
+-
+En la investigación de procesos académico/científicos el aspecto ____________, define del escenario su ______________; es decir lo que es, ________________ y lo que podría llegar a ser
+A) Sistémico~razón de ser~en realidad
+B) Ontológico~naturaleza~lo que no es
+C) Inductivo~particularidad~en esencia
+D) Plano~estructura~secuencial
+ANSWER: B
+-
+Son características de la investigación transversal
+A) Inducción, deducción, promulgación
+B) De largo aliento, objetivo claro, no importa el tiempo
+C) Profesionalizante, tiempo definido, objetivos con entregables 
+D) Pregunta de investigación, resultado previo, hipótesis nula
+ANSWER: C	
+-
+Web of Science
+A) Es un índice para publicaciones de alto impacto
+B) Es un repositorio donde se almacenan las publicaciones de alto impacto
+C) Es una página web de noticias sobre publicaciones de alto impacto
+D) Distribuye índices para publicaciones de alto impacto
+ANSWER: B
+-
+SCIMAGO
+A) Es un índice de ranking de publicaciones en Web of Science
+B) Es él índice de ranking de los Journals en SCOPUS
+C) Rankea las publicaciones de proceedings en SCOPUS
+D) Permite rankear los artículos publicados en conferencias internacionales
+ANSWER: B
+-
+Son índices de calidad en el ranking de Journals
+A) SJR, ESCI, JCR
+B) JCR, Mendely, SNIP
+C) Mendely, Zotero, Chicago
+D) JCR, Zotero, Cite~Score
+ANSWER: A
+-
+Corresponde a una revisión de la literatura (SLR)
+A) Especificar al detalle los aspectos de una particularidad de la revisión
+B) Demanda un abordaje antológico, epistemológico y metodológico
+C) Es indispensable un estudio de factibilidad
+D) La representación esquemática del enfoque sistémico corresponde a una SLR
+ANSWER: B
+-
+Un proceso de búsqueda de documentos / estudios / trabajos en un estudio sistemático de mapeo (SMS)
+A) Es realizado con base en preguntas de investigación
+B) Es desarrollado por temas / tópicos
+C) Se esquematiza observando el enfoque sistémico a bajo nivel
+D) No es desarrollado sobre el resultado de una SLR
+ANSWER: B
+-
+En el desarrollo de _____, las preguntas de __________ se elaboran con base en la definición _________ del escenario y la estructura ____________ del negocio
+A) SJR~promulgación~promoción~dinámica
+B) SMS~búsqueda~cadenas~plana
+C) SLR~investigación~ontológica~epistemológica
+D) JCR~publicación~IMRAD~jerárquica
+ANSWER: C
+-
+Son estrategias para elaborar un estado del arte
+A) Levantamiento de la situación actual, estudio de factibilidad, línea base
+B) SLR, SMS, proyecciones, conclusiones, recomendaciones 
+C) Metodología, SMS, hallazgos, conclusiones
+D) SLR, hallazgos, discusión, conclusiones
+ANSWER: B
+-
+El estado del arte
+A) Es el reporte gerencial que soporta toda investigación
+B) Es un resumen de la SLR y del SMS
+C) Es un método longitudinal de la investigación
+D) Es la definición de la línea base.
+ANSWER: A
+-
+¿Cuál de las siguientes afirmaciones describe mejor un aspecto clave del proceso de revisión por pares en las publicaciones científicas?
+A. Los revisores evalúan los artículos para asegurarse de que respalden las creencias populares.
+B. Los autores eligen a sus amigos como revisores para obtener críticas positivas.
+C. Expertos independientes evalúan y comentan sobre la calidad y validez de un artículo antes de su publicación.
+D. Los editores seleccionan artículos basándose únicamente en la originalidad del tema.
+ANSWER: C
+-
+¿Cuál de las siguientes afirmaciones describe mejor la diferencia entre un artículo publicado en un "journal" y un artículo en "proceedings" en el contexto de las publicaciones científicas?
+A. Los artículos en "journals" suelen ser revisados por pares, mientras que los artículos en "proceedings" no pasan por un proceso de revisión.
+B. Los artículos en "proceedings" se centran en investigaciones más sólidas y establecidas, mientras que los "journals" presentan trabajos más experimentales.
+C. Los "journals" son específicos de conferencias y eventos, mientras que los "proceedings" abarcan una variedad de temas en un campo específico.
+D. Los "proceedings" son ideales para resultados preliminares, mientras que los "journals" publican investigaciones más concluyentes.
+ANSWER: A
+-
+¿Cuál de las siguientes opciones describe mejor el propósito de la indexación en el contexto de las publicaciones científicas?
+A. La indexación garantiza que solo los artículos escritos por autores reconocidos sean publicados.
+B. La indexación facilita la búsqueda y recuperación eficiente de información científica relevante.
+C. La indexación determina la popularidad de un artículo científico entre la comunidad académica.
+D. La indexación evalúa la originalidad de un artículo antes de su inclusión en una revista científica.
+ANSWER: B
+-
+¿Cuál de las siguientes opciones describe mejor la función principal de motores de búsqueda especializados en publicaciones científicas, como Scopus, PubMed o IEEE Xplore?
+A. Proporcionar noticias y actualizaciones sobre avances científicos.
+B. Facilitar la comunicación entre investigadores de diferentes disciplinas.
+C. Permitir a los usuarios buscar y acceder a artículos científicos y literatura especializada.
+D. Evaluar la calidad y originalidad de los artículos antes de su publicación.
+ANSWER: C
+-
+¿Cuál de las siguientes afirmaciones describe mejor el papel de las herramientas de inteligencia artificial en la escritura de publicaciones científicas?
+A. Las herramientas de inteligencia artificial reemplazan por completo la necesidad de participación humana en la redacción de artículos científicos.
+B. Estas herramientas asisten a los autores proporcionando sugerencias y mejoras en la redacción, pero la creatividad y la interpretación humana siguen siendo esenciales.
+C. Las herramientas de inteligencia artificial solo son útiles para la corrección gramatical y no tienen impacto en la calidad del contenido científico.
+D. La inteligencia artificial en la escritura científica se limita a la generación automática de datos y resultados, sin intervención humana.
+ANSWER: B
+-
+¿Cuál es el primer paso recomendado al realizar una revisión preliminar de literatura?
+A. Recolectar datos primarios
+B. Definir la pregunta de investigación
+C. Seleccionar la muestra de estudio
+D. Analizar los resultados finales
+ANSWER: B
+-
+¿Cuál es la función principal de la síntesis de la literatura en una revisión preliminar?
+A. Repetir información conocida
+B. Organizar y resumir hallazgos
+C. Excluir datos relevantes
+D. Ignorar estudios previos
+ANSWER: B
+-
+¿Cuál de las siguientes opciones describe mejor el propósito de un Estudio Sistemático de Mapeo (Mapping Study) en el contexto de la escritura de una publicación científica?
+A. Identificar y analizar las tendencias de mercado relacionadas con un tema específico.
+B. Evaluar críticamente la calidad y originalidad de un conjunto de artículos científicos.
+C. Mapear y clasificar la investigación existente en un área temática determinada.
+D. Realizar experimentos controlados para recopilar datos sobre un fenómeno específico.
+ANSWER: C
+-
+En el contexto de la escritura de una publicación científica técnica, ¿cuál de las siguientes opciones describe mejor la norma y estilo para citas y referencias?
+A. El estilo MLA, ampliamente utilizado en tecnología, utiliza números de referencia para las citas y una lista de referencias al final.
+B. El estilo IEEE se utiliza comúnmente en ciencias sociales y utiliza el formato de autor~página para las citas en el texto.
+C. El estilo APA, predominante en ingeniería, utiliza el formato de número de referencia en corchetes para las citas y organiza las referencias alfabéticamente.
+D. El estilo Harvard, común en publicaciones técnicas, utiliza el formato de autor~año para las citas en el texto y una bibliografía al final.
+ANSWER: C
+-
+En la escritura de una publicación científica técnica, ¿cuál de las siguientes opciones describe mejor la metodología IMRAD?
+A. IMRAD se refiere a la recolección de datos a través de métodos innovadores y avanzados.
+B. IMRAD organiza una publicación en secciones de Introducción, Metodología, Resultados y Discusión.
+C. IMRAD se utiliza para destacar la importancia del estudio y su relevancia en la literatura existente.
+D. IMRAD es un enfoque para la revisión crítica de literatura relevante antes de iniciar la investigación.
+ANSWER: B
+-
+
+
+
+
+
+
+

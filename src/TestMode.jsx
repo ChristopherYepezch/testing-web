@@ -1,82 +1,98 @@
 import React, { useState, useEffect } from 'react';
-import { AlertCircle, CheckCircle } from 'lucide-react';
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import { shuffle } from 'lodash';
 
 const TestMode = ({ questions }) => {
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [score, setScore] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(60);
-  const [quizEnded, setQuizEnded] = useState(false);
-  const [showFeedback, setShowFeedback] = useState(false);
-  const [isCorrect, setIsCorrect] = useState(false);
+  const [testQuestions, setTestQuestions] = useState([]);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [answers, setAnswers] = useState({});
+  const [timeLeft, setTimeLeft] = useState(2 * 60 * 60); // 2 hours in seconds
+  const [testEnded, setTestEnded] = useState(false);
 
   useEffect(() => {
-    if (timeLeft > 0 && !quizEnded) {
+    // Select and shuffle 60 random questions
+    const shuffledQuestions = shuffle(questions).slice(0, 60);
+    setTestQuestions(shuffledQuestions);
+  }, [questions]);
+
+  useEffect(() => {
+    if (timeLeft > 0 && !testEnded) {
       const timer = setTimeout(() => setTimeLeft(timeLeft - 1), 1000);
       return () => clearTimeout(timer);
-    } else if (timeLeft === 0 && !quizEnded) {
-      endQuiz();
+    } else if (timeLeft === 0) {
+      endTest();
     }
-  }, [timeLeft, quizEnded]);
+  }, [timeLeft, testEnded]);
 
-  const handleAnswer = (selectedAnswer) => {
-    const correct = selectedAnswer === questions[currentQuestion].answer;
-    setIsCorrect(correct);
-    setShowFeedback(true);
-    if (correct) setScore(score + 1);
-    
-    setTimeout(() => {
-      setShowFeedback(false);
-      if (currentQuestion < questions.length - 1) {
-        setCurrentQuestion(Math.floor(Math.random() * questions.length));
-      } else {
-        endQuiz();
-      }
-    }, 1000);
+  const handleAnswer = (answer) => {
+    setAnswers({ ...answers, [currentQuestionIndex]: answer });
   };
 
-  const endQuiz = () => {
-    setQuizEnded(true);
+  const navigateToQuestion = (index) => {
+    setCurrentQuestionIndex(index);
   };
 
-  if (quizEnded) {
-    return (
-      <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
-        <h2 className="text-2xl font-bold mb-4">¡Cuestionario terminado!</h2>
-        <p className="text-lg">Tiempo restante: {timeLeft} segundos</p>
-        <p className="text-lg">Puntuación: {score} de {questions.length}</p>
-      </div>
-    );
+  const endTest = () => {
+    setTestEnded(true);
+    // Here you would typically submit the answers or calculate the score
+  };
+
+  const formatTime = (seconds) => {
+    const hours = Math.floor(seconds / 3600);
+    const minutes = Math.floor((seconds % 3600) / 60);
+    const secs = seconds % 60;
+    return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+  };
+
+  if (testQuestions.length === 0) {
+    return <div>Cargando preguntas...</div>;
   }
 
+  if (testEnded) {
+    return <div>La prueba ha terminado. Tu puntuación: {/* Calculate and display score */}</div>;
+  }
+
+  const currentQuestion = testQuestions[currentQuestionIndex];
+
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
-      <div className="w-full max-w-2xl bg-white rounded-lg shadow-md p-6">
-        <div className="flex justify-between items-center mb-4">
-          <h2 className="text-xl font-bold">Pregunta {currentQuestion + 1}</h2>
-          <div className="text-lg font-semibold">Tiempo: {timeLeft}s</div>
-        </div>
-        <p className="text-lg mb-4">{questions[currentQuestion].question}</p>
+    <div className="flex h-screen">
+      <div className="w-3/4 p-4">
+        <h2 className="text-2xl font-bold mb-4">Pregunta {currentQuestionIndex + 1}</h2>
+        <p className="mb-4">{currentQuestion.question}</p>
         <div className="space-y-2">
-          {questions[currentQuestion].options.map((option, index) => (
+          {currentQuestion.options.map((option, index) => (
             <button
               key={index}
               onClick={() => handleAnswer(option[0])}
-              className="w-full text-left p-2 rounded bg-blue-100 hover:bg-blue-200 transition-colors"
+              className={`w-full text-left p-2 rounded ${
+                answers[currentQuestionIndex] === option[0] ? 'bg-blue-200' : 'bg-gray-100'
+              }`}
             >
               {option}
             </button>
           ))}
         </div>
-        {showFeedback && (
-          <Alert className={`mt-4 ${isCorrect ? 'bg-green-100' : 'bg-red-100'}`}>
-            {isCorrect ? <CheckCircle className="h-4 w-4" /> : <AlertCircle className="h-4 w-4" />}
-            <AlertTitle>{isCorrect ? '¡Correcto!' : 'Incorrecto'}</AlertTitle>
-            <AlertDescription>
-              {isCorrect ? '¡Bien hecho!' : `La respuesta correcta era: ${questions[currentQuestion].answer}`}
-            </AlertDescription>
-          </Alert>
-        )}
+      </div>
+      <div className="w-1/4 bg-gray-200 p-4 flex flex-col">
+        <div className="text-xl font-bold mb-4">Tiempo restante: {formatTime(timeLeft)}</div>
+        <div className="flex flex-wrap justify-center mb-4">
+          {testQuestions.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => navigateToQuestion(index)}
+              className={`w-8 h-8 m-1 ${
+                answers[index] ? 'bg-blue-500 text-white' : 'bg-white'
+              }`}
+            >
+              {index + 1}
+            </button>
+          ))}
+        </div>
+        <button
+          onClick={endTest}
+          className="mt-auto bg-red-500 text-white p-2 rounded"
+        >
+          Finalizar prueba
+        </button>
       </div>
     </div>
   );

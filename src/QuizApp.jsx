@@ -6,7 +6,7 @@ const parseQuestions = (content) => {
   const questionBlocks = content.split('-').filter(block => block && block.trim() !== '');
   return questionBlocks.map(block => {
     const lines = block.trim().split('\n').filter(line => line.trim() !== '');
-    if (lines.length < 3) {
+    if (lines.length < 4) {
       console.error('Invalid question block:', block);
       return null;
     }
