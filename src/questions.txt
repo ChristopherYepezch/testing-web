@@ -1,0 +1,1011 @@
+¿Cuál es la primera fase del ciclo de vida de pruebas de software?
+A) Planificación de pruebas.
+B) Diseño de pruebas.
+C) Ejecución de pruebas.
+D) Requerimientos de pruebas.
+ANSWER: A
+-
+¿Cuál es el propósito principal de las pruebas de regresión en el desarrollo de software?
+A) Identificar nuevas funcionalidades.
+B) Asegurar que los cambios recientes no han introducido nuevos errores en áreas no modificadas.
+C) Medir el rendimiento del sistema bajo condiciones de carga máxima.
+D) Evaluar la usabilidad del software.
+ANSWER: B
+-
+¿Cuál es una característica clave de las pruebas de caja blanca?
+A) No requiere conocimiento del código fuente.
+B) Utiliza técnicas como la cobertura de sentencias y la cobertura de decisiones. 
+C) Se enfoca exclusivamente en la validación de la interfaz de usuario.
+D) Solo se realiza después de las pruebas de caja negra.
+ANSWER: B
+-
+Seleccione la mejor definición de calidad de software
+A) Asegurar la inexistencia de ningún defecto.
+B) Calidad es trabajar uno solo.
+C) Conformidad con los requerimientos.
+D) Trabajar según la planificación.
+ANSWER: C
+-
+¿Cuál es una de las principales ventajas de usar Mockito en pruebas unitarias?
+A) Mockito permite ejecutar pruebas en paralelo, reduciendo el tiempo total de ejecución.
+B) Mockito proporciona una interfaz gráfica para la ejecución de pruebas.
+C) Mockito permite simular (mock) el comportamiento de objetos dependientes, lo que facilita la prueba de unidades de código de manera aislada y controlada.
+D) Mockito integra análisis de rendimiento dentro de las pruebas.
+ANSWER: C
+-
+Analice las siguientes afirmaciones sobre el Modelo V en Testing y seleccione la opción que las resuma correctamente
+A) El Modelo V en Testing es un modelo lineal que se sigue de forma estricta en todos los proyectos de software.
+B) El Modelo V en Testing es un modelo flexible que puede adaptarse a las necesidades específicas de cada proyecto.
+C) El Modelo V en Testing solo se aplica a pruebas de software funcionales, no a pruebas de no funcionales.
+D) El Modelo V en Testing es un modelo obsoleto que ha sido reemplazado por metodologías más modernas.
+ANSWER: B
+-
+¿Cuál de las siguientes opciones describe correctamente la relación entre error, defecto y fallo en el contexto de testing de software?
+A) Un fallo ocurre debido a un error humano que no provoca ningún defecto.
+B) Un defecto es una acción humana incorrecta que lleva a un error en el software.
+C) Un error humano lleva a la introducción de un defecto en el software, que puede resultar en un fallo durante la ejecución.
+D) Un defecto y un fallo son sinónimos y ambos ocurren debido a un error en el código.
+ANSWER: C
+-
+¿La técnica de caja negra en pruebas de software consiste en?
+A) Ver el programa, despreocupándonos de comportamiento del código y centrando el esfuerzo en encontrar el comportamiento incorrecto, teniendo en cuenta las entradas y salidas del programa.
+B) Ver el programa, centrándonos en el comportamiento interno y concentrando el esfuerzo en el desarrollo del código y su correcto funcionamiento.
+C) Ver el programa, despreocupándonos de comportamiento del código y centrando el esfuerzo en encontrar el comportamiento incorrecto, teniendo en cuenta únicamente las entradas del programa.
+D) Ver el programa, preocupándonos del comportamiento de las interfaces de usuario y centrando el esfuerzo en encontrar el comportamiento incorrecto, teniendo en cuenta las entradas, salidas y riesgos del programa.
+ANSWER: A
+-
+Asociado al uso y la implementación de una herramienta de pruebas de software. Cuál de los siguientes normalmente es un riesgo.
+A) Gestión de las expectativas del usuario.
+B) Subestimación de la cantidad de tiempo requerida para desarrollar los scripts de ejecución de pruebas.
+C) Control de versiones de los conjuntos de pruebas.
+D) Demasiada confianza en una herramienta automatizada para la ejecución de pruebas de regresión.
+ANSWER: C
+-
+¿Cuál de las siguientes respuestas describe una condición de prueba?
+A) Un atributo de un componente o sistema especificado o implícito en la documentación de requisitos.
+B) Un aspecto de la base de prueba que es relevante para lograr los objetivos específicos de la prueba.
+C) El grado en que un producto software proporciona funciones que satisfacen las necesidades explícitas e implícitas cuando el software se utiliza en condiciones específicas.
+D) El porcentaje de los resultados de todas las condiciones individuales que afectan de forma independiente al resultado de una decisión que ha sido practicada por un conjunto de casos de prueba.
+ANSWER: B
+-
+¿Cuál es el objetivo principal de las pruebas de integración?
+A) Evaluar la funcionalidad completa del sistema.
+B) Validar la correcta interacción entre diferentes módulos o componentes.
+C) Identificar problemas de rendimiento bajo carga.
+D) Verificar la usabilidad del software.
+ANSWER: B
+-
+¿Qué principio sigue el Desarrollo Guiado por Pruebas (TDD)?
+A) Escribir todo el código de una vez y luego probarlo.
+B) Escribir pruebas después de desarrollar el código.
+C) Escribir una prueba antes de escribir el código que debe pasar la prueba.
+D) Probar manualmente cada componente después del desarrollo.
+ANSWER: C
+-
+¿Cuál de las siguientes tareas es MÁS PROBABLE que sea realizada por el jefe de la prueba?
+A) Redactar informes resumen de prueba basados en la información recopilada durante la prueba.
+B) Revisar las pruebas desarrolladas por otros.
+C) Reducir el riesgo de defectos fundamentales del diseño.
+D) Analizar, revisar y evaluar los requisitos, especificaciones y modelos en lo que respecta a la capacidad de ser probado.
+ANSWER: A
+-
+¿Cuál de las siguientes afirmaciones describe mejor cómo se dividen las tareas entre el gestor de pruebas y el probador?
+A) El jefe de pruebas planifica, organiza y controla las actividades de prueba, mientras que el probador especifica y ejecuta las pruebas.
+B) El jefe de pruebas planifica las actividades de prueba y elige los estándares a seguir, mientras que el probador elige las herramientas y controles a utilizar.
+C) El jefe de pruebas planifica, supervisa y controla las actividades de prueba, mientras que el probador diseña las pruebas y decide sobre la aprobación del objeto de prueba.
+D) El jefe de pruebas planifica y organiza las pruebas, y especifica los casos de prueba, mientras que el probador prioriza y ejecuta las pruebas.
+ANSWER: A
+-
+¿Cuál de los siguientes tipos de revisión es la mejor opción para seleccionar con el objeto de llevar a cabo revisiones de componentes de seguridad crítica en un proyecto de software si, además, la revisión debe demostrarse como proceso formal basado en reglas y listas de comprobación?
+A) Inspección.
+B) Revisión Informal.
+C) Revisión Técnica.
+D) Revisión Guiada.
+ANSWER: A
+-
+¿Cómo definirías la cultura?
+A) Como el nivel de educación que una persona tiene.
+B) Como el conjunto de valores, normas y creencias que son compartidos por un grupo de miembros de la sociedad.
+C) Como el nivel de costumbres de clase que una persona tiene.
+D) Como el nivel de comportamiento que una persona tiene.
+ANSWER: B
+-
+¿Cuál de estos no es un beneficio en el Desarrollo Global de Software?
+A) Costos muy altos en todo el proyecto.
+B) Mejora en los tiempos diferenciados por la zona horaria.
+C) Una amplia gama de mano de obra adecuada en diferentes especializaciones.
+D) Un acercamiento al cliente y al mercado.
+ANSWER: A
+-
+¿Cuál de estos no es un riesgo en el Desarrollo Global de Software?
+A) Zonas horarios separadas causan una colaboraciÃ³n pobre.
+B) Se sobre montan las horas de trabajo en los sitios distribuidos en lugar de seguir el sol.
+C) Gestión más económica por la distribución de distancias. geográficas, distancias culturales, distancias de idioma.
+D) Tiempos de respuesta demorado.
+ANSWER: C
+-
+Completar: El riesgo más visible en la compartición de mejores prácticas es:
+A) Dificultad de conseguir personal más barato en todo el mundo.
+B) Gestión de mejoras de conocimiento.
+C) Restricciones impuestas por la dificultad de cercanía al cliente y al mercado.
+D) Que el no lograr la comunicación cara a cara inhibe la compartición de conocimiento.
+ANSWER: D
+-
+Completar: El beneficio de acceder a un mayor número de empleados especializados a nivel global:
+A) Es que manejan el idioma y son más accesibles para trabajar remotamente.
+B) Atributos de Calidad del empleado son mejores que las nuestras y más cara.
+C) Restricciones por problemas de interculturalidad.
+D) El sueldo mínimo en otros países son más bajos que el nuestro.
+ANSWER: D
+-
+¿Cuál es el objetivo más importante en el Desarrollo Global de Software?
+A) Requerimientos de funcionalidad.
+B) Requerimientos de usuario.
+C) Requerimientos no funcionales.
+D) Desarrollo para hacerlo en un tiempo de mercadear.
+ANSWER: D
+-
+¿Cuáles son los elementos de gestión más importantes en el Desarrollo Global de Software?
+A) Especificación.
+B) Validación.
+C) Coordinación, Control y Comunicación.
+D) Verificación.
+ANSWER: C
+-
+Completar: Las dos metodologías usadas porque se ajustan de la mejor manera para desarrollar de forma Global son:
+A) SCRUM.
+B) Proceso Unificado y SCRUM.
+C) Cascada.
+D) Incremental.
+ANSWER: B
+-
+¿Qué factor no corresponde en la estructura para Desarrollo Global de Software?
+A) Distancia Geográfica.
+B) Distancia de Lenguaje.
+C) Distancia socio cultura.
+D) Distancia sentimental.
+ANSWER: D
+-
+Completar: La técnica más importante en la comunicación en el Desarrollo Global es 
+A) la Validación.
+B) la Verificación.
+C) el SDLC.
+D) la Comunicación cara a cara.
+ANSWER: D
+-
+Completar: Dos de las practicas usadas en la metodología global de Desarrollo de Software es
+A) Requerimientos de funcionalidad y no funcionalidad.
+B) Requerimientos de usuario y de stakeholder.
+C) Requerimientos no funcionales y de usabilidad.
+D) La TDD (Desarrollo orientado a pruebas) y la integración continua.
+ANSWER: D
+-
+¿Cuál de estas formas no se realizan para formar sub proyectos?
+A) Follow the sun (sigue el sol).
+B) Basado en módulos.
+C) Basado en cronogramas.
+D) Basado en Fases.
+ANSWER: C
+-
+¿Cuál de estos roles no sirve para el Desarrollo Global de Software?
+A) Desarrollador.
+B) Ingeniero de requisitos.
+C) Coordinador.
+D) Jefe de Proyecto.
+ANSWER: B
+-
+Completar: La metodología que más se adapta al Desarrollo Global de Software se le puede llamar como 
+A) Cascada.
+B) Proceso Unificado.
+C) SCRUM Global.
+D) SCRUM Distribuido.
+ANSWER: D
+-
+Completar: Una de las razones fundamentales del Desarrollo Global de Software es
+A) Estar cerca del cliente y el mercado.
+B) Facilidad en la Verificación.
+C) Completar el SDLC.
+D) Facilidad para Gestionar los Requerimientos.
+ANSWER: A
+-
+El diseño centrado en el usuario se lo define como:
+A) Un enfoque de desarrollo seguido en el campo de HCI para producir sistemas software con un adecuado nivel de usabilidad. Se basa en centrarse en las necesidades de los usuarios en todo el desarrollo.
+B) Un enfoque de desarrollo seguido en el campo de la HCI para producir sistemas software con un adecuado nivel de usabilidad. Se basa en centrarse en las necesidades de los desarrolladores en todo el desarrollo.
+C) Un enfoque de desarrollo seguido en el campo de la HCI para producir sistemas software con un adecuado nivel de funcionalidad. Se basa en centrarse en las necesidades de los usuarios en todo el desarrollo.
+D) Un enfoque de desarrollo seguido en el campo de la HCI para reproducir sistemas software con un adecuado nivel de funcionalidad. Se basa en centrarse en las necesidades de los desarrolladores en todo el desarrollo.
+ANSWER: A
+-
+De acuerdo con el estándar ISO 9241-11 se define a la usabilidad como:
+A) La medida en que un producto puede ser usado por usuarios específicos para alcanzar metas especificadas, con efectividad, eficiencia y satisfacción en un determinado contexto de uso.
+B) La medida en que un prototipo puede ser usado por usuarios específicos para alcanzar metas especificadas, con efectividad, eficiencia y satisfacción en un determinado contexto de uso.
+C) La medida en que un producto puede ser usado por usuarios específicos para alcanzar metas especificadas, con efectividad y satisfacción en un determinado contexto de uso
+D) La medida en que un prototipo puede ser usado por usuarios específicos para alcanzar metas especificadas, con eficiencia y satisfacción en un determinado contexto de uso
+ANSWER: A
+-
+La usabilidad de un sistema software depende:
+A) Del uso de elementos gráficos, colores agradables y un tipo de letra adecuado.
+B) Del grado de efectividad, eficiencia y satisfacción que pueden alcanzar usuarios específicos persiguiendo objetivos concretos en un determinado contexto de uso.
+C) Del número de funciones que tiene el sistema, cuantas más funciones más usables es.
+D) Del número de personas que lo utilizan en todo el mundo
+ANSWER: B
+-
+¿Cuándo un sistema es consistente?
+A) Si todos los mecanismos que se utilizan son siempre usados de la misma manera, siempre que se utilicen y sea cual sea el momento en que se haga.
+B) Si existe una correlación entre los conocimientos que posee el usuario y los conocimientos requeridos para la interacción en un sistema nuevo
+C) Si proporciona ayuda a usuarios intermedios para que alcancen un nivel de conocimiento y uso del sistema máximos
+D) Si existe multiplicidad de maneras en que el usuario y el sistema pueden intercambiar información
+ANSWER: A
+-
+EN EL FACTOR HUMANO. ¿Cuáles son los mecanismos para la recuperación de la información de la memoria a largo plazo?
+A) Recuerdo
+B) Reconocimiento
+C) Inferencia
+D) Recuperación
+ANSWER: B
+-
+El concepto de producto describe el tipo de sistema a desarrollar, basándose en: 1. Los principales elementos con los que funcionará el sistema. 2. Cómo se manipulan estos elementos para realizar tareas con el sistema. 3. La lógica interna que da sentido a la interacción con el sistema. 4. Usuarios que estarán utilizando los sistemas. 5. Proceso de desarrollo a utilizar para la creación de la aplicación. Seleccione:
+A) 1, 2, 3
+B) 2, 3, 4
+C) 3, 4, 5
+D) 5, 1, 2
+ANSWER: A
+-
+Las principales ventajas de una interfaz de línea de comando CUI son:
+A) Potencialidad
+B) Flexibilidad
+C) Facilidad de uso.
+D) Poca carga de memoria de usuario
+ANSWER: A
+-
+Indique cuáles de las siguientes características identifican un test de usabilidad:
+A) Sigue las guías de diseño o experiencias de un experto en usabilidad.
+B)  Los participantes que son representativos de la población de usuarios llevan a cabo tareas reales.
+C) Tiene en mismo grado de formalidad que un experimento controlado-.
+D)  Se muestra el sistema al usuario pasando pantalla a pantalla, pero ellos no interactúan directamente con el sistema.
+ANSWER: B
+-
+La evaluación por expertos: 
+A) Se emplea como complemento a los test de usabilidad, pues es útil para llevar a cabo algunos ciclos de forma más rápida y menos costosa.
+B) Se refiere a la realización de test de usabilidad, pues los expertos en usabilidad saben más sobre la utilización del sistema que los usuarios.
+C) Comprende las técnicas de medición del rendimiento, test retrospectivo y codescubrimiento.
+D) Es una evaluación de usabilidad realizada por un sistema experto.
+ANSWER: A
+-
+En un cuestionario que se suministra participante en un test de usabilidad tras llevar a cabo la sesión de test:
+A) Se preguntan datos del rendimiento y efectividad, como el tiempo de realización de la tarea o número de errores, para contrastarlos con los datos reales medidos.
+B) Deben incluirse siempre preguntas de opción múltiple para evitar que el usuario se
+sienta constreñido por el diseño del cuestionario.
+C) Se le proporciona al participante la explicación de cómo va a ser el test y cómo se van a utilizar los datos recogidos.
+D) Se recoge la impresión del participante respecto a la facilidad de uso y facilidad de
+aprendizaje del prototipo o sistema evaluado.
+ANSWER: D
+-
+El protocolo de pensar en voz alta:
+A) Es una forma de facilitar la medida del rendimiento, puesto que al hablar el participante se concentra mejor en la realización de las tareas.
+B) Suple la falta de un espejo de una sola cara en un laboratorio de usabilidad, pues así los ocupantes de la sala de control pueden oír comentarios del participante sin necesidad de verlo.
+C) Consiste en que un experto en usabilidad vaya pasando por cada contexto de interacción diciendo en voz alta lo que el usuario vería.
+D) Se trata de una técnica para llevar a cabo test de usabilidad, en la que se pide a cada participante que intente expresar qué está haciendo en cada momento mientras intenta llevar a cabo las tareas del test.
+ANSWER: D
+-
+Cuáles de las siguientes afirmaciones ilustran ventajas de montar un laboratorio de usabilidad en una empresa:
+A) Se reduce el	riesgo sanitario para e	participante en un test de usabilidad.
+B) Se pueden realizar test de usabilidad con regularidad sin tener que montar el entorno de cada test.
+C) Se consigue una mayor visibilidad en la empresa de los temas relacionados con la usabilidad.
+D) Permite realizar las evaluaciones heurísticas en un entorno mucho más cómodo para el experto en usabilidad.
+ANSWER: B
+-
+La evaluación por expertos:
+A) Se emplea como complemento a los test de usabilidad, pues es útil para llevar a cabo alguno de los ciclos de forma más rápida y menos costosa.
+B) Se prefiere a la realización de test de usabilidad, pues los expertos en usabilidad saben mas sobre la utilización del sistema que los usuarios.
+C) Comprende las técnicas de medición del rendimiento, test retrospectivo y co descubrimiento.
+D) Es una evaluación de usabilidad realizada por un sistema experto.
+ANSWER: A
+-
+¿Qué actividad NO es responsabilidad del gerente de proyectos?
+A) Planificación del proyecto
+B) Programación del proyecto
+C) Codificación del software
+D) Gestión de riesgos
+ANSWER: C
+-
+¿Cuál es un ejemplo de un riesgo de proyecto?
+A) Cambios en los requisitos
+B) Subestimación del tamaño del sistema
+C) Competencia de productos
+D) Rotación de personal
+ANSWER: D
+-
+¿Qué es un riesgo de negocio?
+A) Rotación de personal
+B) Subestimación del tamaño del sistema
+C) Competencia de productos
+D) Disponibilidad de hardware
+ANSWER: C
+-
+¿Cuál es una estrategia para gestionar la rotación de personal?
+A) Comprar componentes
+B) Preparar un documento de información para la alta dirección
+C) Reorganizar el equipo para aumentar la superposición de tareas
+D) Maximizar la ocultación de información en el diseño
+ANSWER: C
+-
+¿Qué tipo de motivación se basa en las necesidades sociales?
+A) Necesidades básicas
+B) Necesidades personales
+C) Necesidades de seguridad
+D) Necesidades de estima
+ANSWER: B
+-
+¿Cuál de las siguientes NO es una técnica de gestión de personas?
+A) Consistencia
+B) Respeto
+C) Inclusión
+D) Micromanagement
+ANSWER: D
+-
+¿Qué se debe considerar al organizar un grupo de proyecto?
+A) Habilidades técnicas y personalidades
+B) Disponibilidad de hardware
+C) Cambio en los requisitos
+D) Herramientas CASE
+ANSWER: A
+-
+¿Cuál es una característica de un grupo cohesionado?
+A) Cada miembro del grupo trabaja de manera independiente
+B) El grupo desarrolla estándares de calidad
+C) Los miembros del grupo no comparten conocimientos
+D) No hay mejoras continuas
+ANSWER: B
+-
+¿Cuál es una desventaja de los grupos jerárquicos?
+A) Mejor comunicación
+B) Mejor intercambio de información
+C) Menor motivación
+D) Mayor rigidez
+ANSWER: D
+-
+¿Cuál es una actividad esencial en la gestión de riesgos?
+A) Identificación de riesgos
+B) Subestimación del tamaño del sistema
+C) Cambio de tecnología
+D) Competencia de productos
+ANSWER: A
+-
+¿Qué se debe hacer durante el monitoreo de riesgos?
+A) Evaluar regularmente los riesgos identificados
+B) Desarrollar software
+C) Reorganizar el equipo
+D) Escribir propuestas
+ANSWER: A
+-
+¿Cuál de las siguientes características es parte del modelo de calidad de la norma ISO/IEC 25000 en productos de software?
+A) Estética
+B) Funcionalidad
+C) Precio
+D) Popularidad
+ANSWER: B
+-
+¿Cuál es el objetivo principal de las normas de gestión de la calidad (QM)?
+A) Asegurar que los productos y servicios alcanzan la calidad deseada.
+B) Proporcionar una base para la evaluación de procesos software.
+C) Definir lo que es el software de alta calidad.
+D) Evaluar la conformidad del producto.
+ANSWER: A
+-
+¿Cuál de los siguientes es un beneficio específico que las normas ISO aportan a las organizaciones?
+A) Reducción de la competencia
+B) Mejora en la eficiencia operativa
+C) Incremento de los costos
+D) Exclusión del mercado internacional
+ANSWER: B
+-
+¿Cuál de las siguientes prácticas es más efectiva para mejorar la colaboración en un equipo de desarrollo de software?
+A) Asignar tareas individuales estrictas sin interacción entre miembros del equipo.
+B) Promover la comunicación abierta y reuniones regulares de equipo.
+C) Utilizar exclusivamente herramientas de seguimiento de tareas sin reuniones.
+D) Delegar toda la toma de decisiones a la gerencia superior.
+ANSWER: B
+-
+¿Qué factor es crucial para mantener alta la moral del equipo en un proyecto de desarrollo de software?
+A) Implementar una política de tolerancia cero a los errores.
+B) Asignar objetivos inalcanzables para mantener al equipo desafiado.
+C) Proporcionar reconocimiento y recompensas por el buen trabajo.
+D) Minimizar la capacitación para que el equipo sea más independiente.
+ANSWER: C
+-
+¿Cuál es uno de los principales retos al gestionar personas en un equipo de desarrollo de software?
+A) Garantizar que cada miembro del equipo trabaje de manera aislada para evitar conflictos.
+B) Integrar las diversas habilidades y personalidades de los miembros del equipo.
+C) Evitar el uso de metodologías ágiles para mantener la estructura jerárquica.
+D) Centralizar todas las decisiones técnicas en una sola persona.
+ANSWER: B
+-
+¿Cuál de las siguientes estrategias es más efectiva para mitigar los desafíos de la zona horaria en equipos de desarrollo distribuidos globalmente?
+A) Requerir que todos los miembros del equipo trabajen en la misma zona horaria independientemente de su ubicación geográfica.
+B) Implementar un horario de trabajo flexible y establecer horas de superposición para reuniones críticas.
+C) Asignar tareas de desarrollo según la zona horaria, permitiendo a cada desarrollador trabajar de forma independiente.
+D) Limitar la colaboración entre miembros de diferentes zonas horarias y centralizar las decisiones en una sola ubicación.
+ANSWER: B
+-
+ ¿Cuál es el enfoque más efectivo para asegurar la cohesión del equipo y una cultura organizacional uniforme en un equipo de desarrollo de software distribuido?
+A) Celebrar retiros de equipo regulares en una única ubicación física para todos los miembros.
+B) Utilizar exclusivamente herramientas de comunicación asincrónica para minimizar interrupciones.
+C) Fomentar la creación de subgrupos dentro del equipo según la región geográfica.
+D) Establecer canales de comunicación continuos y promover actividades de integración virtuales.
+ANSWER: D
+-
+¿Cuál es la mejor práctica para garantizar la seguridad y la integridad del código en un equipo de desarrollo distribuido?
+A) Permitir que cada desarrollador utilice su propio entorno de desarrollo sin ninguna supervisión.
+B) Implementar una política de commit directo al repositorio principal sin revisiones intermedias.
+C) Adoptar un flujo de trabajo basado en ramas con revisiones de código obligatorias y CI/CD Integración y Despliegue Continuos.
+D) Centralizar todo el desarrollo en un único servidor accesible solo durante horas laborales específicas.
+ANSWER: C
+-
+¿Cuál de las siguientes prácticas es más efectiva para la mejora continua de procesos en el desarrollo de software?
+A) Realizar auditorías de calidad solo al final del proyecto para evitar interrupciones durante el desarrollo.
+B) Implementar revisiones de código periódicas y retrospectivas al final de cada iteración.
+C) Evitar cambios en los procesos una vez que estos han sido establecidos para mantener la estabilidad.
+D) Delegar la mejora de procesos exclusivamente al equipo de calidad, sin involucrar al equipo de desarrollo.
+ANSWER: B
+-
+¿Qué vista de RUP 4+1 se centra en la definición de elementos estructurales y de comportamiento?
+A) Vista de módulos.
+B) Vista conceptual.
+C) Vista de casos de uso.
+D) Vista de procesos.
+ANSWER: A
+-
+¿Qué se entiende por "Diseño dirigido por atributos" en la arquitectura de software?
+A) Un proceso secuencial de implementación.
+B) Un método basado en descomposición recursiva.
+C) Una técnica de diseño basada en prototipos.
+D) Un enfoque de diseño centrado en el usuario.
+ANSWER: B
+-
+¿Cuál es el principal beneficio de utilizar una arquitectura orientada a servicios en el desarrollo de software?
+A) Aumentar el tiempo de desarrollo.
+B) Facilitar la integración y reutilización de servicios.
+C) Incrementar el acoplamiento entre módulos.
+D) Reducir la flexibilidad del sistema.
+ANSWER: B
+-
+¿Cuál es el propósito principal de las herramientas de integración de datos en el desarrollo global de software?
+A) Aumentar los costos de desarrollo.
+B) Reducir la calidad del software.
+C) Limitar el acceso a datos en tiempo real.
+D) Facilitar la conectividad y flujo de datos entre diferentes sistemas y aplicaciones.
+Respuesta: D
+-
+¿Qué funcionalidad clave proporcionan las herramientas de gestión de proyectos de software?
+A) Solo permiten la comunicación entre los miembros del equipo.
+B) Proporcionan seguimiento de tareas, asignación de recursos y gestión de plazos.
+C) Incrementan manualmente la carga de trabajo del equipo.
+D) Restringen el acceso a documentos del proyecto.
+ANSWER: B
+-
+¿Qué es la seguridad del software?
+A) Proceso de desarrollo de software libre de errores.
+B) Proceso de protección del software contra amenazas y vulnerabilidades.
+C) Proceso de creación de software con funcionalidades avanzadas.
+D) Proceso de mantenimiento del software.
+ANSWER: B
+-
+¿Por qué es importante la seguridad en el software?
+A) Para aumentar la velocidad de ejecución.
+B) Para mejorar la estética del software.
+C) Para proteger la información y mantener la integridad y disponibilidad.
+D) Para reducir el costo del desarrollo.
+ANSWER: C
+-
+¿Qué son las vulnerabilidades en el software?
+A) Características del software que mejoran su funcionalidad.
+B) Debilidades en el software que pueden ser explotadas por amenazas.
+C) Partes del software que necesitan actualización frecuente.
+D) Herramientas para mejorar la eficiencia del software.
+ANSWER: B
+-
+¿Cuál es uno de los principales costos asociados a las vulnerabilidades de software?
+A) Mejora de la interfaz de usuario.
+B) Pérdida de reputación y confianza del cliente.
+C) Aumento del rendimiento del sistema.
+D) Reducción del tamaño del software.
+ANSWER: B
+-
+¿Cuál es el propósito de las políticas de seguridad en el desarrollo de software?
+A) Asegurar la correcta funcionalidad del software.
+B) Establecer directrices para la protección y gestión de la información.
+C) Mejorar la estética del software.
+D) Reducir el tiempo de desarrollo.
+ANSWER: B
+-
+Seleccione, ¿Qué protocolo sugiere OWASP para la federación de identidades de usuarios?
+A) HTTP
+B) FTP
+C) SAML
+D) SMTP
+ANSWER: C
+-
+Seleccione, ¿Cuál es un riesgo al utilizar servicios en la nube según OWASP?
+A) Reducción de costos
+B) Exposición a entornos no productivos
+C) Mayor velocidad de desarrollo
+D) Facilidad de acceso
+ANSWER: B
+-
+Seleccione, ¿Qué se debe evitar en los entornos de prueba para mitigar riesgos?
+A) Utilizar datos reales o confidenciales
+B) Implementar medidas de seguridad
+C) Realizar pruebas de seguridad
+D) Monitorear accesos
+ANSWER: A
+-
+Seleccione, ¿Qué es una recomendación para la continuidad y resiliencia del negocio según OWASP?
+A) Evitar acuerdos de nivel de servicio (SLA)
+B) Garantizar que los SLA cubran la resiliencia y la privacidad de los datos
+C) Ignorar el proceso de recuperación ante desastres
+D) Depender únicamente del proveedor de la nube
+ANSWER: B
+-
+Seleccione, ¿Qué debe incluir una política de seguridad en la nube eficaz según OWASP?
+A) Uso de autenticación robusta y cifrado
+B) Solo almacenamiento local de datos
+C) Exclusión de cualquier medida de protección
+D) Evitar la copia de seguridad de datos
+ANSWER: A
+-
+Seleccione, ¿Qué son pruebas de software?
+A) Son un aspecto crítico e indispensable del ciclo de vida del desarrollo de software.
+B) Son las investigaciones empíricas y técnicas.
+C) Se implementa para demostrar la viabilidad de un producto.
+D) Es la acción y efecto de probar, de demostrar.
+ANSWER: A
+-
+Seleccione, ¿Cuál es un tipo de prueba de seguridad de software?
+A) Pruebas de Seguridad de Aplicaciones Estáticas.
+B) Pruebas de seguridad de aplicaciones embebidas.
+C) Pruebas de seguridad de aplicaciones multiplataforma.
+D) Prueba de aplicaciones web seguras.
+ANSWER: A
+-
+Seleccione, ¿En qué consisten las pruebas de penetración?
+A) Es un ejercicio de seguridad en el que un inexperto en ciberseguridad intenta encontrar y aprovechar las vulnerabilidades.
+B) Generar una práctica para poner a prueba un sistema informático.
+C) Pentest, es una prueba de seguridad que lanza un ciberataque disimulado para buscar vulnerabilidades en un sistema informático.
+D) En atacar un sistema informático para identificar fallos, vulnerabilidades y demás errores de seguridad existentes.
+ANSWER: D
+-
+Seleccione, ¿A qué se conoce como fuzzing o técnicas de fuzzing?
+A) A una técnica de prueba de seguridad que consiste en enviar datos fijos, manipulados o maliciosos a una aplicación.
+B) Es una metodología estática de análisis de software que implica la infección de datos aleatorios o semi aleatorios en un programa.
+C) Al conjunto de pruebas de caja negra que permiten descubrir errores en los mediante la introducción de datos al azar, inválidos y malformados.
+D) Son métodos utilizados en el campo de la seguridad de software para identificar vulnerabilidades y errores en la interface.
+ANSWER: C
+-
+Seleccione, ¿En qué consisten las pruebas de seguridad de aplicaciones dinámicas DAST?
+A) Se utilizan para buscar vulnerabilidades de seguridad en aplicaciones mediante la simulación de comportamientos maliciosos para identificar debilidades que podrían explotarse.
+B) Está diseñado para identificar vulnerabilidades al desplegar una aplicación en ejecución.
+C) Proceso de analizar una aplicación web a través del back-end para encontrar vulnerabilidades mediante ataques simulados.
+D) Prueba de aplicaciones que puede ayudar a los desarrolladores a descubrir vulnerabilidades de seguridad.
+ANSWER: A
+-
+¿Cuál de las siguientes actividades es parte de la fase de Elaboración en el proceso de desarrollo de software?
+A) Definición del alcance del proyecto
+B) Construcción del producto
+C) Planificación detallada de los casos de uso
+D) Corrección de problemas y mejoras sugeridas
+ANSWER: C
+-
+¿Cuál es el objetivo principal de la gestión de riesgos del proyecto?
+A) Ignorar los riesgos.
+B) Identificar, analizar y responder a los riesgos del proyecto.
+C) Incrementar los riesgos.
+D) Minimizar la planificación del riesgo.
+ANSWER: B
+-
+¿Cuál es el rol principal del "Scrum Master" en un equipo de Scrum?
+A) Definir las prioridades del Product Backlog
+B) Desarrollar el software y realizar pruebas
+C) Eliminar obstáculos y asegurar que se cumplan las reglas de Scrum
+D) Aprobar el trabajo completado por el equipo
+ANSWER: C
+-
+¿Cuál es un principio del manifiesto por el desarrollo ágil de software?
+A) Foco en la documentación detallada
+B) Planificación a largo plazo y rígida
+C) Satisfacción del cliente mediante la entrega continua de software
+D) Uso exclusivo de herramientas automatizadas
+ANSWER: C
+-
+¿Cuál es una característica del modelo de proceso de desarrollo de aplicaciones basado en componentes?
+A) Se enfoca principalmente en la documentación
+B) Utiliza un enfoque iterativo y evolutivo
+C) No permite la reutilización de sistemas completos
+D) Se descompone el trabajo en fases estrictas
+ANSWER: B
+-
+¿Qué es la arquitectura empresarial?
+A) Un modelo de desarrollo de software.
+B) Un método de evaluación de procesos.
+C) Una disciplina que aborda la estructura y funcionamiento de una organización.
+D) Un modelo de infraestructura.
+ANSWER: C
+-
+¿Qué es Scrum?
+A) Un marco de trabajo ágil para abordar problemas complejos y entregar productos con valor.
+B) Un método para aumentar los costos de los proyectos.
+C) Una técnica de gestión de cambios.
+D) Un estándar de calidad para proyectos.
+ANSWER: A
+-
+¿Qué es un "hito" en el contexto de los modelos de proceso de desarrollo de software?
+A) Un punto donde se comienza la codificación del software
+B) Un objetivo dentro de una fase del proyecto
+C) Un tipo de defecto común en el software
+D) Una técnica de gestión de recursos humanos
+ANSWER: B
+-
+¿Qué implica la gestión de los costos del proyecto?
+A) Asegurar que el proyecto termine dentro del presupuesto aprobado.
+B) Aumentar los costos del proyecto.
+C) Ignorar el presupuesto y centrarse en la calidad.
+D) pago por fases.
+ANSWER: A
+-
+¿Qué rol es responsable del Product Backlog?
+A) Scrum Master
+B) Product Owner
+C) Equipo de Desarrollo
+D) Equipo de análisis
+ANSWER: B
+-
+En el Modelo de Madure DevOps, este modelo mira DevOps desde tres puntos de vista:
+A) Procesos, administración y la colaboración.
+B) Proyectos, automatización y colaboración.
+C) Procesos, automatización y la colaboración.
+D) Inicial, medio, final.
+ANSWER: C
+-
+En Scrum, ¿qué es un "Sprint"?
+A) Un conjunto de reuniones diarias del equipo
+B) Un periodo en el cual se crea un incremento de software potencialmente entregable
+C) La lista de requisitos priorizados del proyecto
+D) Una metodología de desarrollo basada en componentes
+ANSWER: B
+-
+La automatización de DevOps utiliza funciones de automatización discreta como: 
+A) Herramientas de administración continuas para configuraciones de software.
+B) Herramientas de integración y compilación
+C) Herramientas de integración, compilación y administración continuas para configuraciones de software.
+D) Herramientas actuales.
+ANSWER: C
+-
+PDCA es un método de gestión de cuatro pasos iterativo utilizado en los negocios para el control y la mejora continua de procesos y productos, cuales son:
+A) Pagar-Debitar-Controlar-Actuar
+B) Planificar-Diseñar-Controlar-Ajustar
+C) Planear-Hacer-Verificar-Actuar
+D) Planear-Diseñar-Comprar-Ajustar
+ANSWER: C
+-
+Según las metodologías ágiles, la medida principal de progreso es:
+A) La documentación
+B) La satisfacción del cliente
+C) El software funcionando
+D) La reducción de costos
+ANSWER: C
+-
+En una auditoria:
+A) Las reuniones se hacen solo en auditorías externas.
+B) Las reuniones de apertura y cierre son opcionales.
+C) Las reuniones de apertura y cierre son necesarias en todo tipo de auditoría. 
+D) Es necesaria la de apertura solo cuando el cliente lo pide.
+ANSWER: C
+-
+Qué debe estar incluida en la reunión de cierre
+A) Inducción a quien no asistió a la reunión de apertura de la auditoria de inicio.
+B) Evaluación completa del área auditada
+C) Descripción muy vaga del alcance y el propósito de la auditoría.
+D) Recomendaciones y mejores prácticas para la mejora de la auditoria.
+ANSWER: B
+-
+En el proceso de verificación de la capacidad de sistema de gestión calidad existen:
+A) Auditorias de convalidación.
+B) Auditorías Internas.
+C) Auditorias de Seguimiento y Mixtas
+D) Auditorías Internas y Externas
+ANSWER: D
+-
+Los modelos de calidad del producto software son
+A) ISO 9126 producto software
+B) ISO/IEC 25010 producto software
+C) ISO IEC 20000 producto software
+D) Todas de las anteriores son ciertas
+ANSWER: B
+-
+Describa en términos generales la estructura típica de la "Jerarquía de Documentos" para un Sistema de Calidad
+A) Norma ISO, Manual de calidad, Instructivos de trabajo, otros documentos, procedimientos.
+B) Norma ISO, Manual de calidad, procedimientos, Instructivos de trabajo, otros documentos.
+C) Manual de calidad, procedimientos, Instructivos de trabajo, otros documentos, Norma ISO.
+D) Procedimientos, Norma ISO, Manual de calidad, Instructivos de trabajo, otros documentos.
+ANSWER: B
+-
+Liste cuatro aspectos que deben ser incluidos en un reporte de auditoria
+A) Fechas de auditoría y reporte, descripción del propósito y alcance, firma del líder del equipo de auditoria, identificación de buenas prácticas.
+B) Identificar miembros del equipo auditor, descripción del propósito y alcance, firma del líder del equipo de auditoria, identificación de buenas prácticas.
+C) Identificar miembros del equipo auditor, Fechas de auditoría y reporte, descripción del propósito y alcance, firma del líder del equipo de auditoria, identificación de buenas prácticas.
+D) Identificar miembros del equipo auditor, Fechas de auditoría y reporte, descripción del propósito y alcance, identificación de buenas prácticas.
+ANSWER: B
+-
+Qué información de entrada puede ser usada para la revisión de la dirección al sistema de calidad.
+A) Resultados de la auditoría de calidad, 
+B) cumplimiento de políticas y objetivos de calidad, 
+C) cumplimiento del programa de auditorías internas, resultados de acciones preventivas y correctivas y seguimiento de las tareas asignadas de la Reunión anterior.
+D) Todas las anteriores
+ANSWER: D
+-
+Los cuatro factores a ser considerados en la determinación de las frecuencias de las auditorias son
+A) Compromisos corporativos, Estándares de la Industria, Experiencias de la Industria, Importancia, complejidad y estado de las actividades.
+B) Estándares de la Industria, Experiencias de la Industria, Importancia, complejidad y estado de las actividad, Apoyo y compromiso de la dirección.
+C) Compromisos corporativos, Experiencias de la Industria, Importancia, complejidad y estado de las actividades, Método para el reporte de resultados
+D) Compromisos corporativos, Estándares de la Industria, Experiencias de la Industria, Importancia, Acceso a niveles apropiados de la organización
+ANSWER: A
+-
+Defina lo siguiente: Auditoria de calidad
+A) Es aquella que eliminará completa y definitivamente una observación que se haya detectado
+B) Examen sistemático e independiente para determinar si las actividades de calidad y resultados relacionados cumplen con los planes y si estos son implantados efectivamente y sus objetivos alcanzados adecuadamente.
+C) Inconformidad con fechas, procesos, especificaciones, procedimientos o instrumentos del sistema de calidad con la realidad
+D) Cualquier evidencia física o documento basado en observaciones, mediciones, pruebas, las cuales pueden ser verificadas
+ANSWER: B
+-
+Liste cinco actividades que ocurren durante la fase de preparación del proceso de auditoria
+A) Selección del equipo auditor, Evaluación del informe, orientación del equipo auditor, desarrollo del plan de auditoria, compilación de la lista de verificación.
+B) Selección del equipo auditor, interrelación con la organización, Selección de la muestra de la auditoria desarrollo del plan de auditoria, compilación de la lista de verificación.
+C) Selección del equipo auditor, interrelación con la organización, orientación del equipo auditor, desarrollo del plan de auditoria, compilación de la lista de verificación.
+D) Selección del equipo auditor, interrelación con la organización, orientación del equipo auditor, Asegurarse que las áreas son investigadas con una adecuada profundidad, compilación de la lista de verificación.
+ANSWER: C
+-
+Cuáles son las principales razones para efectuar la junta de apertura
+A) Abrir camino hacia la auditoria, listar a los asistentes, establecer los contactos para el trabajo en el campo, dar una primera impresión acotando propósitos y alcance.
+B) Abrir camino hacia la auditoria, describir el propósito y el alcance de la auditoria, establecer los contactos para el trabajo en el campo, dar una primera impresión acotando propósitos y alcance.
+C) Abrir camino hacia la auditoria, obtener información para mejorar el impacto, mejoramiento y buenas prácticas, dar una primera impresión acotando propósitos y alcance.
+D) Abrir camino hacia la auditoria, obtener información para mejorar el impacto, establecer los contactos para el trabajo en el campo, dar una primera impresión acotando propósitos y alcance.
+ANSWER: D
+-
+Liste tres funciones del reporte de auditoría
+A) Evaluación total del área auditada, proporciona evidencia objetiva de los atributos revisados.
+B) Evaluación total del área auditada, indica profundidad y adecuación de la investigación.
+C) Indica profundidad y adecuación de la investigación, proporciona  evidencia objetiva de  los atributos revisados.
+D) Evaluación total del área auditada, indica profundidad y adecuación de la investigación, proporciona evidencia objetiva de los atributos revisados.
+ANSWER: D
+-
+Qué tipo de información debe ser incluida en el establecimiento de una no conformidad
+A) Clara descripción del problema
+B) Evidencia objetiva para apoyar la declaración del problema
+C) El requerimiento infraccionado y el impacto sobre el producto
+D) Todos los anteriores
+ANSWER: D
+-
+La auditoría interna es un proceso:
+A) Continuo
+B) Sistemático y documentado.
+C) De evaluación de procesos
+D) Todos los anteriores
+ANSWER: B
+-
+La norma ISO/IEC 2510 identifica la opción correcta es
+A) Seguridad es sub característica
+B) Eficiencia en el desempeño es su característica
+C) Fiabilidad es sub característica
+D) Portabilidad es sub característica 
+ANSWER: B
+-
+Para garantizar la alta disponibilidad en una arquitectura SOA en la nube, se utiliza __________ para manejar el tráfico y __________ para replicar datos entre múltiples instancias.
+A)	Load Balancer / Data Replication
+B)	Auto-Scaling / Service Registry
+C)	Service Mesh / Message Broker
+D)	API Gateway / Service Bus
+ANSWER: A
+-
+Para implementar políticas de seguridad en una arquitectura SOA en la nube, se puede usar __________ para autenticar y autorizar accesos, mientras que __________ ayuda a proteger los servicios contra ataques.
+A)	Identity Management / Firewall
+B)	API Gateway / Security Group
+C)	Service Proxy / Encryption
+D)	Service Registry / Load Balancer
+ANSWER: B
+-
+En la Arquitectura Limpia, la __________ es la capa que contiene las reglas de negocio críticas para el sistema.
+A)	capa de infraestructura
+B)	capa de adaptación
+C)	capa de aplicación
+D)	capa de dominio
+ANSWER: D
+-
+En SOA, un __________ es una función bien definida y autocontenida, y la __________ define guías generales sobre la estructura e interacción entre las partes del software.
+A)	microservicio / puerta de enlace de API
+B)	interfaz / administración
+C)	servicio / arquitectura de software
+D)	API / arquitectura de software
+ANSWER: C
+-
+Un __________ en la arquitectura de microservicios es independiente y debe implementar una __________ específica dentro de un contexto delimitado.
+A)	servicio / interfaz
+B)	microservicio / funcionalidad
+C)	cliente / administración
+D)	API / coordinación
+ANSWER: B
+-
+Con respecto a la documentación de la arquitectura de software, las __________ describen estructuras conformadas por elementos físicos que mantienen algún tipo de relación con los de las estructuras documentadas en otras vistas.
+A)	vistas lógicas
+B)	vistas de comportamiento
+C)	vistas de desarrollo
+D)	vistas físicas
+ANSWER: D
+-
+En la documentación de arquitectura, el método __________ considera la noción de vista como concepto principal y recomienda la elaboración de cinco vistas.
+A)	4+1 Vistas
+B)	Puntos de Vista y Perspectivas
+C)	Método de diseño centrado en la arquitectura
+D)	Vistas y más allá
+ANSWER: A
+-
+Los principios de __________ y __________ son las claves fundamentales en el diseño de paquetes.
+A)	calidad / eficiencia
+B)	acoplamiento / cohesión
+C)	lógica / proceso
+D)	documentación / implementación
+ANSWER: B
+-
+Los patrones de diseño se utilizan para resolver problemas comunes en el __________ y mejorar la __________ del software.
+A)	análisis / estructura
+B)	implementación / documentación
+C)	desarrollo / usabilidad
+D)	diseño / calidad
+ANSWER: D
+-
+La __________ del software se mide en términos de atributos como la mantenibilidad, escalabilidad y __________.
+A)	estructura / eficiencia
+B)	calidad / rendimiento
+C)	documentación / modularidad
+D)	usabilidad / seguridad
+ANSWER: B
+-
+Los atributos de calidad del software incluyen __________ y __________, que son esenciales para la evaluación del rendimiento del sistema.
+A)	seguridad / portabilidad
+B)	escalabilidad / mantenibilidad
+C)	rendimiento / eficiencia
+D)	usabilidad / flexibilidad
+ANSWER: C
+-
+El patrón __________ separa la creación de una familia de objetos relacionados sin especificar sus clases concretas, __________ define un algoritmo en una estructura de árbol.
+A)	Abstract Factory / Composite
+B)	Observer / Mediator
+C)	Strategy / Adapter
+D)	Command / Iterator
+ANSWER: A
+-
+En el patrón arquitectónico __________, cada componente realiza una transformación específica de los datos, __________ los componentes son servicios independientes que se comunican mediante APIs.
+A)	Layered / Event-Driven
+B)	Client-Server / Monolithic
+C)	MVC / SOA
+D)	Pipe-and-Filter / Microservices
+ANSWER: D
+-
+
+El patrón __________ permite que un objeto cambie su comportamiento cuando cambia su estado, __________ define una dependencia uno a muchos entre objetos.
+A)	Strategy / Factory
+B)	Adapter / Facade
+C)	Command / State
+D)	State / Observer
+ANSWER: D
+-
+El patrón arquitectónico __________ se basa en componentes reutilizables y definidos independientemente, __________ se enfoca en la separación de responsabilidades a través de capas.
+A)	Microservices / Layered
+B)	Client-Server / Monolithic
+C)	Pipe-and-Filter / Event-Driven
+D)	MVC / SOA
+ANSWER: A
+-
+¿Cuál es la diferencia principal entre un diagrama de flujo de datos lógico y uno físico?
+A) Un diagrama lógico se centra en la implementación del sistema, mientras que uno físico se enfoca en los eventos de la empresa.
+B) Un diagrama físico se preocupa por la forma en que se construirá el sistema, mientras que uno lógico describe los eventos de la empresa.
+C) Ambos tipos de diagramas se centran exclusivamente en la implementación del sistema.
+D) Ambos tipos de diagramas describen eventos de la empresa y la implementación del sistema de manera equivalente.
+ANSWER: B
+-
+¿Cuál es la principal diferencia entre la programación orientada a objetos y la programación tradicional por procedimientos?
+A) La programación orientada a objetos se basa en la creación de objetos que contienen tanto datos como funciones, mientras que la programación tradicional por procedimientos se basa en la ejecución secuencial de instrucciones.
+B) Se utiliza para desarrollar aplicaciones web, mientras que la programación tradicional por procedimientos se utiliza para desarrollar aplicaciones de escritorio.
+C) La principal diferencia es que la programación orientada a objetos se basa en el uso de clases y objetos, mientras que la programación tradicional por procedimientos se basa en la ejecución de subrutinas y funciones.
+D) La principal diferencia es que la programación orientada a objetos se utiliza para desarrollar sistemas complejos, mientras que la programación tradicional por procedimientos se utiliza para desarrollar sistemas simples.
+ANSWER: A
+-
+¿Cuál es la razón principal por la cual los diagramas de flujo de datos físicos suelen ser más complejos que los diagramas de flujo de datos lógicos?
+A) Debido a la falta de datos en un sistema.
+B) Debido a la simplicidad inherente de los procesos físicos.
+C) Debido a la presencia de numerosos datos en un sistema.
+D) Debido a la ausencia de actividades CRUD en un sistema.
+ANSWER: C
+-
+¿Cuáles son algunas reglas fundamentales para desarrollar diagramas de flujo de datos?
+A) Un proceso debe tener al menos un flujo de datos saliente.
+B) Los almacenes de datos no deben estar conectados con ningún proceso.
+C) Las entidades externas deben conectarse directamente entre sí.
+D) Los objetos independientes conectados a sí mismos son permitidos.
+ANSWER: A
+-
+¿Cuáles son algunas ventajas clave de la técnica del flujo de datos?
+A) Compromiso temprano con la implementación técnica.
+B) Limitación en la comprensión de la interrelación de sistemas.
+C) Dificultad para comunicar el conocimiento del sistema actual a los usuarios.
+D) Análisis efectivo de un sistema propuesto para determinar la definición de datos y procesos necesarios.
+ANSWER: D
+-
+¿Cuáles son algunas ventajas del desarrollo de diagramas de flujo de datos lógicos?
+A) Mayor redundancia y dificultad en la creación del modelo físico.
+B) Sistemas menos estables.
+C) Comunicación deficiente con los usuarios.
+D) Eliminación de redundancias y facilitación de la creación del modelo físico.
+ANSWER: D
+-
+¿Cuáles son algunos elementos específicos que se encuentran en los diagramas de flujo de datos físicos?
+A) Procesos para producir salidas únicas y almacenes de datos permanentes.
+B) Procesos que contienen mayor nivel de detalle de datos.
+C) Nombres ficticios de archivos y controles para indicar condiciones de error.
+D) Validación de datos y procesos de verificación de datos.
+ANSWER: B
+-
+¿Cuáles son las fases del ciclo de desarrollo de sistemas?
+A) Evaluación, Identificación, Requisitos, Necesidades, Información, Mantenimiento, Oportunidades
+B) Oportunidades, Prueba, Solución, Ejecución, Modelado, Documentación y Evaluación
+C) Requisitos, Necesidades, Información, Mantenimiento, Oportunidades e Implementación
+D) Identificación de los problemas, Determinación de los Requerimientos, Análisis, Diseño, Desarrollo, Pruebas, Implementación, Mantenimiento
+ANSWER: D
+-
+¿Cuáles son las principales características de los sistemas de información administrativa tradicional?
+A) Los sistemas de información administrativa tradicional se centran en la gestión y procesamiento de datos.
+B) Están específicamente enfocados en la toma de decisiones.
+C) Sirven para la gestión ofimática dentro de la organización.
+D) Sistemas enfocados en la inteligencia de negocios.
+ANSWER: A
+-
+Al buscar que el software tenga una única razón para cambiar, cuál de los siguientes principios S.O.L.I.D estamos aplicando?
+A) Reutilización
+B) Responsabilidad única
+C) Abierto para extensión
+D) Sustitución Liskov
+ANSWER: B
+-
+Cuál No es una característica de una clase tipo interfáz
+A) No se pueden instanciar
+B) No se pueden crear objetos
+C) Contiene métodos y no atributos
+D) Tiene métodos y atributos de tipo protected
+ANSWER: D
+-
+Cuál no es un paradigma que se aplica en el análisis y diseño de software?
+A) Análisis y diseño para sistemas Estructurados
+B) Análisis y diseño para sistemas Orientados a objetos
+C) Análisis y diseño para sistemas basados programación por pares 
+D) Análisis y diseño para sistemas basados en Inteligencia Artificial
+ANSWER: C
+-
+Cuál no es un tipo de clasificación de patrones de diseño de software?
+A) Estructurales
+B) Creacionales
+C) De comportamiento
+D) De composición
+ANSWER: D
+-
+Cuál no es una ventaja de aplicar los principios S.O.L.I.D en el desarrollo de software?
+A) Facilitar el mantenimiento del código. 
+B) Reducir la complejidad de añadir nuevas funcionalidades. 
+C) Aumentar la reusabilidad de piezas y componentes. 
+D) Mejorar la aplicación de patrones de diseño de software
+ANSWER: D
+-
+Según el principio de abierto/cerrado (OCP), ¿cómo deberían ser los módulos de software para la extensión y la modificación?
+A) Abiertos para la extensión y abiertos para la modificación.
+B) Cerrados para la extensión y abiertos para la modificación.
+C) Abiertos para la extensión y cerrados para la modificación.
+D) Cerrados para la extensión y cerrados para la modificación.
+ANSWER: C
+-
