@@ -47,21 +47,14 @@ C) Tarjeta inteligente
 D) Pregunta de seguridad
 ANSWER: C
 -
-¿Cuál de los siguientes modelos de control de acceso se basa en reglas definidas por un administrador (por el sistema) y no por el propietario de los recursos?
-Opciones:
+¿Cuál de los siguientes modelos de control de acceso se basa en reglas definidas por un administrador (por el sistema) y no por el propietario de los recursos? Opciones:
 A) Control de Acceso Discrecional (DAC)
 B) Control de Acceso Basado en Roles (RBAC)
 C) Control de Acceso Obligatorio (MAC)
 D) Control de Acceso Basado en Atributos (ABAC)
 ANSWER: C
 -
-Tú trabajas como el administrador de seguridad de la compañía ABC que tiene las siguientes características:
-La compañía tiene planes de instalar un sistema basado en RBAC (Role Based Access Control). 
-La compañía posee tres tipos de recursos que serán manejados por el sistema, que son: Archivos, Impresoras y Teléfonos IPs
-La compañía posee también cuatro departamentos, que son: Ventas, Marketing, Administración y Producción.
-Cada departamento necesita acceder a los diferentes tipos de recursos y cada usuario posee una estación de trabajo (PC).
-¿Qué roles deberías crear para dar soporte al modelo RBAC (Role Based Access Model)?
-Seleccione una de las opciones.
+Tú trabajas como el administrador de seguridad de la compañía ABC que tiene las siguientes características: La compañía tiene planes de instalar un sistema basado en RBAC (Role Based Access Control).  La compañía posee tres tipos de recursos que serán manejados por el sistema, que son: Archivos, Impresoras y Teléfonos IPs La compañía posee también cuatro departamentos, que son: Ventas, Marketing, Administración y Producción. Cada departamento necesita acceder a los diferentes tipos de recursos y cada usuario posee una estación de trabajo (PC). ¿Qué roles deberías crear para dar soporte al modelo RBAC (Role Based Access Model)? Seleccione una de las opciones.
 A) Roles de Archivos, Impresoras y Teléfonos IPs
 B) Roles de Ventas, Marketing, Administración y Producción
 C  Roles de Usuarios y estaciones de trabajo
@@ -90,7 +83,6 @@ D) Reducir el costo de hardware
 ANSWER: B
 -
 ¿Cuál de las siguientes afirmaciones describe mejor la función de un "hash" en una blockchain?
-Opciones:
 A) Verifica la identidad del usuario en la red
 B) Cifra los datos almacenados en la blockchain
 C) Genera un identificador único para cada bloque y asegura la integridad de la cadena
@@ -592,8 +584,7 @@ C) Clave Principal.
 D) Clave Secundaria
 ANSWER: A
 -
-¿Cuál es la expresión equivalente a la siguiente? 
-Destinatario –> D; π D)nombre,D)Direccion (σ D)provincia != ‘Pichincha’ (D))
+¿Cuál es la expresión equivalente a la siguiente?: Destinatario –> D; π D)nombre,D)Direccion (σ D)provincia != ‘Pichincha’ (D))
 A) (π D)nombre,D)Direccion (D)) –  (π D)nombre,D)direccion (σ D)provincia != ‘Pichincha’ (D)))
 B) (σ D)nombre,D)Direccion (D)) –  (π D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D)))
 C) (σ D)nombre,D)Direccion (D)) –  (σ D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D)))
@@ -742,180 +733,12 @@ C) (σ D)nombre,D)Direccion (D)) –  (σ D)nombre,D)direccion (σ D)provincia =
 D) (π D)nombre,D)Direccion (D)) –  (π D)nombre,D)direccion (σ D)provincia = ‘Pichincha’ (D))) 
 ANSWER: D
 -
-La expresión π A)nombre_act,A)descripcion ((A*( σ ST.nombre. = ‘Malchinqui’ (ST)) A)codigo_act=ST.codigo_act)) , devuelve:
-A) Los nombres y descripciones de las actividades que se pueden realizar en Malchingui.
-B) Los nombres y descripciones de las actividades que no se pueden realizar en Malchigui.
-C) Los sitios turísticos que tiene Malchingui.
-D) La expresión tiene un error en el producto natural, está demás la condición de codigo_act.
-ANSWER: A
--
 La expresión π  Nombre_P ( σ Edad_P = 18 (Personas)) devuelve:
 A) El nombre de las personas de 18 años en adelante.
 B) El nombre y edad de las personas de 18 años de edad
 C) El nombre de las personas de 18 años de edad
 D) El nombre de las personas hasta 18 años inclusive.
 ANSWER: C
--
-Elija la sentencia que permite borrar los proyectos del cliente con código 2
-A) DELETE FROM proyectos WHERE codigo_cliente == 2;
-B) DELETE FROM proyectos WHERE codigo_cliente = '2';
-C) DELETE FROM proyectos WHERE codigo_cliente = "2";
-D) DELETE FROM proyectos WHERE codigo_cliente = 2;
-ANSWER: D
--
-Mostrar los códigos, nombres y apellidos de los empleados, ordenados alfabéticamente de forma descendente por apellido y en caso de repeticiones, por nombre.
-A) SELECT apellido_empl, nombre_empl, codigo_empl FROM empleados ORDERBY apellido_empl DESC, nombre_empl DESC;
-B) SELECT apellido_empl, nombre_empl, codigo_empl FROM empleados ORDERBY nombre_empl DESC,apellido_empl DESC;
-C) SELECT apellido_empl, nombre_empl, codigo_empl FROM empleados ORDERBY apellido_empl, nombre_empl;
-D) SELECT apellido_empl, nombre_empl, codigo_empl FROM empleados GROUPBY apellido_empl ORDERBY apellido_empl, nombre_empl;
-ANSWER: A
--
-Determinar cuál es el sueldo más alto de cada departamento, muestre el nombre y la ciudad del departamento.
-A) SELECT nombre_dep, ciudad_dep, MAX(sueldo) AS sueldo_maximo FROM empleados GROUP BY nombre_dep, ciudad_dep;
-B) SELECT nombre_dep, ciudad_dep, MAX(sueldo) AS sueldo_maximo FROM empleados;
-C) SELECT nombre_dep, ciudad_dep, MAX(sueldo) AS sueldo_maximo FROM empleados WHERE sueldo > sueldo_maximo GROUP BY nombre_dep, ciudad_dep;
-D) SELECT nombre_dep, ciudad_dep, MAX(sueldo) AS sueldo_maximo FROM empleados ORDER BY MAX(sueldo);
-ANSWER: A
-- 
-¿Qué es un modelo Entidad–Relación extendido (ERE)?
-A) Un diagrama básico de bases de datos.
-B) Un diagrama avanzado de bases de datos que incluye subtipos y supertipos.
-C) Un modelo de programación orientado a objetos.
-D) Un sistema de gestión de archivos.
-ANSWER: B
--
-¿Cuál de las siguientes no es una característica del modelo ERE?
-A) Completo
-B) Minimalidad
-C) No escalable
-D) Legible y sencillo
-ANSWER: C
--
-¿Qué tipo de entidad depende de la existencia de otras entidades?
-A) Entidades fuertes
-B) Entidades débiles
-C) Entidades principales
-D) Entidades independientes
-ANSWER: B
--
-¿Cuál es la cardinalidad de la relación en la que cada entidad de una clase se asocia con una única entidad de otra clase?
-A) 1:1
-B) 1
-C) N:1
-D) N
-ANSWER: A
--
-¿Cuál es el propósito principal de la especialización en un modelo ERE?
-A) Crear una entidad abstracta
-B) Dividir una entidad en sub entidades con características propias.
-C) Fusionar varias entidades en una sola
-D) Eliminar atributos redundantes.
-ANSWER: B
--
-¿Cuál de los siguientes conceptos NO forma parte de la tríada CIA en seguridad informática?
-A) Confidencialidad
-B) Autenticación
-C) Integridad
-D) Disponibilidad
-ANSWER: B
--
-¿Cuál de los siguientes tipos de malware se caracteriza por cifrar los archivos de la víctima y exigir un pago para desbloquearlos?
-A) Virus
-B) Ransomware
-C) Spyware
-D) Gusano
-ANSWER: B
--
-¿Cuál de los siguientes tipos de malware se oculta dentro de un programa legítimo para permitir el acceso no autorizado a un sistema?
-A) Troyano
-B) Adware
-C) Rootkit
-D) Keylogger
-ANSWER: A
--
-¿Cuál de los siguientes algoritmos es un ejemplo de cifrado simétrico?
-A) RSA
-B) AES
-C) ECC
-D) SHA–256
-ANSWER: B
--
-¿Cuál es el principal propósito de una firma digital en seguridad informática?
-A) Garantizar la confidencialidad del mensaje
-B) Verificar la identidad del remitente y la integridad del mensaje
-C) Cifrar el contenido del mensaje
-D) Generar claves de cifrado simétrico
-ANSWER: B
--
-¿Cuál es el componente principal de una Infraestructura de Clave Pública (PKI) que emite y gestiona certificados digitales?
-A) Registro civil
-B) Firewall
-C) Autoridad de Certificación (CA)
-D) El gobierno de cada uno de los países
-ANSWER: C
--
-¿Cuál de los siguientes es un ejemplo de un factor de autenticación basado en algo que el usuario tiene?
-A) Contraseña
-B) Huella dactilar
-C) Tarjeta inteligente
-D) Pregunta de seguridad
-ANSWER: C
--
-¿Cuál de los siguientes modelos de control de acceso se basa en reglas definidas por un administrador (por el sistema) y no por el propietario de los recursos?
-A) Control de Acceso Discrecional (DAC)
-B) Control de Acceso Basado en Roles (RBAC)
-C) Control de Acceso Obligatorio (MAC)
-D) Control de Acceso Basado en Atributos (ABAC)
-ANSWER: C
--
-Tú trabajas como el administrador de seguridad de la compañía ABC que tiene las siguientes características: La compañía tiene planes de instalar un sistema basado en RBAC (Role Based Access Control).  La compañía posee tres tipos de recursos que serán manejados por el sistema, que son: Archivos, Impresoras y Teléfonos IPs. La compañía posee también cuatro departamentos, que son: Ventas, Marketing, Administración y Producción. Cada departamento necesita acceder a los diferentes tipos de recursos y cada usuario posee una estación de trabajo (PC). ¿Qué roles deberías crear para dar soporte al modelo RBAC (Role Based Access Model)? Seleccione una de las opciones.
-A) Roles de Archivos, Impresoras y Teléfonos IPs
-B) Roles de Ventas, Marketing, Administración y Producción
-C  Roles de Usuarios y estaciones de trabajo
-D) Roles de permiso de acceso y permiso de denegación
-ANSWER: C
--
-¿Cuál es el propósito principal del protocolo Needham–Schroeder en criptografía?
-A) Autenticación mutua entre dos partes
-B) Cifrado de mensajes en tránsito
-C) Gestión de claves públicas
-D) Establecimiento de una clave asimétrica privada
-ANSWER: A
--
-¿Cuál es la principal función de un firewall en una red informática?
-A) Monitorizar el rendimiento de la red
-B) Filtrar y controlar el tráfico de red basado en políticas de seguridad
-C) Cifrar los datos en tránsito
-D) Realizar copias de seguridad de los datos
-ANSWER: B
--
-¿Qué propósito principal cumple una DMZ (zona desmilitarizada) en la arquitectura de redes?
-A) Aislar y proteger los servidores accesibles desde Internet mientras se mantiene la red interna segura
-B) Proveer acceso directo a la red interna desde cualquier punto externo
-C) Realizar análisis de tráfico de red en tiempo real
-D) Administrar las claves de cifrado para la red interna
-ANSWER: A
--
-¿Cuál es el objetivo principal de implementar un Sistema de Gestión de Seguridad de la Información (SGSI) en una organización?
-A) Asegurar la disponibilidad de los sistemas de TI
-B) Proteger la confidencialidad, integridad y disponibilidad de la información
-C) Incrementar la velocidad de la red
-D) Reducir el costo de hardware
-ANSWER: B
--
-¿Cuál de las siguientes afirmaciones describe mejor la función de un "hash" en una blockchain?
-A) Verifica la identidad del usuario en la red
-B) Cifra los datos almacenados en la blockchain
-C) Genera un identificador único para cada bloque y asegura la integridad de la cadena
-D) Aumenta la velocidad de las transacciones en la blockchain
-ANSWER: C
--
-¿Cuál es el proceso mediante el cual se añaden nuevos bloques a la blockchain de Bitcoin y se aseguran las transacciones?
-A) Minería
-B) Validación de transacciones
-C) Consenso por prueba de participación
-D) Generación de claves
-ANSWER: A
 -
 Qué opción de envío de mensajes se utiliza cuando los dispositivos de destino necesitan recibir el mismo mensaje simultáneamente siempre y cuando pertenezcan a un grupo específico?
 A) Multicast
@@ -966,33 +789,12 @@ C) 10.10.10.32/26
 D) 10.10.10.0/26
 ANSWER: B
 -
-Indique el nombre de la Tabla donde se encuentran las mejores rutas a un destino en un Router.
-A) Tabla de Enrutamiento
-B) Tabla de Direcciones MAC
-C) Tabla de Topología
-D) Tabla e Adyacencia
-ANSWER: A
--
-¿Cuál es el nombre del protocolo de enrutamiento dinámico que tiene como algoritmo a Dijkstra, es considerado de tipo Estado de Enlace y emplea áreas en su configuración?
-A) EIGRP
-B) BGP
-C) OSPF
-D) RIP
-ANSWER: C
--
 Al configurar un Switch Multicapa con VLANs, ¿Qué parte de ese dispositivo intermediario se considera Gateway si dicho equipo es el encargado de enrutar entre VLANs?
 A) Los SVI (Switch Virtual Interfaces) relacionados a esas VLANs
 B) Las Interfaces físicas que se conectan a los hosts
 C) Las subinterfaces configuradas en el switch
 D) Los puertos enrutados conectados a otro dispositivo intermediario
 ANSWER: A
--
-¿Cuál es el estándar que define al puerto troncal en un switch en un entorno conmutado?
-A) IEEE 802.3
-B) IEEE 802.11n
-C) IEEE 802.15
-D) IEEE 802.1q
-ANSWER: D
 -
 ¿Cuál es el estándar que hace referencia a las redes WLAN?
 A) IEEE 802.3
@@ -3182,26 +2984,12 @@ C) 16 hosts
 D) 8 hosts
 ANSWER: B
 -
-Según el Modelo OSI, ¿Cuál es el PDU de la Capa 2 y qué direccionamiento se emplea en dicha capa?
-A) Paquete – Direccionamiento Físico
-B) Trama – Direccionamiento Físico
-C) Trama – Direccionamiento Lógico
-D) Paquete – Direccionamiento Lógico
-ANSWER: B
--
 ¿Cuántos dominios de broadcast existen si el switch está configurado con 4 VLANs de Datos y están conectados 8 hosts a él, 2 hosts por cada VLAN?
 A) 5
 B) 4
 C) 6
 D) 8
 ANSWER: B
--
-Seleccione una función de la VLAN Nativa:
-A) Sirve como VLAN de administración para SSH del switch
-B) Se usa para dar seguridad a los puertos de acceso
-C) Recibe tráfico de VLAN que no está en su tabla de enrutamiento del switch
-D) Sirve para recibir tráfico no etiquetado (sin marca de VLAN)
-ANSWER: D
 -
 Dada la dirección IPv4 10.10.10.0/26, ¿Cuál es la siguiente subred?:
 A) 10.10.10.0/24
